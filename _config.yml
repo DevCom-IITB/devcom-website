@@ -1,0 +1,487 @@
+#
+# Sera - OnePage Jekyll Template
+# Configuration File
+#
+
+# Information for compile
+exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "README.md"]
+
+#
+# If your website is placed in a separate folder on your server please modify
+# this with your folder name, by default is empty.
+# Example: Sera Demo is hosted on projects.gleesik.ro/sera-onepage
+# If I compile Sera Template and I put in /sera-onepage without modifing baseurl
+# than scripts can't be loaded corectly.
+# For this example my site url is: projects.gleesik.ro (This can be just www.example.com)
+# My folder for Demo Website is: /sera-onepage so baseurl: /sera-onepage
+#
+baseurl:
+
+# the base hostname & protocol for your site
+url: "http://localhost:3000"
+
+####################################
+######   Optional Features    ######
+####################################
+smooth-scroll: True
+
+####################################
+###########   Plugins    ###########
+####################################
+plugins:
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+
+jekyll-archives:
+  enabled:
+    # - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    # category: '/category/:name/'
+    tag: '/tag/:name/'
+
+#######################################################
+#######################################################
+###############   HEADER INFORMATIONS   ###############
+#######################################################
+#######################################################
+
+# This is your site title
+title: DevCom IITB
+# Website language
+lang: en-US
+# Header Title
+header-title: DevCom IITB
+# Header Tagline
+headter-tagline: I built this
+
+####################################
+######   CTA Header Buttons   ######
+####################################
+
+# Focus Buttons
+header-focus-button:
+  title: Blog
+  url: https://cybercodebear.github.io/blog.html # test
+
+#
+# This is your email adress, contact from send here all emails from contact section
+# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
+# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
+#
+email: alexjamesdesmond@gmail.com
+
+# Offer Banner Link
+# Default link is a link to all Sera OnePage products
+banner-link: https://cybercodebear.github.io
+
+####################################
+######  Global Social Links   ######
+####################################
+linkedin: 'https://www.linkedin.com/company/devcom-iit-bombay/'
+facebook: 'https://www.facebook.com/devcom.iitbombay/'
+github: 'https://github.com/wncc/instiapp-android'
+
+#########################
+######   Widgets   ######
+#########################
+
+#
+# About Blog Author Widget
+#
+about-widget:
+  author-avatar: codebear.jpg
+  author-name: Alex Desmond
+  author-tagline: Hobbyist
+  author-info: Interested in infosec both at work and home.
+  author-social-links:
+    youtube: 'https://www.youtube.com/channel/UC5JmJiob-C9u9tWhRXD-rag'
+    twitter: 'https://twitter.com/cybercodebear'
+    reddit: 'https://www.reddit.com/user/alexjamesdesmond/'
+    linkedin: 'https://www.linkedin.com/in/alexjamesdesmond/'
+
+####
+#
+# Hi you now use Sera - OnePage Jekyll Template created by Gleesik™
+#
+# Below are each section from the website in order from top to bottom
+# @TODO Edit each sections with your real information and each section from Sera will autocomplete with your information
+#
+####
+
+#####################################
+#############   About   #############
+#####################################
+# about-title:
+about-description: This is the official page for the Developer's Community of IIT Bombay. Envisioned as the group of best developers of the Institute, the team is responsible for developing and maintaining InstiApp, and other dev/tech related projects in the Institute.
+
+#####################################
+##########     Features    ##########
+#####################################
+features-title: Features
+features-description: ...features...
+
+features:
+  - icon: pe-7s-vector
+    title: test1
+    description: test
+
+  - icon: pe-7s-help2
+    title: test2
+    description: test
+
+  - icon: pe-7s-airplay
+    title: test3
+    description: test
+
+#####################################
+##########       Team      ##########
+#####################################
+team-title: Team
+team-description: ...team...
+
+team:
+  - avatar: Ayan Agrawal - Ayan Agrawal.png
+    name: Ayan Agarwal
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: final - Adarsh Raj.png
+    name: Adarsh Raj
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: profile3 - Sahasra Ranjan.png
+    name: Sahasra Ranjan
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: IMG-20200101-WA0074 - Divyanshi kamra.png
+    name: Divyanshi Kamra
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: AnaghaSavit.png
+    name: Anagha Savit
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: 20190824_124036 - Aaron Jerry Ninan.png
+    name: Aaron Jerry Ninan
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: Satdhruti Paul - Satdhruti Paul.png
+    name: Satdhruti Paul
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: aditya - ADITYA RAJ SINGH UDAWAT.png
+    name: Aditya Raj Singh
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: IMG-20200709-WA0006 - Jayesh Singla.png
+    name: Jayesh Singla
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: DevDesai.png
+    name: Dev Moxaj Desai
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: amanSingh - Aman Singh.png
+    name: Aman Singh
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: profile.jpg
+    name: Devansh Jain
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: vibhav - Vibhav Aggarwal.png
+    name: Vibhav Aggarwal
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: bhavnoor copy - Bhavnoor Singh Marok.png
+    name: Bhavnoor Singh Marok
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: IMG_20200116_004154 - Abhinav Gupta.png
+    name: Abhinav Gupta
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: Arvind - Arvind Murali.png
+    name: Arvind Murali
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: Shruti Singh - Shruti.png
+    name: Shruti Singh
+    tagline: test
+    facebook: test
+    github: test
+
+  - avatar: Labdhi - Labdhi Gandhi.png
+    name: Labdhi Gandhi
+    tagline: test
+    facebook: test
+    github: test
+
+#####################################
+##########     Portfolio    ##########
+#####################################
+portfolio-title: Projects
+portfolio-description: ...projects...
+
+portfolio-categories:
+  - Websites
+  - Android
+  - iOS
+  - Logo
+  - Graphic Design
+  - Video
+
+portfolio:
+  - title: InstiApp
+    categories:
+      - Android
+      - iOS
+      - Websites
+    url: #add url
+    image: img-05.jpg
+
+  - title: test2
+    categories:
+      - Logo
+      - Video
+      - Websites
+    url: #add url
+    image: img-01.jpg
+
+  - title: test3
+    categories:
+      - Android
+      - Graphic Design
+      - Websites
+    url: #add url
+    image: img-02.jpg
+
+  - title: test4
+    categories:
+      - Android
+      - iOS
+      - Websites
+    url: #add url
+    image: img-03.jpg
+
+  - title: test5
+    categories:
+      - Video
+      - iOS
+      - Logo
+    url: #add url
+    image: img-04.jpg
+
+  - title: test6
+    categories:
+      - Graphic Design
+      - Video
+      - Websites
+    url: #add url
+    image: img-08.jpg
+
+#####################################
+##########  Core Features  ##########
+#####################################
+core-title: Projects
+core-description: Envisioned as the group of best developers of the Institute, the team is responsible for developing and maintaining InstiApp, Cerium and RPI Noticeboard and many other dev/tech related projects. Details regarding each of them can be accessed below.
+
+instiapp-github: 
+cerium-github: 
+noticeboard-github: 
+
+#
+# Core Features Instiapp Left
+#
+core-features-instiapp-left:
+
+# Feature
+- name: Events Feed
+  description: The main feed will have only updates from Users and Entities that a User follows.
+  icon: pe-7s-user
+
+# Feature
+- name: Placement Blog
+  description: The Placement/Training blog is available inside the app with the option to get notifications for All posts / posts with certain keywords.
+  icon: pe-7s-coffee
+
+# Feature
+- name: Timetable
+  description: The user can create his academic timetable (manually, by adding courses) within the app itself. User will get an option to select predefined slots based on the Institute TImetable
+  icon: pe-7s-wristwatch
+
+#
+# Core Features Instiapp Right
+#
+core-features-instiapp-right:
+
+# Feature
+- name: Mess Menu
+  description: The mess menu for all hostels is available as a list (with the user’s hostel’s current day menu occupying the top position)
+  icon: pe-7s-cup
+
+# Feature
+- name: Calendar
+  description: The Calendar for the major bodies (Cult/Tech/any other body with a public calendar) will be available under this heading.
+  icon: pe-7s-users
+
+# Feature
+- name: Map
+  description: The institute map along with current position and all currently active events visible as clickable icons.
+  icon: pe-7s-monitor
+
+
+#
+# Core Features Cerium Left
+#
+core-features-cerium-left:
+
+# Feature
+- name: Values Driven
+  description: Professionalism, integrity, innovation, teamwork, excellence, dedication are my top values.
+  icon: pe-7s-user
+
+# Feature
+- name: Time Management
+  description: Prioritisation of tasks to ensure deadlines are met.
+  icon: pe-7s-wristwatch
+
+# Feature
+- name: Social
+  description: A good work culture is important. This is built through effectively building work relationships with my team.
+  icon: pe-7s-coffee
+
+# Feature
+# - name: Reporting
+#   description: Experienced writing reports conveying strategic risk based on technical vulnerabilities and exploits.
+#   icon: pe-7s-file
+
+#
+# Core Features Cerium Right
+#
+core-features-cerium-right:
+
+# Feature
+- name: Results Oriented
+  description: Clearly defines outcomes and strives to deliver outstanding results.
+  icon: pe-7s-cup
+
+# Feature
+- name: Forensic Analyst
+  description: Can apply digital forensic techniques across various platforms including Windows, Linux and mobile devices; both host and network.
+  icon: pe-7s-monitor
+
+# Feature
+- name: Empathy
+  description: Understanding the organisations and customer needs to work towards the ideal solution.
+  icon: pe-7s-users
+
+# Feature
+# - name: Incident Response
+#   description: Can function in the technical or the governance space when responding to cyber incidents.
+#   icon: pe-7s-bandaid
+
+
+#
+# Core Features Noticeboard Left
+#
+core-features-noticeboard-left:
+
+# Feature
+- name: Values Driven
+  description: Professionalism, integrity, innovation, teamwork, excellence, dedication are my top values.
+  icon: pe-7s-user
+
+# Feature
+- name: Time Management
+  description: Prioritisation of tasks to ensure deadlines are met.
+  icon: pe-7s-wristwatch
+
+# Feature
+- name: Social
+  description: A good work culture is important. This is built through effectively building work relationships with my team.
+  icon: pe-7s-coffee
+
+# Feature
+# - name: Reporting
+#   description: Experienced writing reports conveying strategic risk based on technical vulnerabilities and exploits.
+#   icon: pe-7s-file
+
+#
+# Core Features Noticeboard Right
+#
+core-features-noticeboard-right:
+
+# Feature
+- name: Results Oriented
+  description: Clearly defines outcomes and strives to deliver outstanding results.
+  icon: pe-7s-cup
+
+# Feature
+- name: Forensic Analyst
+  description: Can apply digital forensic techniques across various platforms including Windows, Linux and mobile devices; both host and network.
+  icon: pe-7s-monitor
+
+# Feature
+- name: Empathy
+  description: Understanding the organisations and customer needs to work towards the ideal solution.
+  icon: pe-7s-users
+
+# Feature
+# - name: Incident Response
+#   description: Can function in the technical or the governance space when responding to cyber incidents.
+#   icon: pe-7s-bandaid
+
+
+#####################################
+############# Our Blog ##############
+#####################################
+blog-title: Blog
+blog-description: Check out some of the recent posts that I've put together. Want to know something then send me a suggestion.
+
+#####################################
+############   Contact   ############
+#####################################
+contact-title: Contact
+contact-description: Have a suggestion for a topic? Have an opportunity that you want to share? Just want to ask a question? This is the place!
+
+
+#####################################
+#############   Footer   ############
+#####################################
+footer-description: You've managed to reach to bottom of my page. Hope it was bearable.
+footer-copyright-text: Copyright 2020, DevCom IIT Bombay.
+#footer-copyright-url: http://gleesik.ro/
+#footer-copyright-year: 2016
