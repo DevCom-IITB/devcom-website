@@ -236,7 +236,7 @@
 <p>&nbsp;</p>
 <h2 id="tools">Tools</h2>
 <p>&nbsp;</p>
-<p>Two tools will get you nearly everything <code class="language-plaintext highlighter-rouge">volatility</code> and <code class="language-plaintext highlighter-rouge">strings</code>.</p>
+<p>Two tools will get you nearly everything <code class="highlighter-rouge">volatility</code> and <code class="highlighter-rouge">strings</code>.</p>
 <p>&nbsp;</p>
 <h2 id="setup">Setup</h2>
 <p>&nbsp;</p>
@@ -248,7 +248,7 @@
 
 <p>The first step is to determine what kind of Linux system we’re working with since the system admin that we got it from has gone to Hawaii for two weeks while the place burns down around us.</p>
 
-<p>Linux memory files are rich with information since it is mostly text based so let’s <code class="language-plaintext highlighter-rouge">grep</code> for Linux.</p>
+<p>Linux memory files are rich with information since it is mostly text based so let’s <code class="highlighter-rouge">grep</code> for Linux.</p>
 <p>&nbsp;</p>
 <p><img src="https://cybercodebear.github.io/images/blog/easy-linux-forensics/searchforlinux.png" alt="Search for Linux" /></p>
 <p>&nbsp;</p>
@@ -264,7 +264,7 @@
 <p>&nbsp;</p>
 <p><img src="https://cybercodebear.github.io/images/blog/easy-linux-forensics/kernelupdate.png" alt="Kernel updates" /></p>
 <p>&nbsp;</p>
-<p>The above image shows the kernel updating and what we may find in memory, so let’s do a search for a partial URL. Using the following command <code class="language-plaintext highlighter-rouge">strings uctf.vmem |grep '\/ubuntu\/'</code></p>
+<p>The above image shows the kernel updating and what we may find in memory, so let’s do a search for a partial URL. Using the following command <code class="highlighter-rouge">strings uctf.vmem |grep '\/ubuntu\/'</code></p>
 <p>&nbsp;</p>
 <p><img src="https://cybercodebear.github.io/images/blog/easy-linux-forensics/codenamesearch.png" alt="Codename search" /></p>
 <p>&nbsp;</p>
@@ -276,17 +276,17 @@
 <p>&nbsp;</p>
 <p><img src="https://cybercodebear.github.io/images/blog/easy-linux-forensics/othercodenames.png" alt="Other codenames" /></p>
 <p>&nbsp;</p>
-<p>These two searches did give something but there are also some other searches you could try that aren’t in this particular memory image; <code class="language-plaintext highlighter-rouge">VERSION=</code> and <code class="language-plaintext highlighter-rouge">PRETTY_NAME=</code>.</p>
+<p>These two searches did give something but there are also some other searches you could try that aren’t in this particular memory image; <code class="highlighter-rouge">VERSION=</code> and <code class="highlighter-rouge">PRETTY_NAME=</code>.</p>
 
 <p>Note this may change between Linux releases so it’s important to do your research and see how each type will update that kernel which can lead you down the correct path.</p>
 
 <p>Looks like we’ve found our match. Now let’s check the <a href="https://wiki.ubuntu.com/Releases">release history</a>.</p>
 
-<p>The line we’re interested is found by searching for <code class="language-plaintext highlighter-rouge">hardy</code> and gives us; Ubuntu 8.04.4 LTS.</p>
+<p>The line we’re interested is found by searching for <code class="highlighter-rouge">hardy</code> and gives us; Ubuntu 8.04.4 LTS.</p>
 
 <p>The numbers are what we need to select a profile from the Volatility Foundation <a href="https://github.com/volatilityfoundation/profiles/tree/master/Linux/Ubuntu/x86">profiles page</a>.</p>
 
-<p>Go ahead and download the <code class="language-plaintext highlighter-rouge">Ubuntu8044.zip</code> and store it in our working directory.</p>
+<p>Go ahead and download the <code class="highlighter-rouge">Ubuntu8044.zip</code> and store it in our working directory.</p>
 
 <p>Now we need some background on how profile are normally created, go and read this <a href="https://github.com/volatilityfoundation/volatility/wiki/Linux">page</a>.</p>
 
@@ -300,7 +300,7 @@
 <p>&nbsp;</p>
 <p><img src="https://cybercodebear.github.io/images/blog/easy-linux-forensics/profilecheck.png" alt="Profile check" /></p>
 <p>&nbsp;</p>
-<p>Great! Now finally the basic test we do with profiles is to test a <code class="language-plaintext highlighter-rouge">pslist</code> or in this case a <code class="language-plaintext highlighter-rouge">linux_pslist</code>.</p>
+<p>Great! Now finally the basic test we do with profiles is to test a <code class="highlighter-rouge">pslist</code> or in this case a <code class="highlighter-rouge">linux_pslist</code>.</p>
 <p>&nbsp;</p>
 <p><img src="https://cybercodebear.github.io/images/blog/easy-linux-forensics/linux_pslist.png" alt="Vol check" /></p>
 <p>&nbsp;</p>

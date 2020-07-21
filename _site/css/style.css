@@ -272,11 +272,57 @@ table {
   display: block;
   width: 100%;
   height: 100%;
-  z-index: -999999;
-
+  z-index: -99999999;
+  object-fit: cover;
   /*filter: blur(4px);*/
   /*-webkit-filter: blur(4px);*/
 }
+
+.parallax .cover2 {
+  /*object-fit: cover;*/
+}
+
+.parallax .cover2 img{
+  /*min-height: 120%;*/
+  /*max-height: 140%;*/
+  top: -50px;
+  object-fit: cover;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          transform: scale(1.6);
+}
+
+@media (max-width: 1200px) {
+  .parallax .cover2 img{
+    top: 30px;
+    transform: scale(2);
+  }
+}
+
+
+@media (max-width: 900px) {
+  .parallax .cover2 img{
+    top: 100px;
+    transform: scale(2.2);
+  }
+}
+
+@media (max-width: 700px) {
+  .parallax .cover2 img{
+    top: 140px;
+    transform: scale(2.6);
+  }
+}
+
+
+@media (max-width: 500px) {
+  .parallax .cover2 img{
+    top: 200px;
+    transform: scale(3);
+  }
+}
+
 
 .parallax .cover img {
   position: fixed;
