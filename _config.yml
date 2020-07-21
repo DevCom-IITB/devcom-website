@@ -80,7 +80,8 @@ banner-link: https://cybercodebear.github.io
 ####################################
 linkedin: 'https://www.linkedin.com/company/devcom-iit-bombay/'
 facebook: 'https://www.facebook.com/devcom.iitbombay/'
-github: 'https://github.com/wncc/instiapp-android'
+github: 'https://github.com/devcomiitb'
+email: 'mailto:devcom.iitb@gmail.com'
 
 #########################
 ######   Widgets   ######
@@ -318,9 +319,9 @@ portfolio:
 core-title: Projects
 core-description: Envisioned as the group of best developers of the Institute, the team is responsible for developing and maintaining InstiApp, Cerium and RPI Noticeboard and many other dev/tech related projects. Details regarding each of them can be accessed below.
 
-instiapp-github: 
-cerium-github: 
-noticeboard-github: 
+instiapp-github: 'https://github.com/wncc/instiapp-android'
+cerium-github:  'https://github.com/pulsejet/cerium'
+noticeboard-github: 'https://github.com/MayuBhattu/RPI_Modified'
 
 #
 # Core Features Instiapp Left
