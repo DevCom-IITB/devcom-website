@@ -4196,18 +4196,25 @@ section.parallax-features-section .section-features {
 } */
 
 section.parallax-features-section .section-features .phone {
-  transition: all 0.2s ease-in-out;
-}
-
-section.parallax-features-section .section-features .phone:hover {
-  transform: scale(1.1);
-  cursor: pointer;
+  height: 250px;
+  margin-bottom: 100px;
+  align-items: center;
 }
 
 section.parallax-features-section .section-features .phone img {
-  margin-bottom: 50px;
+  transition: all 0.2s ease-in-out;
+  margin-top: 5px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 40px;
-  width: 350px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+section.parallax-features-section .section-features .phone img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
  /* Added Codes Starts here .
