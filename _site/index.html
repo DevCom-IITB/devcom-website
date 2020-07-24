@@ -159,21 +159,23 @@
 
     <div class="row section-features">
 
-      <div class="col-md-4 phone" style="padding: auto; margin: auto;" onclick="instiapp()">
-        <img src="/images/instiapp-new.png" alt="InstiApp" />
+      <div class="col-md-4 phone" style="padding: auto; margin: auto;">
+        <img src="/images/instiapp-new.png" alt="InstiApp" onclick="instiapp()" />
       </div>
 
-      <div class="col-md-4 phone" style="padding: auto; margin: auto;" onclick="cerium()">
-        <img src="/images/logos/cerium.jpeg" alt="InstiApp" />
+      <div class="col-md-4 phone" style="padding: auto; margin: auto;">
+        <img src="/images/logos/cerium.jpeg" alt="Cerium" onclick="cerium()"/>
       </div>
 
-      <div class="col-md-4 phone" style="padding: auto; margin: auto;" onclick="noticeboard()">
-        <img src="/images/logos/noticeboard.png" alt="InstiApp" />
+      <div class="col-md-4 phone" style="padding: auto; margin: auto;">
+        <img src="/images/logos/noticeboard.png" alt="RPi-Noticeboard" onclick="noticeboard()"/>
       </div>
 
     </div>
 
-      <div class="row section-features" id="instiapp-popup" style="display: none;">
+    <div id="instiapp-modal">
+
+      <div class="row section-features" id="instiapp-popup">
 
         <div class="close-button">
           <button onclick="instiappclose()">Close!</button>
@@ -282,222 +284,229 @@
   
       </div>
 
-    <div class="row section-features" id="cerium-popup" style="display: none;">
-
-      <div class="close-button">
-        <button onclick="ceriumclose()">Close!</button>
-      </div>
-
-      <div class="col-md-4 col-sm-6 text-right">
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Values Driven</h3>
-            <p>Professionalism, integrity, innovation, teamwork, excellence, dedication are my top values.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-user child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Time Management</h3>
-            <p>Prioritisation of tasks to ensure deadlines are met.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-wristwatch child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Social</h3>
-            <p>A good work culture is important. This is built through effectively building work relationships with my team.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-coffee child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-      </div>
-
-      <div class="col-md-4 popup" style="padding: auto; margin: auto;">
-        <img src="/images/logos/cerium.jpeg" alt="InstiApp" />
-        <div class="logo"><a href="https://github.com/pulsejet/cerium" target="_blank"><i class="fa fa-github"></i></a></div>
-      </div>
-
-      <div class="col-md-4 col-sm-6 text-left">
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Results Oriented</h3>
-            <p>Clearly defines outcomes and strives to deliver outstanding results.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-cup child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Forensic Analyst</h3>
-            <p>Can apply digital forensic techniques across various platforms including Windows, Linux and mobile devices; both host and network.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-monitor child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Empathy</h3>
-            <p>Understanding the organisations and customer needs to work towards the ideal solution.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-users child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-      </div>
-
     </div>
 
-    <div class="row section-features" id="noticeboard-popup" style="display: none;">
+    <div id="cerium-modal">
 
-      <div class="close-button">
-        <button onclick="noticeboardclose()">Close!</button>
+      <div class="row section-features" id="cerium-popup">
+
+        <div class="close-button">
+          <button onclick="ceriumclose()">Close!</button>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-right">
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Values Driven</h3>
+              <p>Professionalism, integrity, innovation, teamwork, excellence, dedication are my top values.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-user child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Time Management</h3>
+              <p>Prioritisation of tasks to ensure deadlines are met.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-wristwatch child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Social</h3>
+              <p>A good work culture is important. This is built through effectively building work relationships with my team.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-coffee child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+        </div>
+  
+        <div class="col-md-4 popup" style="padding: auto; margin: auto;">
+          <img src="/images/logos/cerium.jpeg" alt="InstiApp" />
+          <div class="logo"><a href="https://github.com/pulsejet/cerium" target="_blank"><i class="fa fa-github"></i></a></div>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-left">
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Results Oriented</h3>
+              <p>Clearly defines outcomes and strives to deliver outstanding results.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-cup child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Forensic Analyst</h3>
+              <p>Can apply digital forensic techniques across various platforms including Windows, Linux and mobile devices; both host and network.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-monitor child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Empathy</h3>
+              <p>Understanding the organisations and customer needs to work towards the ideal solution.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-users child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+        </div>
+  
       </div>
+    </div>
 
-      <div class="col-md-4 col-sm-6 text-right">
+    <div id="noticeboard-modal">
+      <div class="row section-features" id="noticeboard-popup">
 
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Values Driven</h3>
-            <p>Professionalism, integrity, innovation, teamwork, excellence, dedication are my top values.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-user child-center"></i>
+        <div class="close-button">
+          <button onclick="noticeboardclose()">Close!</button>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-right">
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Values Driven</h3>
+              <p>Professionalism, integrity, innovation, teamwork, excellence, dedication are my top values.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-user child-center"></i>
+              </div>
             </div>
           </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Time Management</h3>
-            <p>Prioritisation of tasks to ensure deadlines are met.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-wristwatch child-center"></i>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Time Management</h3>
+              <p>Prioritisation of tasks to ensure deadlines are met.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-wristwatch child-center"></i>
+              </div>
             </div>
           </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Social</h3>
-            <p>A good work culture is important. This is built through effectively building work relationships with my team.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-coffee child-center"></i>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Social</h3>
+              <p>A good work culture is important. This is built through effectively building work relationships with my team.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-coffee child-center"></i>
+              </div>
             </div>
           </div>
+  
+          
+  
         </div>
-
-        
-
+  
+        <div class="col-md-4 popup" style="padding: auto; margin: auto;">
+          <img src="/images/logos/noticeboard.png" alt="InstiApp" />
+          <div class="logo"><a href="https://github.com/MayuBhattu/RPI_Modified" target="_blank"><i class="fa fa-github"></i></a></div>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-left">
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Results Oriented</h3>
+              <p>Clearly defines outcomes and strives to deliver outstanding results.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-cup child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Forensic Analyst</h3>
+              <p>Can apply digital forensic techniques across various platforms including Windows, Linux and mobile devices; both host and network.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-monitor child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Empathy</h3>
+              <p>Understanding the organisations and customer needs to work towards the ideal solution.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-users child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+        </div>
+  
       </div>
-
-      <div class="col-md-4 popup" style="padding: auto; margin: auto;">
-        <img src="/images/logos/noticeboard.png" alt="InstiApp" />
-        <div class="logo"><a href="https://github.com/MayuBhattu/RPI_Modified" target="_blank"><i class="fa fa-github"></i></a></div>
-      </div>
-
-      <div class="col-md-4 col-sm-6 text-left">
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Results Oriented</h3>
-            <p>Clearly defines outcomes and strives to deliver outstanding results.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-cup child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Forensic Analyst</h3>
-            <p>Can apply digital forensic techniques across various platforms including Windows, Linux and mobile devices; both host and network.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-monitor child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Empathy</h3>
-            <p>Understanding the organisations and customer needs to work towards the ideal solution.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-users child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-      </div>
-
     </div>
 
   </div> 
@@ -514,32 +523,32 @@
   }
 
   function instiapp() {
-    document.getElementById("instiapp-popup").style.display = "block";
+    document.getElementById("instiapp-modal").style.display = "block";
     disableScroll();
   }
 
   function instiappclose() {
-    document.getElementById("instiapp-popup").style.display = "none";
+    document.getElementById("instiapp-modal").style.display = "none";
     enableScroll();
   }
 
   function cerium() {
-    document.getElementById("cerium-popup").style.display = "block";
+    document.getElementById("cerium-modal").style.display = "block";
     disableScroll();
   }
 
   function ceriumclose() {
-    document.getElementById("cerium-popup").style.display = "none";
+    document.getElementById("cerium-modal").style.display = "none";
     enableScroll();
   }
 
   function noticeboard() {
-    document.getElementById("noticeboard-popup").style.display = "block";
+    document.getElementById("noticeboard-modal").style.display = "block";
     disableScroll();
   }
 
   function noticeboardclose() {
-    document.getElementById("noticeboard-popup").style.display = "none";
+    document.getElementById("noticeboard-modal").style.display = "none";
     enableScroll();
   }
 
