@@ -452,7 +452,7 @@ core-features-noticeboard-right:
 
 # Feature
 - name: Setup 
-  description: Install a standard Raspbian OS on the RPi and onfigure the RPi to connect to internet. Follow the steps in README.md of the RPi Noticeboard github repo.
+  description: Install a standard Raspbian OS on the RPi and configure the RPi to connect to internet. Follow the steps in README.md of the RPi Noticeboard github repo.
   icon: pe-7s-monitor
 
 # Feature

@@ -48,7 +48,7 @@
           <button onclick="instiappclose()">Close!</button>
         </div>
 
-        <div class="col-md-4 col-sm-6 text-right">
+        <div class="col-md-4 col-sm-6 text-left">
   
           {% for feature in site.core-features-instiapp-left %}
   
@@ -73,7 +73,7 @@
           <div class="logo"><a href="{{ site.instiapp-github }}" target="_blank"><i class="fa fa-github"></i></a></div>
         </div>
   
-        <div class="col-md-4 col-sm-6 text-left">
+        <div class="col-md-4 col-sm-6 text-right">
   
           {% for feature in site.core-features-instiapp-right %}
   
@@ -105,7 +105,7 @@
           <button onclick="ceriumclose()">Close!</button>
         </div>
   
-        <div class="col-md-4 col-sm-6 text-right">
+        <div class="col-md-4 col-sm-6 text-left">
   
           {% for feature in site.core-features-cerium-left %}
   
@@ -129,8 +129,9 @@
           <img src="{{ site.baseurl }}/images/logos/cerium.jpeg" alt="InstiApp" />
           <div class="logo"><a href="{{ site.cerium-github }}" target="_blank"><i class="fa fa-github"></i></a></div>
         </div>
+        
   
-        <div class="col-md-4 col-sm-6 text-left">
+        <div class="col-md-4 col-sm-6 text-right">
   
           {% for feature in site.core-features-cerium-right %}
   
@@ -160,7 +161,7 @@
           <button onclick="noticeboardclose()">Close!</button>
         </div>
   
-        <div class="col-md-4 col-sm-6 text-right">
+        <div class="col-md-4 col-sm-6 text-left">
   
           {% for feature in site.core-features-noticeboard-left %}
   
@@ -185,7 +186,7 @@
           <div class="logo"><a href="{{ site.noticeboard-github }}" target="_blank"><i class="fa fa-github"></i></a></div>
         </div>
   
-        <div class="col-md-4 col-sm-6 text-left">
+        <div class="col-md-4 col-sm-6 text-right">
   
           {% for feature in site.core-features-noticeboard-right %}
   
@@ -250,5 +251,6 @@
     document.getElementById("noticeboard-modal").style.display = "none";
     enableScroll();
   }
+
 
 </script>
