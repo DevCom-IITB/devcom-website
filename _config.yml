@@ -148,7 +148,7 @@ team:
     facebook: test
     github: test
 
-  - avatar: final - Adarsh Raj.png
+  - avatar: adarsh.jpg
     name: Adarsh Raj
     tagline: test
     facebook: test
@@ -329,13 +329,13 @@ noticeboard-github: 'https://github.com/MayuBhattu/RPI_Modified'
 core-features-instiapp-left:
 
 # Feature
-- name: Events Feed
-  description: The main feed will have only updates from Users and Entities that a User follows.
-  icon: pe-7s-user
+- name: Mess Menu
+  description: The mess menu for all hostels is available as a list (with the user’s hostel’s current day menu occupying the top position)
+  icon: pe-7s-cup
 
 # Feature
-- name: Placement Blog
-  description: The Placement/Training blog is available inside the app with the option to get notifications for All posts / posts with certain keywords.
+- name: Calendar
+  description: The Calendar for the major bodies (Cult/Tech/any other body with a public calendar) will be available under this heading.
   icon: pe-7s-coffee
 
 # Feature
@@ -349,13 +349,13 @@ core-features-instiapp-left:
 core-features-instiapp-right:
 
 # Feature
-- name: Mess Menu
-  description: The mess menu for all hostels is available as a list (with the user’s hostel’s current day menu occupying the top position)
-  icon: pe-7s-cup
+- name: Events Feed
+  description: The main feed will have only updates from Users and Entities that a User follows.
+  icon: pe-7s-user
 
 # Feature
-- name: Calendar
-  description: The Calendar for the major bodies (Cult/Tech/any other body with a public calendar) will be available under this heading.
+- name: Placement Blog
+  description: The Placement/Training blog is available inside the app with the option to get notifications for All posts / posts with certain keywords.
   icon: pe-7s-users
 
 # Feature
@@ -370,9 +370,7 @@ core-features-instiapp-right:
 core-features-cerium-left:
 
 # Feature
-- name: Description
-  description: Cerium is a forms application very similar in design to Google forms. The backend for the application is <a href="https://github.com/pulsejet/go-cerium/" target="_blank">go-cerium</a>.
-  icon: pe-7s-user
+
 
 # Feature
 - name: Development
@@ -383,6 +381,10 @@ core-features-cerium-left:
 - name: Build
   description: Run 'yarn build' in your root directory to create a production ready build.
   icon: pe-7s-coffee
+
+- name: License
+  description: All code is licensed under the Mozilla Public License 2.0.
+  icon: pe-7s-monitor
 
 # Feature
 # - name: Reporting
@@ -395,6 +397,11 @@ core-features-cerium-left:
 core-features-cerium-right:
 
 # Feature
+
+- name: Description
+  description: Cerium is a forms application very similar in design to Google forms. The backend for the application is <a href="https://github.com/pulsejet/go-cerium/" target="_blank">go-cerium</a>.
+  icon: pe-7s-user
+
 - name: <a href="https://github.com/pulsejet/go-cerium/" target="_blank">Go Cerium</a>
   description: go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium.
   icon: pe-7s-cup
@@ -405,9 +412,7 @@ core-features-cerium-right:
   icon: pe-7s-users
 
 # Feature
-- name: License
-  description: All code is licensed under the Mozilla Public License 2.0.
-  icon: pe-7s-monitor
+
 
 # Feature
 # - name: Incident Response
@@ -421,11 +426,14 @@ core-features-cerium-right:
 core-features-noticeboard-left:
 
 # Feature
-- name: Description
-  description: Scripts to fetch and display images on a TV and also allows users to setup configuration how you want the images to appear on the TV.
-  icon: pe-7s-user
+
 
 # Feature
+
+- name: "File: config.json"
+  description: Helps you define the configuration for how you want the images to appear on the TV.
+  icon: pe-7s-cup
+  
 - name: "File: fetch.py"
   description:  A Python script that runs in the background and periodically fetches images from the server. We set up a cron job for this.
   icon: pe-7s-wristwatch
@@ -446,9 +454,10 @@ core-features-noticeboard-left:
 core-features-noticeboard-right:
 
 # Feature
-- name: "File: config.json"
-  description: Helps you define the configuration for how you want the images to appear on the TV.
-  icon: pe-7s-cup
+
+- name: Description
+  description: Scripts to fetch and display images on a TV and also allows users to setup configuration how you want the images to appear on the TV.
+  icon: pe-7s-user
 
 # Feature
 - name: Setup 
@@ -459,6 +468,8 @@ core-features-noticeboard-right:
 - name: Features
   description: Bash Scripting, Python Scripts, and JSON Configuration files to fetch and show images of your choice on TV.
   icon: pe-7s-users
+
+
 
 # Feature
 # - name: Incident Response
