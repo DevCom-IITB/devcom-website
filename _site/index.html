@@ -159,38 +159,40 @@
 
     <div class="row section-features">
 
-      <div class="col-md-4 phone" style="padding: auto; margin: auto;" onclick="instiapp()">
-        <img src="/images/instiapp-new.png" alt="InstiApp" />
+      <div class="col-md-4 phone" style="padding: auto; margin: auto;">
+        <img src="/images/instiapp-new.png" alt="InstiApp" onclick="instiapp()" />
       </div>
 
-      <div class="col-md-4 phone" style="padding: auto; margin: auto;" onclick="cerium()">
-        <img src="/images/logos/cerium.jpeg" alt="InstiApp" />
+      <div class="col-md-4 phone" style="padding: auto; margin: auto;">
+        <img src="/images/logos/cerium.jpeg" alt="Cerium" onclick="cerium()"/>
       </div>
 
-      <div class="col-md-4 phone" style="padding: auto; margin: auto;" onclick="noticeboard()">
-        <img src="/images/logos/noticeboard.png" alt="InstiApp" />
+      <div class="col-md-4 phone" style="padding: auto; margin: auto;">
+        <img src="/images/logos/noticeboard.png" alt="RPi-Noticeboard" onclick="noticeboard()"/>
       </div>
 
     </div>
 
-      <div class="row section-features" id="instiapp-popup" style="display: none;">
+    <div id="instiapp-modal">
+
+      <div class="row section-features" id="instiapp-popup">
 
         <div class="close-button">
           <button onclick="instiappclose()">Close!</button>
         </div>
 
-        <div class="col-md-4 col-sm-6 text-right">
+        <div class="col-md-4 col-sm-6 text-left">
   
           
   
           <div class="feature">
             <div class="text-wrap">
-              <h3>Events Feed</h3>
-              <p>The main feed will have only updates from Users and Entities that a User follows.</p>
+              <h3>Mess Menu</h3>
+              <p>The mess menu for all hostels is available as a list (with the user’s hostel’s current day menu occupying the top position)</p>
             </div>
             <div class="icon-wrap">
               <div class="circle parent">
-                <i class="pe-7s-user child-center"></i>
+                <i class="pe-7s-cup child-center"></i>
               </div>
             </div>
           </div>
@@ -199,8 +201,8 @@
   
           <div class="feature">
             <div class="text-wrap">
-              <h3>Placement Blog</h3>
-              <p>The Placement/Training blog is available inside the app with the option to get notifications for All posts / posts with certain keywords.</p>
+              <h3>Calendar</h3>
+              <p>The Calendar for the major bodies (Cult/Tech/any other body with a public calendar) will be available under this heading.</p>
             </div>
             <div class="icon-wrap">
               <div class="circle parent">
@@ -232,18 +234,18 @@
           <div class="logo"><a href="https://github.com/wncc/instiapp-android" target="_blank"><i class="fa fa-github"></i></a></div>
         </div>
   
-        <div class="col-md-4 col-sm-6 text-left">
+        <div class="col-md-4 col-sm-6 text-right">
   
           
   
           <div class="feature">
             <div class="text-wrap">
-              <h3>Mess Menu</h3>
-              <p>The mess menu for all hostels is available as a list (with the user’s hostel’s current day menu occupying the top position)</p>
+              <h3>Events Feed</h3>
+              <p>The main feed will have only updates from Users and Entities that a User follows.</p>
             </div>
             <div class="icon-wrap">
               <div class="circle parent">
-                <i class="pe-7s-cup child-center"></i>
+                <i class="pe-7s-user child-center"></i>
               </div>
             </div>
           </div>
@@ -252,8 +254,8 @@
   
           <div class="feature">
             <div class="text-wrap">
-              <h3>Calendar</h3>
-              <p>The Calendar for the major bodies (Cult/Tech/any other body with a public calendar) will be available under this heading.</p>
+              <h3>Placement Blog</h3>
+              <p>The Placement/Training blog is available inside the app with the option to get notifications for All posts / posts with certain keywords.</p>
             </div>
             <div class="icon-wrap">
               <div class="circle parent">
@@ -282,222 +284,230 @@
   
       </div>
 
-    <div class="row section-features" id="cerium-popup" style="display: none;">
-
-      <div class="close-button">
-        <button onclick="ceriumclose()">Close!</button>
-      </div>
-
-      <div class="col-md-4 col-sm-6 text-right">
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Values Driven</h3>
-            <p>Professionalism, integrity, innovation, teamwork, excellence, dedication are my top values.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-user child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Time Management</h3>
-            <p>Prioritisation of tasks to ensure deadlines are met.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-wristwatch child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Social</h3>
-            <p>A good work culture is important. This is built through effectively building work relationships with my team.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-coffee child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-      </div>
-
-      <div class="col-md-4 popup" style="padding: auto; margin: auto;">
-        <img src="/images/logos/cerium.jpeg" alt="InstiApp" />
-        <div class="logo"><a href="https://github.com/pulsejet/cerium" target="_blank"><i class="fa fa-github"></i></a></div>
-      </div>
-
-      <div class="col-md-4 col-sm-6 text-left">
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Results Oriented</h3>
-            <p>Clearly defines outcomes and strives to deliver outstanding results.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-cup child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Forensic Analyst</h3>
-            <p>Can apply digital forensic techniques across various platforms including Windows, Linux and mobile devices; both host and network.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-monitor child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Empathy</h3>
-            <p>Understanding the organisations and customer needs to work towards the ideal solution.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-users child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-      </div>
-
     </div>
 
-    <div class="row section-features" id="noticeboard-popup" style="display: none;">
+    <div id="cerium-modal">
 
-      <div class="close-button">
-        <button onclick="noticeboardclose()">Close!</button>
+      <div class="row section-features" id="cerium-popup">
+
+        <div class="close-button">
+          <button onclick="ceriumclose()">Close!</button>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-left">
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Development</h3>
+              <p>Run yarn to install dependencies. Start the golang backend on port 8000 and use yarn run start to start the development server.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-wristwatch child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Build</h3>
+              <p>Run 'yarn build' in your root directory to create a production ready build.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-coffee child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>License</h3>
+              <p>All code is licensed under the Mozilla Public License 2.0.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-monitor child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+        </div>
+  
+        <div class="col-md-4 popup" style="padding: auto; margin: auto;">
+          <img src="/images/logos/cerium.jpeg" alt="InstiApp" />
+          <div class="logo"><a href="https://github.com/pulsejet/cerium" target="_blank"><i class="fa fa-github"></i></a></div>
+        </div>
+        
+  
+        <div class="col-md-4 col-sm-6 text-right">
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Description</h3>
+              <p>Cerium is a forms application very similar in design to Google forms. The backend for the application is <a href="https://github.com/pulsejet/go-cerium/" target="_blank">go-cerium</a>.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-user child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3><a href="https://github.com/pulsejet/go-cerium/" target="_blank">Go Cerium</a></h3>
+              <p>go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-cup child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Go Cerium Development</h3>
+              <p>Install dependencies using 'dep ensure' and run the backend with 'go run main.go'. You need to have mongodb running and environment variables set correctly in .env.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-users child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+        </div>
+  
       </div>
+    </div>
 
-      <div class="col-md-4 col-sm-6 text-right">
+    <div id="noticeboard-modal">
+      <div class="row section-features" id="noticeboard-popup">
 
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Values Driven</h3>
-            <p>Professionalism, integrity, innovation, teamwork, excellence, dedication are my top values.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-user child-center"></i>
+        <div class="close-button">
+          <button onclick="noticeboardclose()">Close!</button>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-left">
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>File: config.json</h3>
+              <p>Helps you define the configuration for how you want the images to appear on the TV.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-cup child-center"></i>
+              </div>
             </div>
           </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Time Management</h3>
-            <p>Prioritisation of tasks to ensure deadlines are met.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-wristwatch child-center"></i>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>File: fetch.py</h3>
+              <p>A Python script that runs in the background and periodically fetches images from the server. We set up a cron job for this.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-wristwatch child-center"></i>
+              </div>
             </div>
           </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Social</h3>
-            <p>A good work culture is important. This is built through effectively building work relationships with my team.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-coffee child-center"></i>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>File: gui.py</h3>
+              <p>The main script that runs on boot and occupies the foreground. This displays the images on the TV.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-coffee child-center"></i>
+              </div>
             </div>
           </div>
+  
+          
+  
         </div>
-
-        
-
+  
+        <div class="col-md-4 popup" style="padding: auto; margin: auto;">
+          <img src="/images/logos/noticeboard.png" alt="InstiApp" />
+          <div class="logo"><a href="https://github.com/MayuBhattu/RPI_Modified" target="_blank"><i class="fa fa-github"></i></a></div>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-right">
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Description</h3>
+              <p>Scripts to fetch and display images on a TV and also allows users to setup configuration how you want the images to appear on the TV.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-user child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Setup</h3>
+              <p>Install a standard Raspbian OS on the RPi and configure the RPi to connect to internet. Follow the steps in README.md of the RPi Noticeboard github repo.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-monitor child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Features</h3>
+              <p>Bash Scripting, Python Scripts, and JSON Configuration files to fetch and show images of your choice on TV.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-users child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+        </div>
+  
       </div>
-
-      <div class="col-md-4 popup" style="padding: auto; margin: auto;">
-        <img src="/images/logos/noticeboard.png" alt="InstiApp" />
-        <div class="logo"><a href="https://github.com/MayuBhattu/RPI_Modified" target="_blank"><i class="fa fa-github"></i></a></div>
-      </div>
-
-      <div class="col-md-4 col-sm-6 text-left">
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Results Oriented</h3>
-            <p>Clearly defines outcomes and strives to deliver outstanding results.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-cup child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Forensic Analyst</h3>
-            <p>Can apply digital forensic techniques across various platforms including Windows, Linux and mobile devices; both host and network.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-monitor child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="feature">
-          <div class="text-wrap">
-            <h3>Empathy</h3>
-            <p>Understanding the organisations and customer needs to work towards the ideal solution.</p>
-          </div>
-          <div class="icon-wrap">
-            <div class="circle parent">
-              <i class="pe-7s-users child-center"></i>
-            </div>
-          </div>
-        </div>
-
-        
-
-      </div>
-
     </div>
 
   </div> 
@@ -514,34 +524,35 @@
   }
 
   function instiapp() {
-    document.getElementById("instiapp-popup").style.display = "block";
+    document.getElementById("instiapp-modal").style.display = "block";
     disableScroll();
   }
 
   function instiappclose() {
-    document.getElementById("instiapp-popup").style.display = "none";
+    document.getElementById("instiapp-modal").style.display = "none";
     enableScroll();
   }
 
   function cerium() {
-    document.getElementById("cerium-popup").style.display = "block";
+    document.getElementById("cerium-modal").style.display = "block";
     disableScroll();
   }
 
   function ceriumclose() {
-    document.getElementById("cerium-popup").style.display = "none";
+    document.getElementById("cerium-modal").style.display = "none";
     enableScroll();
   }
 
   function noticeboard() {
-    document.getElementById("noticeboard-popup").style.display = "block";
+    document.getElementById("noticeboard-modal").style.display = "block";
     disableScroll();
   }
 
   function noticeboardclose() {
-    document.getElementById("noticeboard-popup").style.display = "none";
+    document.getElementById("noticeboard-modal").style.display = "none";
     enableScroll();
   }
+
 
 </script>
 
@@ -769,7 +780,7 @@ I’d like to say a big thanks to my friend Angry Bender for their explanation o
       <div class="col-md-3 col-md-push-0 col-sm-6 col-sm-push-0 col-xs-6 col-xs-push-0">
         <div class="team-member">
           <div class="img-wrapper">
-            <img src="/images/avatars/final - Adarsh Raj.png" alt="Avatar Team Member" style="border-radius: 50%; width: 50%; margin: auto; margin-top: auto; " />
+            <img src="/images/avatars/adarsh.jpg" alt="Avatar Team Member" style="border-radius: 50%; width: 50%; margin: auto; margin-top: auto; " />
           </div>
           <div class="team-member-content">
             <h4 class="name">Adarsh Raj</h4>>
