@@ -139,9 +139,15 @@ features:
 ##########       Team      ##########
 #####################################
 team-title: Team
-team-description: ...team...
+team-description: 
 
 team:
+  - avatar: TezanSahu - Tezan Sahu.png
+    name: Tezan Sahu
+    tagline: Overall Coordinator
+    facebook: test
+    github: test
+
   - avatar: Ayan Agrawal - Ayan Agrawal.png
     name: Ayan Agarwal
     tagline: test
