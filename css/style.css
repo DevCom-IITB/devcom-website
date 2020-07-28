@@ -4243,9 +4243,15 @@
  
  section.parallax-features-section #instiapp-modal {
    display: none;
+ }
+ 
+ section.parallax-features-section #instiapp-modal .instiapp-blocker {
    position: fixed;
    top: 0;
    left: 0;
+   bottom: 0;
+   right: 0;
+   content: ' ';
    width: 100%;
    height: 100%;
    background-color: rgba(0,0,0,0.8);
@@ -4316,14 +4322,21 @@
  
  section.parallax-features-section #cerium-modal {
    display: none;
+ }
+ 
+ section.parallax-features-section #cerium-modal .cerium-blocker {
    position: fixed;
    top: 0;
    left: 0;
+   bottom: 0;
+   right: 0;
+   content: ' ';
    width: 100%;
    height: 100%;
    background-color: rgba(0,0,0,0.8);
    z-index: 9999999;
  }
+ 
  
  section.parallax-features-section #cerium-popup {
    display: block;
@@ -4389,14 +4402,21 @@
  
  section.parallax-features-section #noticeboard-modal {
    display: none;
+ }
+ 
+ section.parallax-features-section #noticeboard-modal .noticeboard-blocker {
    position: fixed;
    top: 0;
    left: 0;
+   bottom: 0;
+   right: 0;
+   content: ' ';
    width: 100%;
    height: 100%;
    background-color: rgba(0,0,0,0.8);
    z-index: 9999999;
  }
+ 
  
  section.parallax-features-section #noticeboard-popup {
    display: block;
@@ -4592,7 +4612,7 @@
    } 
  
    ::-webkit-scrollbar {
-     width: 0px;  /* Remove scrollbar space */
+     width: 0px; 
    }
  
    section.parallax-features-section #instiapp-modal {
@@ -4844,7 +4864,7 @@
    } 
  
    ::-webkit-scrollbar {
-     width: 0px;  /* Remove scrollbar space */
+     width: 0px;  
    }
  
    section.parallax-features-section #instiapp-modal {
@@ -4857,6 +4877,7 @@
      background-color: rgba(0,0,0,0.8);
      z-index: 9999999;
    }
+ 
  
    section.parallax-features-section #instiapp-popup {
      display: block;
