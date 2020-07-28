@@ -145,146 +145,199 @@ team:
   - avatar: TezanSahu - Tezan Sahu.png
     name: Tezan Sahu
     tagline: Overall Coordinator
-    facebook: test
-    github: test
+    facebook: 'https://www.facebook.com/tezan.sahu.3'
+    github: 'https://github.com/tezansahu'
+    linkedin: 'https://www.linkedin.com/in/tezan-sahu/'
 
   - avatar: 
     name: Yashwardhan Didwania
     tagline: Overall Coordinator
-    facebook: test
-    github: test
+    facebook: ''
+    github: ''
+    linkedin: ''
 
   - avatar: 
     name: Rishabh Arya
     tagline: Project Lead
-    facebook: test
-    github: test
+    facebook: 'https://www.facebook.com/rishabh.arya.9822924'
+    github: 'https://github.com/arya2331'
+    linkedin: 'https://www.linkedin.com/in/rishabh-arya-99a37a145/'
 
   - avatar: 
     name: Srijan Karn
     tagline: Project Lead
-    facebook: test
-    github: test
+    facebook: 'https://m.facebook.com/profile.php?id=100004023687791&ref=content_filter'
+    github: 'https://github.com/srijan2911'
+    linkedin: 'https://www.linkedin.com/in/srijan-karn-424083170'
 
   - avatar: 
     name: Rahul Bukte
     tagline: Project Lead
-    facebook: test
-    github: test
+    facebook: ''
+    github: ''
+    linkedin: ''
 
   - avatar: Aman_Bharti - Aman Bharti.png
     name: Aman Bharti
     tagline: Project Lead
-    facebook: test
-    github: test
+    facebook: ''
+    github: ''
+    linkedin: ''
+
+  - avatar: 
+    name: E Aakash
+    tagline: Management Coordinator
+    facebook: 'https://www.facebook.com/09e.aakash'
+    github: 'https://github.com/e-aakash'
+    linkedin: 'https://www.linkedin.com/in/e-aakash'
+
+  - avatar: 
+    name: Abeen
+    tagline: Management Coordinator
+    facebook: ''
+    github: ''
+    linkedin: ''
+
+  - avatar: 
+    name: Akshit
+    tagline: Management Coordinator
+    facebook: ''
+    github: ''
+    linkedin: ''
+
+  - avatar: 
+    name: Latika
+    tagline: Management Coordinator
+    facebook: ''
+    github: ''
+    linkedin: ''
+ 
 
   - avatar: Ayan Agrawal - Ayan Agrawal.png
     name: Ayan Agarwal
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: 'https://m.facebook.com/ayan.agrawal'
+    github: 'https://github.com/ayan312002'
+    linkedin: 'https://www.linkedin.com/in/ayan-agrawal-575966192'
 
   - avatar: adarsh.jpg
     name: Adarsh Raj
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/profile.php?id=100038153580563'
+    github: 'https://github.com/adarsh0raj'
+    linkedin: 'https://www.linkedin.com/mwlite/in/adarsh-raj-319418192'
 
   - avatar: profile3 - Sahasra Ranjan.png
     name: Sahasra Ranjan
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: ''
+    github: ''
+    linkedin: ''
 
   - avatar: IMG-20200101-WA0074 - Divyanshi kamra.png
     name: Divyanshi Kamra
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: ''
+    github: ''
+    linkedin: ''
 
   - avatar: AnaghaSavit.png
     name: Anagha Savit
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: ''
+    github: ''
+    linkedin: ''
 
   - avatar: 20190824_124036 - Aaron Jerry Ninan.png
     name: Aaron Jerry Ninan
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/aaron.jerryninan.5'
+    github: 'https://github.com/aaroncodebro'
+    linkedin: 'https://www.linkedin.com/in/aaron-jerry-ninan-b5530618b/'
 
   - avatar: Satdhruti Paul - Satdhruti Paul.png
     name: Satdhruti Paul
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: ''
+    github: ''
+    linkedin: ''
 
   - avatar: aditya - ADITYA RAJ SINGH UDAWAT.png
     name: Aditya Raj Singh
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/adityaraj.singhudawat.9'
+    github: 'https://github.com/Aditya2151'
+    linkedin: 'https://www.linkedin.com/in/aditya-raj-singh-udawat-0a24b6194'
 
   - avatar: IMG-20200709-WA0006 - Jayesh Singla.png
     name: Jayesh Singla
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: 'https://m.facebook.com/profile.php?id=100008085613094'
+    github: 'https://github.com/jayeshs999'
+    linkedin: 'https://www.linkedin.com/in/jayesh-singla-684b3b1b0'
 
   - avatar: DevDesai.png
     name: Dev Moxaj Desai
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: 'https://m.facebook.com/dev.desai.77920?ref=bookmarks'
+    github: 'https://github.com/dev9318'
+    linkedin: 'https://www.linkedin.com/mwlite/in/dev-desai-a58860194'
 
   - avatar: amanSingh - Aman Singh.png
     name: Aman Singh
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/aman.singh.7297351'
+    github: 'https://github.com/feyn-aman'
+    linkedin: 'https://www.linkedin.com/in/aman-singh-b37a85176/'
 
-  - avatar: profile.jpg
+  - avatar: 
     name: Devansh Jain
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: ''
+    github: ''
+    linkedin: ''
 
   - avatar: vibhav - Vibhav Aggarwal.png
     name: Vibhav Aggarwal
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/vibhav.aggarwal.7/'
+    github: 'https://github.com/vibhav011'
+    linkedin: 'https://www.linkedin.com/in/vibhav-a-55a668113'
 
   - avatar: bhavnoor copy - Bhavnoor Singh Marok.png
     name: Bhavnoor Singh Marok
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/bhavnoorsingh.marok.7'
+    github: 'https://github.com/bhavnoormarok'
+    linkedin: 'https://www.linkedin.com/in/bhavnoor-singh-marok-894277193/'
 
   - avatar: IMG_20200116_004154 - Abhinav Gupta.png
     name: Abhinav Gupta
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: 'https://m.facebook.com/abhinav.gupta.35762'
+    github: 'https://github.com/abhi-cloud'
+    linkedin: 'https://www.linkedin.com/in/abhinav-gupta-a64874192'
 
   - avatar: Arvind - Arvind Murali.png
     name: Arvind Murali
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/arvindmurali01'
+    github: 'https://github.com/ArvindMurali2001'
+    linkedin: 'https://www.linkedin.com/in/arvind-murali-75511a1a6'
 
   - avatar: Shruti Singh - Shruti.png
     name: Shruti Singh
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/shruti.s.50364592/'
+    github: 'https://github.com/shruhh'
+    linkedin: 'https://www.linkedin.com/in/shruti-singh-a02714195/'
 
   - avatar: Labdhi - Labdhi Gandhi.png
     name: Labdhi Gandhi
-    tagline: test
-    facebook: test
-    github: test
+    tagline: Core Member
+    facebook: 'https://m.facebook.com/labdhi.gandhi.96'
+    github: 'https://github.com/labdhigandhi'
+    linkedin: 'https://www.linkedin.com/in/labdhi-gandhi-1a0188191'
 
 #####################################
 ##########     Portfolio    ##########
@@ -358,6 +411,8 @@ core-description: Envisioned as the group of best developers of the Institute, t
 instiapp-github: 'https://github.com/wncc/instiapp-android'
 cerium-github:  'https://github.com/pulsejet/cerium'
 noticeboard-github: 'https://github.com/MayuBhattu/RPI_Modified'
+instiapp-site: 'https://www.insti.app/'
+cerium-documentation: 'https://gymkhana.iitb.ac.in/profiles/doc/'
 
 #
 # Core Features Instiapp Left
