@@ -148,9 +148,33 @@ team:
     facebook: test
     github: test
 
+  - avatar: 
+    name: Yashwardhan Didwania
+    tagline: Overall Coordinator
+    facebook: test
+    github: test
+
+  - avatar: 
+    name: Rishabh Arya
+    tagline: Project Lead
+    facebook: test
+    github: test
+
+  - avatar: 
+    name: Srijan Karn
+    tagline: Project Lead
+    facebook: test
+    github: test
+
+  - avatar: 
+    name: Rahul Bukte
+    tagline: Project Lead
+    facebook: test
+    github: test
+
   - avatar: Aman_Bharti - Aman Bharti.png
     name: Aman Bharti
-    tagline: Test
+    tagline: Project Lead
     facebook: test
     github: test
 
