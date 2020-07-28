@@ -25,22 +25,22 @@
         border-radius: 5%;
     }
     .our-team .team-content{
-        width: 75%;
+        width: 90%;
         background: #fff;
         opacity: 0.95;
-        border-radius: 2%;
-        padding: 20px 0;
+        border-radius: 4%;
+        padding: 10px 0;
         margin: 0 auto;
         border: 1px solid #eee;
         position: absolute;
-        bottom: -60px;
+        bottom: -40px;
         left: 0;
         right: 0;
         z-index: 1;
         transition: all 0.3s ease 0s;
     }
     .our-team .title{
-        font-size: 16px;
+        font-size: 13px;
         font-weight: 700;
         color: #444;
         text-transform: uppercase;
@@ -48,7 +48,7 @@
     }
     .our-team .post{
         display: block;
-        font-size: 13px;
+        font-size: 11px;
         color: #999;
         text-transform: capitalize;
     }
@@ -73,13 +73,13 @@
     }
     .our-team .social li a{
         display: block;
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
         background: #2e5077;
         font-size:15px;
         font-weight: 600;
         color: #d7e8ba;
-        line-height: 30px;
+        line-height: 28px;
         transition: all 0.5s ease 0s;
     }
     .our-team .social li a:hover{
@@ -88,23 +88,22 @@
     }
     @media only screen and (max-width:990px){
         .our-team{ 
-            width: 60%; 
+            width: 100%; 
             margin: auto; 
-            margin-bottom: 50px;
             margin-bottom: 80px; 
         }
 
-        .our-team .team-content{
-            width: 75%;
-            /*background: #f7f9fa;*/
-            padding: 10px 0;
-            margin: 0 auto;
-            border: 1px solid #eee;
-            position: absolute;
-            bottom: -60px;
-            left: 0;
-            right: 0;
-            z-index: 1;
-            transition: all 0.3s ease 0s;
+        .our-team .title{
+            font-size: 10px;
+            font-weight: 700;
+            color: #444;
+            text-transform: uppercase;
+            margin: 0 0 10px 0;
+        }
+        .our-team .post{
+            display: block;
+            font-size: 9px;
+            color: #999;
+            text-transform: capitalize;
         }
     }

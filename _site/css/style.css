@@ -2765,6 +2765,7 @@
  .social-icons {
    display: inline-block;
    font-size: 1.35rem;
+   margin-bottom: -40px;
  }
  
  .social-icons ul.icons.global-text-color-icons li a {
