@@ -141,7 +141,7 @@ features:
 team-title: Team
 team-description: 
 
-team:
+OverallCoordinators:
   - avatar: TezanSahu - Tezan Sahu.png
     name: Tezan Sahu
     tagline: Overall Coordinator
@@ -149,28 +149,29 @@ team:
     github: 'https://github.com/tezansahu'
     linkedin: 'https://www.linkedin.com/in/tezan-sahu/'
 
-  - avatar: 
+  - avatar: profile2.jpg
     name: Yashwardhan Didwania
     tagline: Overall Coordinator
     facebook: ''
     github: ''
     linkedin: ''
 
-  - avatar: 
+ProjectLeads:
+  - avatar: profile2.jpg
     name: Rishabh Arya
     tagline: Project Lead
     facebook: 'https://www.facebook.com/rishabh.arya.9822924'
     github: 'https://github.com/arya2331'
     linkedin: 'https://www.linkedin.com/in/rishabh-arya-99a37a145/'
 
-  - avatar: 
+  - avatar: profile2.jpg
     name: Srijan Karn
     tagline: Project Lead
     facebook: 'https://m.facebook.com/profile.php?id=100004023687791&ref=content_filter'
     github: 'https://github.com/srijan2911'
     linkedin: 'https://www.linkedin.com/in/srijan-karn-424083170'
 
-  - avatar: 
+  - avatar: profile2.jpg
     name: Rahul Bukte
     tagline: Project Lead
     facebook: ''
@@ -184,35 +185,36 @@ team:
     github: ''
     linkedin: ''
 
-  - avatar: 
+ManagementCoordinators:
+  - avatar: profile2.jpg
     name: E Aakash
     tagline: Management Coordinator
     facebook: 'https://www.facebook.com/09e.aakash'
     github: 'https://github.com/e-aakash'
     linkedin: 'https://www.linkedin.com/in/e-aakash'
 
-  - avatar: 
+  - avatar: profile2.jpg
     name: Abeen
     tagline: Management Coordinator
     facebook: ''
     github: ''
     linkedin: ''
 
-  - avatar: 
+  - avatar: profile2.jpg
     name: Akshit
     tagline: Management Coordinator
     facebook: ''
     github: ''
     linkedin: ''
 
-  - avatar: 
+  - avatar: profile2.jpg
     name: Latika
     tagline: Management Coordinator
     facebook: ''
     github: ''
     linkedin: ''
  
-
+CoreMembers:
   - avatar: Ayan Agrawal - Ayan Agrawal.png
     name: Ayan Agarwal
     tagline: Core Member
@@ -290,7 +292,7 @@ team:
     github: 'https://github.com/feyn-aman'
     linkedin: 'https://www.linkedin.com/in/aman-singh-b37a85176/'
 
-  - avatar: 
+  - avatar: profile2.jpg
     name: Devansh Jain
     tagline: Core Member
     facebook: ''
