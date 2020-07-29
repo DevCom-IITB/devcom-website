@@ -153,8 +153,8 @@ OverallCoordinators:
     name: Yashwardhan Didwania
     tagline: Overall Coordinator
     facebook: 'https://www.facebook.com/ydidwania'
-    github: ''
-    linkedin: ''
+    github: 'https://www.github.com/ydidwania'
+    linkedin: 'https://www.linkedin.com/in/yashvardhan-didwania-194575160'
 
 ProjectLeads:
   - avatar: rishabh.jpeg
@@ -174,16 +174,16 @@ ProjectLeads:
   - avatar: rahul bukte.jpeg
     name: Rahul Bukte
     tagline: Project Lead
-    facebook: ''
-    github: ''
-    linkedin: ''
+    facebook: 'https://www.facebook.com/rahul.bukte.5'
+    github: 'https://github.com/RahulB23'
+    linkedin: 'https://www.linkedin.com/in/rahul-bukte-069b3a1b3/'
 
   - avatar: Aman_Bharti - Aman Bharti.png
     name: Aman Bharti
     tagline: Project Lead
-    facebook: ''
-    github: ''
-    linkedin: ''
+    facebook: 'https://www.facebook.com/aman.bharti.315428'
+    github: 'https://github.com/amanbharti008'
+    linkedin: 'https://www.linkedin.com/in/aman-bharti-8327541b3/'
 
 ManagementCoordinators:
   - avatar: e aakash.jpg
@@ -196,23 +196,23 @@ ManagementCoordinators:
   - avatar: abeen bhattacharya.jpeg
     name: Abeen Bhattacharya
     tagline: Design Head
-    facebook: ''
-    github: ''
-    linkedin: ''
+    facebook: 'http://facebook.com/thenotsodarkknight'
+    github: 'https://github.com/thenotsodarkknight'
+    linkedin: 'https://in.linkedin.com/in/abeenbhattacharya'
 
   - avatar: akshit.jpg
     name: Akshit Srivastava
     tagline: WnCC Manager
     facebook: 'https://www.facebook.com/akshit1511'
-    github: ''
-    linkedin: ''
+    github: 'https://github.com/akshitt'
+    linkedin: 'https://www.linkedin.com/in/akshit-srivastava/'
 
   - avatar: latika.jpg
     name: Latika Patel
     tagline: WnCC Manager
     facebook: 'https://www.facebook.com/latika.patel.526'
-    github: ''
-    linkedin: ''
+    github: 'https://github.com/latika24'
+    linkedin: 'https://www.linkedin.com/in/latika-patel-1951b0196/'
  
 CoreMembers:
   - avatar: Ayan Agrawal - Ayan Agrawal.png
@@ -239,14 +239,14 @@ CoreMembers:
   - avatar: IMG-20200101-WA0074 - Divyanshi kamra.png
     name: Divyanshi Kamra
     tagline: Core Member
-    facebook: ''
+    facebook: 'https://www.facebook.com/divyanshi.kamra.7'
     github: ''
     linkedin: ''
 
   - avatar: AnaghaSavit.png
     name: Anagha Savit
     tagline: Core Member
-    facebook: ''
+    facebook: 'https://www.facebook.com/anagha.savit'
     github: ''
     linkedin: ''
 
@@ -260,9 +260,9 @@ CoreMembers:
   - avatar: Satdhruti Paul - Satdhruti Paul.png
     name: Satdhruti Paul
     tagline: Core Member
-    facebook: ''
-    github: ''
-    linkedin: ''
+    facebook: 'https://www.facebook.com/satdhruti.paul.33/'
+    github: 'https://github.com/ricky421'
+    linkedin: 'https://www.linkedin.com/in/satdhruti-paul-78010a192/'
 
   - avatar: aditya - ADITYA RAJ SINGH UDAWAT.png
     name: Aditya Raj Singh
@@ -295,9 +295,9 @@ CoreMembers:
   - avatar: devansh jain.jpg
     name: Devansh Jain
     tagline: Core Member
-    facebook: ''
-    github: ''
-    linkedin: ''
+    facebook: 'https://www.facebook.com/devansh.jain.777/'
+    github: 'https://github.com/DEVANSH-DVJ'
+    linkedin: 'https://www.linkedin.com/in/devansh-jain-0517461a9/'
 
   - avatar: vibhav - Vibhav Aggarwal.png
     name: Vibhav Aggarwal
@@ -600,7 +600,7 @@ ongoing-projects-resumeportal-right:
   icon: pe-7s-gleam
 
 - name: Development
-  description: The application is being developed using Angular (for the interface) & FastAPI (for the backend).
+  description: The application is being developed using Angular (for the interface) & nodeJS (for the backend).
   icon: pe-7s-config
 
 ###### Atlas Hostel Management Portal #########
