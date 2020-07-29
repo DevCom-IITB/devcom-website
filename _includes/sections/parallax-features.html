@@ -24,7 +24,7 @@
 
     </div>
 
-    <div class="row section-features" style="margin-bottom: 100px;">
+    <div class="row section-features" style="margin-bottom: 50px;">
 
       <div class="col-md-4 phone" style="padding: auto; margin: auto;">
         <img src="{{ site.baseurl }}/images/logos/instiapp-new.png" alt="InstiApp" onclick="instiapp()" />
@@ -54,18 +54,18 @@
 
     </div>
 
-    <div class="row section-features">
+    <div class="row section-features" style="margin-bottom: 70px;">
 
-      <div class="col-md-4 phone" style="padding: auto; margin: auto;">
-        <img src="{{ site.baseurl }}/images/logos/instiapp-new.png" alt="InstiApp" onclick="instiapp()" />
+      <div class="col-md-4 phone" style="padding: auto; margin: auto; margin-bottom: 50px;">
+        <img src="{{ site.baseurl }}/images/logos/resumeportal.jpeg" alt="Resume Verification Portal" onclick="resumeportal()" />
       </div>
 
-      <div class="col-md-4 phone" style="padding: auto; margin: auto;">
-        <img src="{{ site.baseurl }}/images/logos/atlas hostel.jpeg" alt="Cerium" onclick="cerium()"/>
+      <div class="col-md-4 phone" style="padding: auto; margin: auto; margin-bottom: 50px;">
+        <img src="{{ site.baseurl }}/images/logos/atlas hostel.jpeg" alt="Atlas" onclick="atlas()"/>
       </div>
 
-      <div class="col-md-4 phone" style="padding: auto; margin: auto;">
-        <img src="{{ site.baseurl }}/images/logos/noticeboard.png" alt="RPi-Noticeboard" onclick="noticeboard()"/>
+      <div class="col-md-4 phone" style="padding: auto; margin: auto; margin-bottom: 50px;">
+        <img src="{{ site.baseurl }}/images/logos/sample.jpg" alt="CourseRank" onclick="courserank()"/>
       </div>
 
     </div>
@@ -252,6 +252,180 @@
       </div>
     </div>
 
+    <div id="atlas-modal">
+
+      <div class="atlas-blocker" onclick="atlasclose()"></div>
+
+      <div class="row section-features" id="atlas-popup">
+
+        <div class="close-button">
+          <button onclick="atlasclose()"><i class="fa fa-close"></i></button>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-left">
+  
+          {% for feature in site.ongoing-projects-atlas-left %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+        <div class="col-md-4 popup" style="padding: auto; margin: auto;">
+          <img src="{{ site.baseurl }}/images/logos/atlas hostel.jpeg" alt="Atlas" />
+          <!-- <div class="logo"><a href="{{ site.noticeboard-github }}" target="_blank"><i class="fa fa-github"></i></a></div> -->
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-right">
+  
+          {% for feature in site.ongoing-projects-atlas-right %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+      </div>
+    </div>
+
+    <div id="resumeportal-modal">
+
+      <div class="resumeportal-blocker" onclick="resumeportalclose()"></div>
+
+      <div class="row section-features" id="resumeportal-popup">
+
+        <div class="close-button">
+          <button onclick="resumeportalclose()"><i class="fa fa-close"></i></button>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-left">
+  
+          {% for feature in site.ongoing-projects-resumeportal-left %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+        <div class="col-md-4 popup" style="padding: auto; margin: auto;">
+          <img src="{{ site.baseurl }}/images/logos/resumeportal.jpeg" alt="Resume Verification Portal" />
+          <!-- <div class="logo"><a href="{{ site.noticeboard-github }}" target="_blank"><i class="fa fa-github"></i></a></div> -->
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-right">
+  
+          {% for feature in site.ongoing-projects-resumeportal-right %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+      </div>
+    </div>
+
+    <div id="courserank-modal">
+
+      <div class="courserank-blocker" onclick="courserankclose()"></div>
+
+      <div class="row section-features" id="courserank-popup">
+
+        <div class="close-button">
+          <button onclick="courserankclose()"><i class="fa fa-close"></i></button>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-left">
+  
+          {% for feature in site.ongoing-projects-courserank-left %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+        <div class="col-md-4 popup" style="padding: auto; margin: auto;">
+          <img src="{{ site.baseurl }}/images/logos/sample.jpg" alt="Course Rank" />
+          <!-- <div class="logo"><a href="{{ site.noticeboard-github }}" target="_blank"><i class="fa fa-github"></i></a></div> -->
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-right">
+  
+          {% for feature in site.ongoing-projects-courserank-right %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+      </div>
+    </div>
+
   </div> 
 </section>
 
@@ -292,6 +466,36 @@
 
   function noticeboardclose() {
     document.getElementById("noticeboard-modal").style.display = "none";
+    enableScroll();
+  }
+
+  function atlas() {
+    document.getElementById("atlas-modal").style.display = "block";
+    disableScroll();
+  }
+
+  function atlasclose() {
+    document.getElementById("atlas-modal").style.display = "none";
+    enableScroll();
+  }
+
+  function resumeportal() {
+    document.getElementById("resumeportal-modal").style.display = "block";
+    disableScroll();
+  }
+
+  function resumeportalclose() {
+    document.getElementById("resumeportal-modal").style.display = "none";
+    enableScroll();
+  }
+
+  function courserank() {
+    document.getElementById("courserank-modal").style.display = "block";
+    disableScroll();
+  }
+
+  function courserankclose() {
+    document.getElementById("courserank-modal").style.display = "none";
     enableScroll();
   }
 

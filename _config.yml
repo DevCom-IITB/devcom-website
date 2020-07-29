@@ -454,7 +454,7 @@ core-features-instiapp-right:
 # Feature
 - name: Map
   description: The institute map along with current position and all currently active events visible as clickable icons.
-  icon: pe-7s-map
+  icon: pe-7s-map-2
 
 
 #
@@ -568,6 +568,100 @@ core-features-noticeboard-right:
 # - name: Incident Response
 #   description: Can function in the technical or the governance space when responding to cyber incidents.
 #   icon: pe-7s-bandaid
+
+#############################
+##### Ongoing Projects ######
+#############################
+
+###### Resume Verification Portal #########
+
+ongoing-projects-resumeportal-left:
+
+- name: About
+  description: Atlas, IITB Hostel Management Portal, a project to automate the process of hostel and rooms allotment.
+  icon: pe-7s-network
+
+- name: Project Scope
+  description: This project is being developed in coordination with the Hostel Affairs Council, to be used my Hostel GSecs, Wardens, Hall Managers, GSHA, DoSA & HCU Office.
+  icon: pe-7s-note2
+
+- name: Contribution
+  description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+  icon: pe-7s-users
+
+ongoing-projects-resumeportal-right:
+
+- name: Description
+  description: Atlas is codename for the IITB Hostel Management Portal to streamline the process of allotment of hostels & rooms for the students as well as maintenance of the rooms by respective admins. 
+  icon: pe-7s-note2
+
+- name: Features
+  description: This portal allows admins to allocate rooms to hostelites, view the details after allocation on detailed hostel floor plans, tag vacant rooms for various purposes & view the full history of a student’s stay in the institute hostels.
+  icon: pe-7s-gleam
+
+- name: Development
+  description: The application is being developed using Angular (for the interface) & FastAPI (for the backend).
+  icon: pe-7s-config
+
+###### Atlas Hostel Management Portal #########
+
+ongoing-projects-atlas-left:
+
+- name: About
+  description: Atlas, IITB Hostel Management Portal, a project to automate the process of hostel and rooms allotment.
+  icon: pe-7s-network
+
+- name: Project Scope
+  description: This project is being developed in coordination with the Hostel Affairs Council, to be used my Hostel GSecs, Wardens, Hall Managers, GSHA, DoSA & HCU Office.
+  icon: pe-7s-note2
+
+- name: Contribution
+  description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+  icon: pe-7s-users
+
+ongoing-projects-atlas-right:
+
+- name: Description
+  description: Atlas is codename for the IITB Hostel Management Portal to streamline the process of allotment of hostels & rooms for the students as well as maintenance of the rooms by respective admins. 
+  icon: pe-7s-note2
+
+- name: Features
+  description: This portal allows admins to allocate rooms to hostelites, view the details after allocation on detailed hostel floor plans, tag vacant rooms for various purposes & view the full history of a student’s stay in the institute hostels.
+  icon: pe-7s-gleam
+
+- name: Development
+  description: The application is being developed using Angular (for the interface) & FastAPI (for the backend).
+  icon: pe-7s-config
+
+###### CourseRank #########
+
+ongoing-projects-courserank-left:
+
+- name: About
+  description: Atlas, IITB Hostel Management Portal, a project to automate the process of hostel and rooms allotment.
+  icon: pe-7s-network
+
+- name: Project Scope
+  description: This project is being developed in coordination with the Hostel Affairs Council, to be used my Hostel GSecs, Wardens, Hall Managers, GSHA, DoSA & HCU Office.
+  icon: pe-7s-note2
+
+- name: Contribution
+  description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+  icon: pe-7s-users
+
+ongoing-projects-courserank-right:
+
+- name: Description
+  description: Atlas is codename for the IITB Hostel Management Portal to streamline the process of allotment of hostels & rooms for the students as well as maintenance of the rooms by respective admins. 
+  icon: pe-7s-note2
+
+- name: Features
+  description: This portal allows admins to allocate rooms to hostelites, view the details after allocation on detailed hostel floor plans, tag vacant rooms for various purposes & view the full history of a student’s stay in the institute hostels.
+  icon: pe-7s-gleam
+
+- name: Development
+  description: The application is being developed using Angular (for the interface) & FastAPI (for the backend).
+  icon: pe-7s-config
 
 
 #####################################
