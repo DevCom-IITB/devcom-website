@@ -344,65 +344,65 @@ CoreMembers:
 #####################################
 ##########     Portfolio    ##########
 #####################################
-portfolio-title: Projects
-portfolio-description: ...projects...
+# portfolio-title: Projects
+# portfolio-description: ...projects...
 
-portfolio-categories:
-  - Websites
-  - Android
-  - iOS
-  - Logo
-  - Graphic Design
-  - Video
+# portfolio-categories:
+#   - Websites
+#   - Android
+#   - iOS
+#   - Logo
+#   - Graphic Design
+#   - Video
 
-portfolio:
-  - title: InstiApp
-    categories:
-      - Android
-      - iOS
-      - Websites
-    url: #add url
-    image: img-05.jpg
+# portfolio:
+#   - title: InstiApp
+#     categories:
+#       - Android
+#       - iOS
+#       - Websites
+#     url: #add url
+#     image: img-05.jpg
 
-  - title: test2
-    categories:
-      - Logo
-      - Video
-      - Websites
-    url: #add url
-    image: img-01.jpg
+#   - title: test2
+#     categories:
+#       - Logo
+#       - Video
+#       - Websites
+#     url: #add url
+#     image: img-01.jpg
 
-  - title: test3
-    categories:
-      - Android
-      - Graphic Design
-      - Websites
-    url: #add url
-    image: img-02.jpg
+#   - title: test3
+#     categories:
+#       - Android
+#       - Graphic Design
+#       - Websites
+#     url: #add url
+#     image: img-02.jpg
 
-  - title: test4
-    categories:
-      - Android
-      - iOS
-      - Websites
-    url: #add url
-    image: img-03.jpg
+#   - title: test4
+#     categories:
+#       - Android
+#       - iOS
+#       - Websites
+#     url: #add url
+#     image: img-03.jpg
 
-  - title: test5
-    categories:
-      - Video
-      - iOS
-      - Logo
-    url: #add url
-    image: img-04.jpg
+#   - title: test5
+#     categories:
+#       - Video
+#       - iOS
+#       - Logo
+#     url: #add url
+#     image: img-04.jpg
 
-  - title: test6
-    categories:
-      - Graphic Design
-      - Video
-      - Websites
-    url: #add url
-    image: img-08.jpg
+#   - title: test6
+#     categories:
+#       - Graphic Design
+#       - Video
+#       - Websites
+#     url: #add url
+#     image: img-08.jpg
 
 #####################################
 ##########  Core Features  ##########
@@ -424,12 +424,12 @@ core-features-instiapp-left:
 # Feature
 - name: Mess Menu
   description: The mess menu for all hostels is available as a list (with the user’s hostel’s current day menu occupying the top position)
-  icon: pe-7s-cup
+  icon: pe-7s-coffee
 
 # Feature
 - name: Calendar
   description: The Calendar for the major bodies (Cult/Tech/any other body with a public calendar) will be available under this heading.
-  icon: pe-7s-coffee
+  icon: pe-7s-date
 
 # Feature
 - name: Timetable
@@ -444,17 +444,17 @@ core-features-instiapp-right:
 # Feature
 - name: Events Feed
   description: The main feed will have only updates from Users and Entities that a User follows.
-  icon: pe-7s-user
+  icon: pe-7s-signal
 
 # Feature
 - name: Placement Blog
   description: The Placement/Training blog is available inside the app with the option to get notifications for All posts / posts with certain keywords.
-  icon: pe-7s-users
+  icon: pe-7s-news-paper
 
 # Feature
 - name: Map
   description: The institute map along with current position and all currently active events visible as clickable icons.
-  icon: pe-7s-monitor
+  icon: pe-7s-map
 
 
 #
@@ -468,16 +468,16 @@ core-features-cerium-left:
 # Feature
 - name: Development
   description: Run yarn to install dependencies. Start the golang backend on port 8000 and use yarn run start to start the development server.
-  icon: pe-7s-wristwatch
+  icon: pe-7s-config
 
 # Feature
 - name: Build
   description: Run 'yarn build' in your root directory to create a production ready build.
-  icon: pe-7s-coffee
+  icon: pe-7s-check
 
 - name: License
   description: All code is licensed under the Mozilla Public License 2.0.
-  icon: pe-7s-monitor
+  icon: pe-7s-id
 
 # Feature
 # - name: Reporting
@@ -493,16 +493,16 @@ core-features-cerium-right:
 
 - name: Description
   description: Cerium is a forms application very similar in design to Google forms. The backend for the application is <a href="https://github.com/pulsejet/go-cerium/" target="_blank">go-cerium</a>.
-  icon: pe-7s-user
+  icon: pe-7s-note2
 
 - name: <a href="https://github.com/pulsejet/go-cerium/" target="_blank">Go Cerium</a>
   description: go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium.
-  icon: pe-7s-cup
+  icon: pe-7s-plugin
 
 # Feature
 - name: Go Cerium Development
   description: Install dependencies using 'dep ensure' and run the backend with 'go run main.go'. You need to have mongodb running and environment variables set correctly in .env. 
-  icon: pe-7s-users
+  icon: pe-7s-tools
 
 # Feature
 
@@ -525,16 +525,16 @@ core-features-noticeboard-left:
 
 - name: "File: config.json"
   description: Helps you define the configuration for how you want the images to appear on the TV.
-  icon: pe-7s-cup
+  icon: pe-7s-config
   
 - name: "File: fetch.py"
   description:  A Python script that runs in the background and periodically fetches images from the server. We set up a cron job for this.
-  icon: pe-7s-wristwatch
+  icon: pe-7s-loop
 
 # Feature
 - name: "File: gui.py"
   description: The main script that runs on boot and occupies the foreground. This displays the images on the TV.
-  icon: pe-7s-coffee
+  icon: pe-7s-monitor
 
 # Feature
 # - name: Reporting
@@ -550,17 +550,17 @@ core-features-noticeboard-right:
 
 - name: Description
   description: Scripts to fetch and display images on a TV and also allows users to setup configuration how you want the images to appear on the TV.
-  icon: pe-7s-user
+  icon: pe-7s-note2
 
 # Feature
 - name: Setup 
   description: Install a standard Raspbian OS on the RPi and configure the RPi to connect to internet. Follow the steps in README.md of the RPi Noticeboard github repo.
-  icon: pe-7s-monitor
+  icon: pe-7s-tools
 
 # Feature
 - name: Features
   description: Bash Scripting, Python Scripts, and JSON Configuration files to fetch and show images of your choice on TV.
-  icon: pe-7s-users
+  icon: pe-7s-photo
 
 
 
