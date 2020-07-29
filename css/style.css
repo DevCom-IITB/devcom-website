@@ -4478,7 +4478,206 @@ section.parallax-features-section #cerium-popup .close-button {
    transform: scale(3.5);
  }
  
- 
+ /* Atlas Project Styling */
+
+ section.parallax-features-section #atlas-modal {
+  display: none;
+}
+
+section.parallax-features-section #atlas-modal .atlas-blocker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: ' ';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 9999999;
+}
+
+
+section.parallax-features-section #atlas-popup {
+  display: block;
+  position: fixed;
+  top: -80px;
+  left: 0;
+  right: 0;
+  border-radius: 50px;
+
+  background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+  z-index: 99999999; 
+  transform: scale(0.85);
+
+}
+
+section.parallax-features-section #atlas-popup .popup {
+  margin: 0px auto;
+  align-items: center;
+}
+
+
+section.parallax-features-section #atlas-popup .popup img { 
+  border-radius: 40px;
+  width: 50%;
+  margin: auto;
+}
+
+
+section.parallax-features-section #atlas-popup .close-button {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+section.parallax-features-section #atlas-popup .close-button button{
+  border: none;
+  background:  rgba(0,0,0,0);
+  transform: scale(0.7);
+  float: right;
+}
+
+section.parallax-features-section #atlas-popup .close-button i{
+  transform: scale(3.5);
+}
+
+/* resumeportal Project Styling */
+
+section.parallax-features-section #resumeportal-modal {
+  display: none;
+}
+
+section.parallax-features-section #resumeportal-modal .resumeportal-blocker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: ' ';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 9999999;
+}
+
+
+section.parallax-features-section #resumeportal-popup {
+  display: block;
+  position: fixed;
+  top: -80px;
+  left: 0;
+  right: 0;
+  border-radius: 50px;
+
+  background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+  z-index: 99999999; 
+  transform: scale(0.85);
+
+}
+
+section.parallax-features-section #resumeportal-popup .popup {
+  margin: 0px auto;
+  align-items: center;
+}
+
+
+section.parallax-features-section #resumeportal-popup .popup img { 
+  border-radius: 40px;
+  width: 50%;
+  margin: auto;
+}
+
+
+section.parallax-features-section #resumeportal-popup .close-button {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+section.parallax-features-section #resumeportal-popup .close-button button{
+  border: none;
+  background:  rgba(0,0,0,0);
+  transform: scale(0.7);
+  float: right;
+}
+
+section.parallax-features-section #resumeportal-popup .close-button i{
+  transform: scale(3.5);
+}
+
+/* courserank Project Styling */
+
+section.parallax-features-section #courserank-modal {
+  display: none;
+}
+
+section.parallax-features-section #courserank-modal .courserank-blocker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: ' ';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 9999999;
+}
+
+
+section.parallax-features-section #courserank-popup {
+  display: block;
+  position: fixed;
+  top: -80px;
+  left: 0;
+  right: 0;
+  border-radius: 50px;
+
+  background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+  z-index: 99999999; 
+  transform: scale(0.85);
+
+}
+
+section.parallax-features-section #courserank-popup .popup {
+  margin: 0px auto;
+  align-items: center;
+}
+
+
+section.parallax-features-section #courserank-popup .popup img { 
+  border-radius: 40px;
+  width: 50%;
+  margin: auto;
+}
+
+
+section.parallax-features-section #courserank-popup .close-button {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+section.parallax-features-section #courserank-popup .close-button button{
+  border: none;
+  background:  rgba(0,0,0,0);
+  transform: scale(0.7);
+  float: right;
+}
+
+section.parallax-features-section #courserank-popup .close-button i{
+  transform: scale(3.5);
+}
  /* Added codes end here 
  .
  .
@@ -4590,6 +4789,7 @@ section.parallax-features-section #cerium-popup .close-button {
      text-align: center;
      transform: scale(0.8);
    }
+
    section.parallax-features-section .section-features .text-right .icon-wrap {
      margin-right: auto;
    }
@@ -4799,6 +4999,159 @@ section.parallax-features-section #cerium-popup .close-button {
      transform: scale(0.6);
      float: right;
    }
+   /* Atlas Modal*/
+
+   section.parallax-features-section #atlas-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: 9999999;
+  }
+
+  section.parallax-features-section #atlas-popup {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: auto;
+    margin-top: auto;
+    border-radius: 50px;
+
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+    z-index: 99999999; 
+    transform: scale(0.85);
+  }
+
+  section.parallax-features-section #atlas-popup .popup {
+    transform: scale(0.5);
+  }
+
+  section.parallax-features-section #atlas-popup .popup img {
+    display: none;
+    width: 0;
+  }
+
+  section.parallax-features-section #atlas-popup .close-button {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  section.parallax-features-section #atlas-popup .close-button button{
+    transform: scale(0.6);
+    float: right;
+  }
+
+  /* resumeportal Modal*/
+
+  section.parallax-features-section #resumeportal-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: 9999999;
+  }
+
+  section.parallax-features-section #resumeportal-popup {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: auto;
+    margin-top: auto;
+    border-radius: 50px;
+
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+    z-index: 99999999; 
+    transform: scale(0.85);
+  }
+
+  section.parallax-features-section #resumeportal-popup .popup {
+    transform: scale(0.5);
+  }
+
+  section.parallax-features-section #resumeportal-popup .popup img {
+    display: none;
+    width: 0;
+  }
+
+  section.parallax-features-section #resumeportal-popup .close-button {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  section.parallax-features-section #resumeportal-popup .close-button button{
+    transform: scale(0.6);
+    float: right;
+  }
+
+  section.parallax-features-section #resumeportal-popup .text-right {
+    margin-top: 30px !important;
+  }
+
+
+  /* courserank Modal*/
+
+  section.parallax-features-section #courserank-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: 9999999;
+  }
+
+  section.parallax-features-section #courserank-popup {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: auto;
+    margin-top: auto;
+    border-radius: 50px;
+
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+    z-index: 99999999; 
+    transform: scale(0.85);
+  }
+
+  section.parallax-features-section #courserank-popup .popup {
+    transform: scale(0.5);
+  }
+
+  section.parallax-features-section #courserank-popup .popup img {
+    display: none;
+    width: 0;
+  }
+
+  section.parallax-features-section #courserank-popup .close-button {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  section.parallax-features-section #courserank-popup .close-button button{
+    transform: scale(0.6);
+    float: right;
+  }
+
+  section.parallax-features-section #courserank-popup .text-right {
+    margin-top: 50px !important;
+  }
+
    /* Added codes end here 
    .
    .
@@ -4846,7 +5199,7 @@ section.parallax-features-section #cerium-popup .close-button {
    section.parallax-features-section .section-features .text-right {
      margin-top: 20px;
      text-align: center;
-     transform: scale(0.8);
+     /* transform: scale(0.8); */
    }
    section.parallax-features-section .section-features .text-right .icon-wrap {
      margin-right: auto;
@@ -5084,6 +5437,153 @@ section.parallax-features-section #cerium-popup .close-button {
      transform: scale(0.75);
      float: right;
    }
+
+   /* Atlas styling */
+ 
+   section.parallax-features-section #atlas-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: 9999999;
+  }
+
+  section.parallax-features-section #atlas-popup {
+    display: block;
+    position: fixed;
+    top: 5vh;
+    left: auto;
+    right: auto;
+    margin-top: 0;
+    border-radius: 50px;
+
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+    z-index: 99999999; 
+    transform: scale(0.75);
+  }
+
+  section.parallax-features-section #atlas-popup .popup {
+    transform: scale(0.5);
+  }
+
+  section.parallax-features-section #atlas-popup .popup img {
+    display: none;
+    width: 0;
+  }
+
+  section.parallax-features-section #atlas-popup .close-button {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  section.parallax-features-section #atlas-popup .close-button button{
+    background: rgba(0,0,0,0);
+    transform: scale(0.75);
+    float: right;
+  }
+
+  /* Resume portal */
+
+  section.parallax-features-section #resumeportal-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: 9999999;
+  }
+
+  section.parallax-features-section #resumeportal-popup {
+    display: block;
+    position: fixed;
+    top: 5vh;
+    left: auto;
+    right: auto;
+    margin-top: 0;
+    border-radius: 50px;
+
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+    z-index: 99999999; 
+    transform: scale(0.75);
+  }
+
+  section.parallax-features-section #resumeportal-popup .popup {
+    transform: scale(0.5);
+  }
+
+  section.parallax-features-section #resumeportal-popup .popup img {
+    display: none;
+    width: 0;
+  }
+
+  section.parallax-features-section #resumeportal-popup .close-button {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  section.parallax-features-section #resumeportal-popup .close-button button{
+    background: rgba(0,0,0,0);
+    transform: scale(0.75);
+    float: right;
+  }
+
+  /* Courserank */
+
+  section.parallax-features-section #courserank-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: 9999999;
+  }
+
+  section.parallax-features-section #courserank-popup {
+    display: block;
+    position: fixed;
+    top: 5vh;
+    left: auto;
+    right: auto;
+    margin-top: 0;
+    border-radius: 50px;
+
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+    z-index: 99999999; 
+    transform: scale(0.75);
+  }
+
+  section.parallax-features-section #courserank-popup .popup {
+    transform: scale(0.5);
+  }
+
+  section.parallax-features-section #courserank-popup .popup img {
+    display: none;
+    width: 0;
+  }
+
+  section.parallax-features-section #courserank-popup .close-button {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  section.parallax-features-section #courserank-popup .close-button button{
+    background: rgba(0,0,0,0);
+    transform: scale(0.75);
+    float: right;
+  }
    /* Added codes end here 
    .
    .
@@ -5898,7 +6398,7 @@ section.parallax-features-section #cerium-popup .close-button {
  footer.site-footer .footer-copyright {
    font-size: 0.8125rem;
    border-top: 1px solid #464646;
-   padding: 30px 0;
+   padding: 20px 0;
  }
  
  footer.site-footer .footer-copyright .footer-text {

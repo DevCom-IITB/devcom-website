@@ -149,29 +149,29 @@ OverallCoordinators:
     github: 'https://github.com/tezansahu'
     linkedin: 'https://www.linkedin.com/in/tezan-sahu/'
 
-  - avatar: profile2.jpg
+  - avatar: yashwardhan.jpeg
     name: Yashwardhan Didwania
     tagline: Overall Coordinator
-    facebook: ''
+    facebook: 'https://www.facebook.com/ydidwania'
     github: ''
     linkedin: ''
 
 ProjectLeads:
-  - avatar: profile2.jpg
+  - avatar: rishabh.jpeg
     name: Rishabh Arya
     tagline: Project Lead
     facebook: 'https://www.facebook.com/rishabh.arya.9822924'
     github: 'https://github.com/arya2331'
     linkedin: 'https://www.linkedin.com/in/rishabh-arya-99a37a145/'
 
-  - avatar: profile2.jpg
+  - avatar: srijan karn.jpeg
     name: Srijan Karn
     tagline: Project Lead
     facebook: 'https://m.facebook.com/profile.php?id=100004023687791&ref=content_filter'
     github: 'https://github.com/srijan2911'
     linkedin: 'https://www.linkedin.com/in/srijan-karn-424083170'
 
-  - avatar: profile2.jpg
+  - avatar: rahul bukte.jpeg
     name: Rahul Bukte
     tagline: Project Lead
     facebook: ''
@@ -186,31 +186,31 @@ ProjectLeads:
     linkedin: ''
 
 ManagementCoordinators:
-  - avatar: profile2.jpg
+  - avatar: e aakash.jpg
     name: E Aakash
     tagline: Management Coordinator
     facebook: 'https://www.facebook.com/09e.aakash'
     github: 'https://github.com/e-aakash'
     linkedin: 'https://www.linkedin.com/in/e-aakash'
 
-  - avatar: profile2.jpg
-    name: Abeen
+  - avatar: abeen bhattacharya.jpeg
+    name: Abeen Bhattacharya
     tagline: Management Coordinator
     facebook: ''
     github: ''
     linkedin: ''
 
-  - avatar: profile2.jpg
-    name: Akshit
+  - avatar: akshit.jpg
+    name: Akshit Srivastava
     tagline: Management Coordinator
-    facebook: ''
+    facebook: 'https://www.facebook.com/akshit1511'
     github: ''
     linkedin: ''
 
-  - avatar: profile2.jpg
-    name: Latika
+  - avatar: latika.jpg
+    name: Latika Patel
     tagline: Management Coordinator
-    facebook: ''
+    facebook: 'https://www.facebook.com/latika.patel.526'
     github: ''
     linkedin: ''
  
@@ -292,7 +292,7 @@ CoreMembers:
     github: 'https://github.com/feyn-aman'
     linkedin: 'https://www.linkedin.com/in/aman-singh-b37a85176/'
 
-  - avatar: profile2.jpg
+  - avatar: devansh jain.jpg
     name: Devansh Jain
     tagline: Core Member
     facebook: ''
@@ -344,65 +344,65 @@ CoreMembers:
 #####################################
 ##########     Portfolio    ##########
 #####################################
-portfolio-title: Projects
-portfolio-description: ...projects...
+# portfolio-title: Projects
+# portfolio-description: ...projects...
 
-portfolio-categories:
-  - Websites
-  - Android
-  - iOS
-  - Logo
-  - Graphic Design
-  - Video
+# portfolio-categories:
+#   - Websites
+#   - Android
+#   - iOS
+#   - Logo
+#   - Graphic Design
+#   - Video
 
-portfolio:
-  - title: InstiApp
-    categories:
-      - Android
-      - iOS
-      - Websites
-    url: #add url
-    image: img-05.jpg
+# portfolio:
+#   - title: InstiApp
+#     categories:
+#       - Android
+#       - iOS
+#       - Websites
+#     url: #add url
+#     image: img-05.jpg
 
-  - title: test2
-    categories:
-      - Logo
-      - Video
-      - Websites
-    url: #add url
-    image: img-01.jpg
+#   - title: test2
+#     categories:
+#       - Logo
+#       - Video
+#       - Websites
+#     url: #add url
+#     image: img-01.jpg
 
-  - title: test3
-    categories:
-      - Android
-      - Graphic Design
-      - Websites
-    url: #add url
-    image: img-02.jpg
+#   - title: test3
+#     categories:
+#       - Android
+#       - Graphic Design
+#       - Websites
+#     url: #add url
+#     image: img-02.jpg
 
-  - title: test4
-    categories:
-      - Android
-      - iOS
-      - Websites
-    url: #add url
-    image: img-03.jpg
+#   - title: test4
+#     categories:
+#       - Android
+#       - iOS
+#       - Websites
+#     url: #add url
+#     image: img-03.jpg
 
-  - title: test5
-    categories:
-      - Video
-      - iOS
-      - Logo
-    url: #add url
-    image: img-04.jpg
+#   - title: test5
+#     categories:
+#       - Video
+#       - iOS
+#       - Logo
+#     url: #add url
+#     image: img-04.jpg
 
-  - title: test6
-    categories:
-      - Graphic Design
-      - Video
-      - Websites
-    url: #add url
-    image: img-08.jpg
+#   - title: test6
+#     categories:
+#       - Graphic Design
+#       - Video
+#       - Websites
+#     url: #add url
+#     image: img-08.jpg
 
 #####################################
 ##########  Core Features  ##########
@@ -424,12 +424,12 @@ core-features-instiapp-left:
 # Feature
 - name: Mess Menu
   description: The mess menu for all hostels is available as a list (with the user’s hostel’s current day menu occupying the top position)
-  icon: pe-7s-cup
+  icon: pe-7s-coffee
 
 # Feature
 - name: Calendar
   description: The Calendar for the major bodies (Cult/Tech/any other body with a public calendar) will be available under this heading.
-  icon: pe-7s-coffee
+  icon: pe-7s-date
 
 # Feature
 - name: Timetable
@@ -444,17 +444,17 @@ core-features-instiapp-right:
 # Feature
 - name: Events Feed
   description: The main feed will have only updates from Users and Entities that a User follows.
-  icon: pe-7s-user
+  icon: pe-7s-signal
 
 # Feature
 - name: Placement Blog
   description: The Placement/Training blog is available inside the app with the option to get notifications for All posts / posts with certain keywords.
-  icon: pe-7s-users
+  icon: pe-7s-news-paper
 
 # Feature
 - name: Map
   description: The institute map along with current position and all currently active events visible as clickable icons.
-  icon: pe-7s-monitor
+  icon: pe-7s-map-2
 
 
 #
@@ -468,16 +468,16 @@ core-features-cerium-left:
 # Feature
 - name: Development
   description: Run yarn to install dependencies. Start the golang backend on port 8000 and use yarn run start to start the development server.
-  icon: pe-7s-wristwatch
+  icon: pe-7s-config
 
 # Feature
 - name: Build
   description: Run 'yarn build' in your root directory to create a production ready build.
-  icon: pe-7s-coffee
+  icon: pe-7s-check
 
 - name: License
   description: All code is licensed under the Mozilla Public License 2.0.
-  icon: pe-7s-monitor
+  icon: pe-7s-id
 
 # Feature
 # - name: Reporting
@@ -493,16 +493,16 @@ core-features-cerium-right:
 
 - name: Description
   description: Cerium is a forms application very similar in design to Google forms. The backend for the application is <a href="https://github.com/pulsejet/go-cerium/" target="_blank">go-cerium</a>.
-  icon: pe-7s-user
+  icon: pe-7s-note2
 
 - name: <a href="https://github.com/pulsejet/go-cerium/" target="_blank">Go Cerium</a>
   description: go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium.
-  icon: pe-7s-cup
+  icon: pe-7s-plugin
 
 # Feature
 - name: Go Cerium Development
   description: Install dependencies using 'dep ensure' and run the backend with 'go run main.go'. You need to have mongodb running and environment variables set correctly in .env. 
-  icon: pe-7s-users
+  icon: pe-7s-tools
 
 # Feature
 
@@ -525,16 +525,16 @@ core-features-noticeboard-left:
 
 - name: "File: config.json"
   description: Helps you define the configuration for how you want the images to appear on the TV.
-  icon: pe-7s-cup
+  icon: pe-7s-config
   
 - name: "File: fetch.py"
   description:  A Python script that runs in the background and periodically fetches images from the server. We set up a cron job for this.
-  icon: pe-7s-wristwatch
+  icon: pe-7s-loop
 
 # Feature
 - name: "File: gui.py"
   description: The main script that runs on boot and occupies the foreground. This displays the images on the TV.
-  icon: pe-7s-coffee
+  icon: pe-7s-monitor
 
 # Feature
 # - name: Reporting
@@ -550,17 +550,17 @@ core-features-noticeboard-right:
 
 - name: Description
   description: Scripts to fetch and display images on a TV and also allows users to setup configuration how you want the images to appear on the TV.
-  icon: pe-7s-user
+  icon: pe-7s-note2
 
 # Feature
 - name: Setup 
   description: Install a standard Raspbian OS on the RPi and configure the RPi to connect to internet. Follow the steps in README.md of the RPi Noticeboard github repo.
-  icon: pe-7s-monitor
+  icon: pe-7s-tools
 
 # Feature
 - name: Features
   description: Bash Scripting, Python Scripts, and JSON Configuration files to fetch and show images of your choice on TV.
-  icon: pe-7s-users
+  icon: pe-7s-photo
 
 
 
@@ -568,6 +568,100 @@ core-features-noticeboard-right:
 # - name: Incident Response
 #   description: Can function in the technical or the governance space when responding to cyber incidents.
 #   icon: pe-7s-bandaid
+
+#############################
+##### Ongoing Projects ######
+#############################
+
+###### Resume Verification Portal #########
+
+ongoing-projects-resumeportal-left:
+
+- name: About
+  description: Prometheus, Resume Verification Portal, a portal to streamline the process of verification of resumes and cvs.
+  icon: pe-7s-network
+
+- name: Project Scope
+  description: This project is being developed in coordination with the Placement Cell of IITB, to be used by it's members and secretaries for the verification of points mentioned in resumes.
+  icon: pe-7s-note2
+
+- name: Contribution
+  description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+  icon: pe-7s-users
+
+ongoing-projects-resumeportal-right:
+
+- name: Description
+  description: Prometheus is codename for the IITB Resume Verification Portal to automate the process of authentication and verification of resume points, as this process consisted of complex steps earlier.
+  icon: pe-7s-note2
+
+- name: Features
+  description: This portal allows admins to access the certifications and proof for the points mentioned in one's resume and then transfer the details to the students.
+  icon: pe-7s-gleam
+
+- name: Development
+  description: The application is being developed using Angular (for the interface) & FastAPI (for the backend).
+  icon: pe-7s-config
+
+###### Atlas Hostel Management Portal #########
+
+ongoing-projects-atlas-left:
+
+- name: About
+  description: Atlas, IITB Hostel Management Portal, a project to automate the process of hostel and rooms allotment.
+  icon: pe-7s-network
+
+- name: Project Scope
+  description: This project is being developed in coordination with the Hostel Affairs Council, to be used my Hostel GSecs, Wardens, Hall Managers, GSHA, DoSA & HCU Office.
+  icon: pe-7s-note2
+
+- name: Contribution
+  description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+  icon: pe-7s-users
+
+ongoing-projects-atlas-right:
+
+- name: Description
+  description: Atlas is codename for the IITB Hostel Management Portal to streamline the process of allotment of hostels & rooms for the students as well as maintenance of the rooms by respective admins. 
+  icon: pe-7s-note2
+
+- name: Features
+  description: This portal allows admins to allocate rooms to hostelites, view the details after allocation on detailed hostel floor plans, tag vacant rooms for various purposes & view the full history of a student’s stay in the institute hostels.
+  icon: pe-7s-gleam
+
+- name: Development
+  description: The application is being developed using Angular (for the interface) & FastAPI (for the backend).
+  icon: pe-7s-config
+
+###### CourseRank #########
+
+ongoing-projects-courserank-left:
+
+- name: About
+  description: This project aims to create a separate portal that displays reviews on courses given by students who have already completed that course.
+  icon: pe-7s-network
+
+- name: Project Scope
+  description: This project is being developed in coordination with the Institute Academic Council and various other councils which focuses providing information regarding academics to students.
+  icon: pe-7s-note2
+
+- name: Contribution
+  description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+  icon: pe-7s-users
+
+ongoing-projects-courserank-right:
+
+- name: Description
+  description: CourseRank is the IMDB of courses which shows details, ratings, reviews (by the students), etc of all the courses provided buy the institute. 
+  icon: pe-7s-note2
+
+- name: Extra Features
+  description: This portal also have extra features such as rating of a course, likes on a review and course, description of course, etc.
+  icon: pe-7s-gleam
+
+- name: Development
+  description: The application is being developed using Django Templates (for the interface) & Django (for the backend).
+  icon: pe-7s-config
 
 
 #####################################
