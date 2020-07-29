@@ -41,13 +41,11 @@
         </div>
 
       {% endfor %}
-    
+  
     </div>
-    
     <div class="row">
         <div class="col-md-2"></div>
-      
-        {% for member in site.ManagementCoordinators %}
+       {% for member in site.ProjectLeads %}
 
         <div class="col-md-2 col-xs-6 col-sm-3">
             <div class="our-team">
@@ -66,10 +64,10 @@
 
       {% endfor %}
     </div>
-  
     <div class="row">
         <div class="col-md-2"></div>
-       {% for member in site.ProjectLeads %}
+      
+        {% for member in site.ManagementCoordinators %}
 
         <div class="col-md-2 col-xs-6 col-sm-3">
             <div class="our-team">
