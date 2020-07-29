@@ -578,11 +578,11 @@ core-features-noticeboard-right:
 ongoing-projects-resumeportal-left:
 
 - name: About
-  description: Atlas, IITB Hostel Management Portal, a project to automate the process of hostel and rooms allotment.
+  description: Prometheus, Resume Verification Portal, a portal to streamline the process of verification of resumes and cvs.
   icon: pe-7s-network
 
 - name: Project Scope
-  description: This project is being developed in coordination with the Hostel Affairs Council, to be used my Hostel GSecs, Wardens, Hall Managers, GSHA, DoSA & HCU Office.
+  description: This project is being developed in coordination with the Placement Cell of IITB, to be used by it's members and secretaries for the verification of points mentioned in resumes.
   icon: pe-7s-note2
 
 - name: Contribution
@@ -592,11 +592,11 @@ ongoing-projects-resumeportal-left:
 ongoing-projects-resumeportal-right:
 
 - name: Description
-  description: Atlas is codename for the IITB Hostel Management Portal to streamline the process of allotment of hostels & rooms for the students as well as maintenance of the rooms by respective admins. 
+  description: Prometheus is codename for the IITB Resume Verification Portal to automate the process of authentication and verification of resume points, as this process consisted of complex steps earlier.
   icon: pe-7s-note2
 
 - name: Features
-  description: This portal allows admins to allocate rooms to hostelites, view the details after allocation on detailed hostel floor plans, tag vacant rooms for various purposes & view the full history of a student’s stay in the institute hostels.
+  description: This portal allows admins to access the certifications and proof for the points mentioned in one's resume and then transfer the details to the students.
   icon: pe-7s-gleam
 
 - name: Development
@@ -638,7 +638,7 @@ ongoing-projects-atlas-right:
 ongoing-projects-courserank-left:
 
 - name: About
-  description: Atlas, IITB Hostel Management Portal, a project to automate the process of hostel and rooms allotment.
+  description: This project aims to create a separate portal that displays reviews on courses given by students who have already completed that course.
   icon: pe-7s-network
 
 - name: Project Scope
@@ -646,21 +646,21 @@ ongoing-projects-courserank-left:
   icon: pe-7s-note2
 
 - name: Contribution
-  description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+  description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
   icon: pe-7s-users
 
 ongoing-projects-courserank-right:
 
 - name: Description
-  description: Atlas is codename for the IITB Hostel Management Portal to streamline the process of allotment of hostels & rooms for the students as well as maintenance of the rooms by respective admins. 
+  description: CourseRank is the IMDB of courses which shows details, ratings, reviews (by the students), etc of all the courses provided buy the institute. 
   icon: pe-7s-note2
 
-- name: Features
-  description: This portal allows admins to allocate rooms to hostelites, view the details after allocation on detailed hostel floor plans, tag vacant rooms for various purposes & view the full history of a student’s stay in the institute hostels.
+- name: Extra Features
+  description: This portal also have extra features such as rating of a course, likes on a review and course, description of course, etc.
   icon: pe-7s-gleam
 
 - name: Development
-  description: The application is being developed using Angular (for the interface) & FastAPI (for the backend).
+  description: The application is being developed using Django Templates (for the interface) & Django (for the backend).
   icon: pe-7s-config
 
 
