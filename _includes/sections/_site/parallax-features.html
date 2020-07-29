@@ -1,0 +1,268 @@
+<!-- Parallax Section -->
+<section class="site-section parallax-features-section parallax" id="parallax-features" data-scrollax-parent="true">
+
+  <!-- Parallax Image -->
+  <div class="cover">
+    <img src="{{ site.baseurl }}/images/back.png" alt="Parallax Features" />
+  </div>
+
+  <!-- <div class="container" style="background-image: url('images/back2.jpg')"> -->
+  <div class="container">
+  
+    <div class="row text-center">
+
+  
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2 style="color: #cce4ff">{{ site.core-title }}</h2>
+        <hr class="normal">
+      </header>
+
+      
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>{{ site.core-description }}</p>
+      </div>
+
+    </div>
+
+    <div class="row section-features">
+
+      <div class="col-md-4 phone" style="padding: auto; margin: auto;">
+        <img src="{{ site.baseurl }}/images/instiapp-new.png" alt="InstiApp" onclick="instiapp()" />
+      </div>
+
+      <div class="col-md-4 phone" style="padding: auto; margin: auto;">
+        <img src="{{ site.baseurl }}/images/logos/cerium.jpeg" alt="Cerium" onclick="cerium()"/>
+      </div>
+
+      <div class="col-md-4 phone" style="padding: auto; margin: auto;">
+        <img src="{{ site.baseurl }}/images/logos/noticeboard.png" alt="RPi-Noticeboard" onclick="noticeboard()"/>
+      </div>
+
+    </div>
+
+    <div id="instiapp-modal">
+
+      <div class="instiapp-blocker" onclick="instiappclose()"></div>
+
+      <div class="row section-features" id="instiapp-popup">
+
+        <div class="close-button">
+          <button onclick="instiappclose()"><i class="fa fa-close"></i></button>
+        </div>
+
+        <div class="col-md-4 col-sm-6 text-left">
+  
+          {% for feature in site.core-features-instiapp-left %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+        <div class="col-md-4 popup">
+          <img src="{{ site.baseurl }}/images/instiapp-new.png" alt="InstiApp" />
+          <div class="logo">
+            <a href="{{ site.instiapp-github }}" target="_blank"><i class="fa fa-github github-icon"></i></a>
+            <a href="{{ site.instiapp-site }}" target="_blank"><i class="fa fa-globe browser-icon"></i></a>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-right">
+  
+          {% for feature in site.core-features-instiapp-right %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+      </div>
+
+    </div>
+
+    <div id="cerium-modal">
+
+      <div class="cerium-blocker" onclick="ceriumclose()"></div>
+
+      <div class="row section-features" id="cerium-popup">
+
+        <div class="close-button">
+          <button onclick="ceriumclose()"><i class="fa fa-close"></i></button>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-left">
+  
+          {% for feature in site.core-features-cerium-left %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+        <div class="col-md-4 popup" style="padding: auto; margin: auto;">
+          <img src="{{ site.baseurl }}/images/logos/cerium.jpeg" alt="InstiApp" />
+          <div class="logo">
+            <a href="{{ site.cerium-github }}" target="_blank"><i class="fa fa-github cerium-github-icon"></i></a>
+            <a href="{{ site.cerium-documentation }}" target="_blank"><i class="fa fa-file-text doc-icon" style="transform: scale(3);"></i></a>
+          </div>
+        </div>
+        
+  
+        <div class="col-md-4 col-sm-6 text-right">
+  
+          {% for feature in site.core-features-cerium-right %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+      </div>
+    </div>
+
+    <div id="noticeboard-modal">
+
+      <div class="noticeboard-blocker" onclick="noticeboardclose()"></div>
+
+      <div class="row section-features" id="noticeboard-popup">
+
+        <div class="close-button">
+          <button onclick="noticeboardclose()"><i class="fa fa-close"></i></button>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-left">
+  
+          {% for feature in site.core-features-noticeboard-left %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+        <div class="col-md-4 popup" style="padding: auto; margin: auto;">
+          <img src="{{ site.baseurl }}/images/logos/noticeboard.png" alt="InstiApp" />
+          <div class="logo"><a href="{{ site.noticeboard-github }}" target="_blank"><i class="fa fa-github"></i></a></div>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-right">
+  
+          {% for feature in site.core-features-noticeboard-right %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+      </div>
+    </div>
+
+  </div> 
+</section>
+
+<script>
+
+  function disableScroll() { 
+    document.body.classList.add("stop-scrolling");
+  } 
+  
+  function enableScroll() { 
+    document.body.classList.remove("stop-scrolling");
+  }
+
+  function instiapp() {
+    document.getElementById("instiapp-modal").style.display = "block";
+    disableScroll();
+  }
+
+  function instiappclose() {
+    document.getElementById("instiapp-modal").style.display = "none";
+    enableScroll();
+  }
+
+  function cerium() {
+    document.getElementById("cerium-modal").style.display = "block";
+    disableScroll();
+  }
+
+  function ceriumclose() {
+    document.getElementById("cerium-modal").style.display = "none";
+    enableScroll();
+  }
+
+  function noticeboard() {
+    document.getElementById("noticeboard-modal").style.display = "block";
+    disableScroll();
+  }
+
+  function noticeboardclose() {
+    document.getElementById("noticeboard-modal").style.display = "none";
+    enableScroll();
+  }
+
+</script>
