@@ -149,10 +149,10 @@ OverallCoordinators:
     github: 'https://github.com/tezansahu'
     linkedin: 'https://www.linkedin.com/in/tezan-sahu/'
 
-  - avatar: profile2.jpg
+  - avatar: yashwardhan.jpeg
     name: Yashwardhan Didwania
     tagline: Overall Coordinator
-    facebook: ''
+    facebook: 'https://www.facebook.com/ydidwania'
     github: ''
     linkedin: ''
 
@@ -186,7 +186,7 @@ ProjectLeads:
     linkedin: ''
 
 ManagementCoordinators:
-  - avatar: profile2.jpg
+  - avatar: e aakash.jpg
     name: E Aakash
     tagline: Management Coordinator
     facebook: 'https://www.facebook.com/09e.aakash'
@@ -200,17 +200,17 @@ ManagementCoordinators:
     github: ''
     linkedin: ''
 
-  - avatar: profile2.jpg
-    name: Akshit
+  - avatar: akshit.jpg
+    name: Akshit Srivastava
     tagline: Management Coordinator
-    facebook: ''
+    facebook: 'https://www.facebook.com/akshit1511'
     github: ''
     linkedin: ''
 
-  - avatar: profile2.jpg
-    name: Latika
+  - avatar: latika.jpg
+    name: Latika Patel
     tagline: Management Coordinator
-    facebook: ''
+    facebook: 'https://www.facebook.com/latika.patel.526'
     github: ''
     linkedin: ''
  
