@@ -157,21 +157,21 @@ OverallCoordinators:
     linkedin: ''
 
 ProjectLeads:
-  - avatar: profile2.jpg
+  - avatar: rishabh.jpeg
     name: Rishabh Arya
     tagline: Project Lead
     facebook: 'https://www.facebook.com/rishabh.arya.9822924'
     github: 'https://github.com/arya2331'
     linkedin: 'https://www.linkedin.com/in/rishabh-arya-99a37a145/'
 
-  - avatar: profile2.jpg
+  - avatar: srijan karn.jpeg
     name: Srijan Karn
     tagline: Project Lead
     facebook: 'https://m.facebook.com/profile.php?id=100004023687791&ref=content_filter'
     github: 'https://github.com/srijan2911'
     linkedin: 'https://www.linkedin.com/in/srijan-karn-424083170'
 
-  - avatar: profile2.jpg
+  - avatar: rahul bukte.jpeg
     name: Rahul Bukte
     tagline: Project Lead
     facebook: ''
@@ -193,8 +193,8 @@ ManagementCoordinators:
     github: 'https://github.com/e-aakash'
     linkedin: 'https://www.linkedin.com/in/e-aakash'
 
-  - avatar: profile2.jpg
-    name: Abeen
+  - avatar: abeen bhattacharya.jpeg
+    name: Abeen Bhattacharya
     tagline: Management Coordinator
     facebook: ''
     github: ''
@@ -292,7 +292,7 @@ CoreMembers:
     github: 'https://github.com/feyn-aman'
     linkedin: 'https://www.linkedin.com/in/aman-singh-b37a85176/'
 
-  - avatar: profile2.jpg
+  - avatar: devansh jain.jpg
     name: Devansh Jain
     tagline: Core Member
     facebook: ''
