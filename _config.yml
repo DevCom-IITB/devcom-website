@@ -232,9 +232,9 @@ CoreMembers:
   - avatar: profile3 - Sahasra Ranjan.png
     name: Sahasra Ranjan
     tagline: Core Member
-    facebook: ''
-    github: ''
-    linkedin: ''
+    facebook: 'https://www.facebook.com/sahasra.ranjan/'
+    github: 'https://github.com/sahasrarjn/'
+    linkedin: 'https://www.linkedin.com/in/sahasra-ranjan-2478521a6/'
 
   - avatar: IMG-20200101-WA0074 - Divyanshi kamra.png
     name: Divyanshi Kamra
