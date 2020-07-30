@@ -6375,7 +6375,7 @@ section.parallax-features-section #courserank-popup .close-button i{
  }
  
  footer.site-footer .footer-info {
-   padding: 80px 0;
+   padding: 50px 0;
  }
  
  footer.site-footer .footer-info .footer-logo {
@@ -6384,6 +6384,7 @@ section.parallax-features-section #courserank-popup .close-button i{
  
  footer.site-footer .footer-info .footer-logo img {
    margin: 0 auto;
+   transform: scale(0.9);
  }
  
  footer.site-footer .footer-info .footer-info-text {
@@ -6402,10 +6403,12 @@ section.parallax-features-section #courserank-popup .close-button i{
  footer.site-footer .footer-copyright {
    font-size: 0.8125rem;
    border-top: 1px solid #464646;
-   padding: 20px 0;
+   padding: 10px 0;
  }
  
  footer.site-footer .footer-copyright .footer-text {
    width: 100%;
+   transform: scale(0.9);
  }
+
  
