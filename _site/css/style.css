@@ -223,6 +223,10 @@
        -ms-transform: translateY(-50%);
            transform: translateY(-50%);
  }
+/*
+ .nav-logo {
+  width: 10px;
+ }*/
  
  .child-center-h {
    position: absolute;
