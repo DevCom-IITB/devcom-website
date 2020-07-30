@@ -81,7 +81,7 @@ banner-link: https://cybercodebear.github.io
 linkedin: 'https://www.linkedin.com/company/devcom-iit-bombay/'
 facebook: 'https://www.facebook.com/devcom.iitbombay/'
 github: 'https://github.com/devcomiitb'
-email: 'mailto:devcom.iitb@gmail.com'
+email: 'mailto:devcom@iitb.ac.in'
 
 #########################
 ######   Widgets   ######
@@ -195,7 +195,7 @@ ManagementCoordinators:
 
   - avatar: abeen bhattacharya.jpeg
     name: Abeen Bhattacharya
-    tagline: Design Head
+    tagline: InstiApp Head
     facebook: 'http://facebook.com/thenotsodarkknight'
     github: 'https://github.com/thenotsodarkknight'
     linkedin: 'https://in.linkedin.com/in/abeenbhattacharya'
@@ -414,7 +414,7 @@ instiapp-github: 'https://github.com/wncc/instiapp-android'
 cerium-github:  'https://github.com/pulsejet/cerium'
 noticeboard-github: 'https://github.com/MayuBhattu/RPI_Modified'
 instiapp-site: 'https://www.insti.app/'
-cerium-documentation: 'https://gymkhana.iitb.ac.in/profiles/doc/'
+cerium-database: 'https://github.com/pulsejet/go-cerium/'
 
 #
 # Core Features Instiapp Left
@@ -466,14 +466,14 @@ core-features-cerium-left:
 
 
 # Feature
-- name: Development
-  description: Run yarn to install dependencies. Start the golang backend on port 8000 and use yarn run start to start the development server.
-  icon: pe-7s-config
+- name: Features
+  description: Uses SSO for login, allowing authentication of users of the form, allows anonymous forms, and also has feature of scheduling or closing of a form.
+  icon: pe-7s-diamond
 
 # Feature
 - name: Build
-  description: Run 'yarn build' in your root directory to create a production ready build.
-  icon: pe-7s-check
+  description: Run 'yarn' to install dependencies. Start the golang backend on port 8000 and use 'yarn run' to start the development server.Run 'yarn build' in your root directory to create a production ready build.
+  icon: pe-7s-config
 
 - name: License
   description: All code is licensed under the Mozilla Public License 2.0.
@@ -495,7 +495,7 @@ core-features-cerium-right:
   description: Cerium is a forms application very similar in design to Google forms. The backend for the application is <a href="https://github.com/pulsejet/go-cerium/" target="_blank">go-cerium</a>.
   icon: pe-7s-note2
 
-- name: <a href="https://github.com/pulsejet/go-cerium/" target="_blank">Go Cerium</a>
+- name: Go Cerium
   description: go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium.
   icon: pe-7s-plugin
 
