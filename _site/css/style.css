@@ -3548,6 +3548,15 @@
      position: relative;
      float: right;
    }
+   header.site-header .site-navigation-bar .toggle-menu .navLogo {
+     /*cursor: pointer;*/
+     width: 80px;
+     height: 32px;
+     margin: auto;
+     margin-top: -10px;
+     position: relative;
+     float: left;
+   }
    header.site-header .site-navigation-bar .toggle-menu .navTrigger i {
      background-color: #fff;
      content: '';
