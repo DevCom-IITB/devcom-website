@@ -114,7 +114,7 @@ about-widget:
 #############   About   #############
 #####################################
 # about-title:
-about-description: This is the official page for the Developers' Community of IIT Bombay. Envisioned as the group of best developers of the Institute, the team is responsible for developing and maintaining InstiApp, and other dev/tech related projects in the Institute.
+about-description: This is the official page for the Developer's Community of IIT Bombay. Envisioned as a group of the best developers in the Institute, the team is responsible for developing and maintaining InstiApp, and other dev/tech related projects in the Institute.
 
 #####################################
 ##########     Features    ##########
@@ -193,14 +193,14 @@ ManagementCoordinators:
     github: 'https://github.com/e-aakash'
     linkedin: 'https://www.linkedin.com/in/e-aakash'
 
-  - avatar: abeen bhattacharya.jpeg
+  - avatar: abeen.jpeg
     name: Abeen Bhattacharya
     tagline: InstiApp Head
     facebook: 'http://facebook.com/thenotsodarkknight'
     github: 'https://github.com/thenotsodarkknight'
     linkedin: 'https://in.linkedin.com/in/abeenbhattacharya'
 
-  - avatar: akshit.jpg
+  - avatar: akshit.jpeg
     name: Akshit Srivastava
     tagline: WnCC Manager
     facebook: 'https://www.facebook.com/akshit1511'
@@ -408,7 +408,7 @@ CoreMembers:
 ##########  Core Features  ##########
 #####################################
 core-title: Projects
-core-description: Envisioned as the group of best developers of the Institute, the team is responsible for developing and maintaining InstiApp, Cerium and RPI Noticeboard and many other dev/tech related projects. Details regarding each of them can be accessed below.
+core-description: 'Over the course of time, the team has been developing & maintaining several projects. Tech projects that have been successfully completed by DevCom include InstiApp, Cerium and RPI Noticeboard. Details about each of them can be found below:'
 
 instiapp-github: 'https://github.com/wncc/instiapp-android'
 cerium-github:  'https://github.com/pulsejet/cerium'
