@@ -3335,7 +3335,7 @@
      top: 0;
      left: 15px;
      min-height: 60px;
-     background: #0083cf;
+     background: #0a73c9;
      z-index: 99999999999999;
      opacity: 0.9;
    }
@@ -3544,21 +3544,23 @@
      cursor: pointer;
      width: 40px;
      height: 32px;
+     opacity: 0.6;
      margin: auto;
      position: relative;
      float: right;
    }
    header.site-header .site-navigation-bar .toggle-menu .navLogo {
      /*cursor: pointer;*/
-     width: 80px;
+     width: 90px;
      height: 32px;
      margin: auto;
-     margin-top: -10px;
+     opacity: 0.7;
+     margin-top: -28px;
      position: relative;
      float: left;
    }
    header.site-header .site-navigation-bar .toggle-menu .navTrigger i {
-     background-color: #fff;
+     background-color: #000000;
      content: '';
      display: block;
      width: 100%;
