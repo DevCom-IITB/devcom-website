@@ -432,9 +432,9 @@ core-features-instiapp-left:
   icon: pe-7s-date
 
 # Feature
-- name: Timetable
-  description: The user can create his academic timetable (manually, by adding courses) within the app itself. User will get an option to select predefined slots based on the Institute TImetable
-  icon: pe-7s-wristwatch
+- name: People
+  description: This screen shows emergency contacts (ambulance, QRT, etc.). As well as the name, profile pic and phone number for every PoR holder within the institute arranged and shown in a structured manner with a subsection for each council.
+  icon: pe-7s-users
 
 #
 # Core Features Instiapp Right
@@ -443,7 +443,7 @@ core-features-instiapp-right:
 
 # Feature
 - name: Events Feed
-  description: The main feed will have only updates from Users and Entities that a User follows.
+  description: The main feed will have only updates from Users and Entities that a User follows. Also Shows all current popular and upcoming events from major Institute bodies (even if they are not followed by the user).
   icon: pe-7s-signal
 
 # Feature
@@ -453,7 +453,7 @@ core-features-instiapp-right:
 
 # Feature
 - name: Map
-  description: The institute map along with current position and all currently active events visible as clickable icons.
+  description: The institute map along with current position and all currently active events visible as clickable icons.The most helpful map for freshies who just entered the insti.
   icon: pe-7s-map-2
 
 
@@ -471,12 +471,12 @@ core-features-cerium-left:
   icon: pe-7s-diamond
 
 # Feature
-- name: Build
-  description: Run 'yarn' to install dependencies. Start the golang backend on port 8000 and use 'yarn run' to start the development server.Run 'yarn build' in your root directory to create a production ready build.
-  icon: pe-7s-config
+- name: Scheduling
+  description: Has option to schedule the closing of form, removing need for manually closing form at a specific time
+  icon: pe-7s-wristwatch
 
-- name: License
-  description: All code is licensed under the Mozilla Public License 2.0.
+- name: License and Code
+  description: All code is licensed under the Mozilla Public License 2.0. The instructions to deploy and use are provided in the README.md file of project's github repository.
   icon: pe-7s-id
 
 # Feature
@@ -492,17 +492,17 @@ core-features-cerium-right:
 # Feature
 
 - name: Description
-  description: Cerium is a forms application very similar in design to Google forms. The backend for the application is <a href="https://github.com/pulsejet/go-cerium/" target="_blank">go-cerium</a>.
+  description: Cerium is a forms application very similar in design to Google forms. 
   icon: pe-7s-note2
 
 - name: Go Cerium
-  description: go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium.
+  description: go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium. The github repo for the backend can found <a href="https://github.com/pulsejet/go-cerium/" target="_blank">here</a>.
   icon: pe-7s-plugin
 
 # Feature
-- name: Go Cerium Development
-  description: Install dependencies using 'dep ensure' and run the backend with 'go run main.go'. You need to have mongodb running and environment variables set correctly in .env. 
-  icon: pe-7s-tools
+- name: Security and Anonymity
+  description: Uses IITB SSO for authentication of users and authorization of form responses access. Also has an option to enable anonymous filling of form by institute students and one response from each user.
+  icon: pe-7s-door-lock
 
 # Feature
 
