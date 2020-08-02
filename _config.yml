@@ -496,7 +496,7 @@ core-features-cerium-right:
   icon: pe-7s-note2
 
 - name: Go Cerium
-  description: go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium. The github repo for the backend can found <a href="https://github.com/pulsejet/go-cerium/" target="_blank">here</a>.
+  description: go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium. The github repo for the backend can found by the database link provided or <a href="https://github.com/pulsejet/go-cerium/" target="_blank">here</a>.
   icon: pe-7s-plugin
 
 # Feature
