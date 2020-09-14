@@ -578,7 +578,7 @@ core-features-noticeboard-right:
 ongoing-projects-resumeportal-left:
 
 - name: About
-  description: Prometheus, Resume Verification Portal, a portal to streamline the process of verification of resumes and cvs.
+  description: Resume Verification Portal, a portal to streamline the process of verification of resumes and cvs.
   icon: pe-7s-network
 
 - name: Project Scope
@@ -592,7 +592,7 @@ ongoing-projects-resumeportal-left:
 ongoing-projects-resumeportal-right:
 
 - name: Description
-  description: Prometheus is codename for the IITB Resume Verification Portal to automate the process of authentication and verification of resume points, as this process consisted of complex steps earlier.
+  description: RVP is codename for the IITB Resume Verification Portal to automate the process of authentication and verification of resume points, as this process consisted of complex steps earlier.
   icon: pe-7s-note2
 
 - name: Features
