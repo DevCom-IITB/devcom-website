@@ -156,6 +156,20 @@ OverallCoordinators:
     github: 'https://www.github.com/ydidwania'
     linkedin: 'https://www.linkedin.com/in/yashvardhan-didwania-194575160'
 
+  - avatar: e aakash.jpg
+    name: E Aakash
+    tagline: InstiApp Head
+    facebook: 'https://www.facebook.com/09e.aakash'
+    github: 'https://github.com/e-aakash'
+    linkedin: 'https://www.linkedin.com/in/e-aakash'
+
+  - avatar: abeen.jpg
+    name: Abeen Bhattacharya
+    tagline: InstiApp Head
+    facebook: 'http://facebook.com/thenotsodarkknight'
+    github: 'https://github.com/thenotsodarkknight'
+    linkedin: 'https://in.linkedin.com/in/abeenbhattacharya'
+
 ProjectLeads:
   - avatar: rishabh.jpg
     name: Rishabh Arya
@@ -171,35 +185,6 @@ ProjectLeads:
     github: 'https://github.com/srijan2911'
     linkedin: 'https://www.linkedin.com/in/srijan-karn-424083170'
 
-  - avatar: rahul bukte.jpg
-    name: Rahul Bukte
-    tagline: Project Lead
-    facebook: 'https://www.facebook.com/rahul.bukte.5'
-    github: 'https://github.com/RahulB23'
-    linkedin: 'https://www.linkedin.com/in/rahul-bukte-069b3a1b3/'
-
-  - avatar: Aman_Bharti - Aman Bharti.jpg
-    name: Aman Bharti
-    tagline: Project Lead
-    facebook: 'https://www.facebook.com/aman.bharti.315428'
-    github: 'https://github.com/amanbharti008'
-    linkedin: 'https://www.linkedin.com/in/aman-bharti-8327541b3/'
-
-ManagementCoordinators:
-  - avatar: e aakash.jpg
-    name: E Aakash
-    tagline: InstiApp Head
-    facebook: 'https://www.facebook.com/09e.aakash'
-    github: 'https://github.com/e-aakash'
-    linkedin: 'https://www.linkedin.com/in/e-aakash'
-
-  - avatar: abeen.jpg
-    name: Abeen Bhattacharya
-    tagline: InstiApp Head
-    facebook: 'http://facebook.com/thenotsodarkknight'
-    github: 'https://github.com/thenotsodarkknight'
-    linkedin: 'https://in.linkedin.com/in/abeenbhattacharya'
-
   - avatar: akshit.jpg
     name: Akshit Srivastava
     tagline: WnCC Manager
@@ -213,6 +198,24 @@ ManagementCoordinators:
     facebook: 'https://www.facebook.com/latika.patel.526'
     github: 'https://github.com/latika24'
     linkedin: 'https://www.linkedin.com/in/latika-patel-1951b0196/'
+
+  # - avatar: rahul bukte.jpg
+  #   name: Rahul Bukte
+  #   tagline: Project Lead
+  #   facebook: 'https://www.facebook.com/rahul.bukte.5'
+  #   github: 'https://github.com/RahulB23'
+  #   linkedin: 'https://www.linkedin.com/in/rahul-bukte-069b3a1b3/'
+
+  # - avatar: Aman_Bharti - Aman Bharti.jpg
+  #   name: Aman Bharti
+  #   tagline: Project Lead
+  #   facebook: 'https://www.facebook.com/aman.bharti.315428'
+  #   github: 'https://github.com/amanbharti008'
+  #   linkedin: 'https://www.linkedin.com/in/aman-bharti-8327541b3/'
+
+# ManagementCoordinators:
+
+
  
 CoreMembers:
   - avatar: Ayan Agrawal - Ayan Agrawal.jpg
