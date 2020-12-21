@@ -62,7 +62,7 @@
     <div class="row section-features" style="margin-bottom: 70px;">
 
       <div class="col-md-4 phone" style="padding: auto; margin: auto; margin-bottom: 50px;">
-        <img src="/images/logos/gaming_portal.jpg" alt="Gaming Portal"/>
+        <img src="/images/logos/gaming_portal.jpg" alt="Gaming Portal" onclick="game()"/>
       </div>
 
       <div class="col-md-4 phone" style="padding: auto; margin: auto; margin-bottom: 50px;">
@@ -431,6 +431,65 @@
       </div>
     </div>
 
+    <div id="game-modal">
+
+      <div class="game-blocker" onclick="gameclose()"></div>
+
+      <div class="row section-features" id="game-popup">
+
+        <div class="close-button">
+          <button onclick="gameclose()"><i class="fa fa-close"></i></button>
+        </div>
+
+        <div class="col-md-4 col-sm-6 text-left">
+  
+          {% for feature in site.core-features-game-left %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+        <div class="col-md-4 popup" style="padding: auto; margin: auto;">
+          <img src="/images/logos/gaming_portal.jpg" alt="Gaming Portal"/>
+          <div class="logo"><a href="https://games.devcom-iitb.org/" target="_blank"><i class="fa fa-globe browser-icon"></i></a></div>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-right">
+  
+          {% for feature in site.core-features-game-right %}
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          {% endfor %}
+  
+        </div>
+  
+      </div>
+
+    </div>
+
   </div> 
 </section>
 
@@ -501,6 +560,16 @@
 
   function courserankclose() {
     document.getElementById("courserank-modal").style.display = "none";
+    enableScroll();
+  }
+
+  function game() {
+    document.getElementById("game-modal").style.display = "block";
+    disableScroll();
+  }
+
+  function gameclose() {
+    document.getElementById("game-modal").style.display = "none";
     enableScroll();
   }
 

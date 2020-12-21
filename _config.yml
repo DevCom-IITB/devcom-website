@@ -667,6 +667,42 @@ ongoing-projects-courserank-right:
   icon: pe-7s-config
 
 
+#
+# Core Features Game Left
+#
+core-features-game-left:
+
+- name: Features
+  description: Uses SSO for login, allowing authentication of users and allows different options like leaderboard, ideas contribution, and much more to come.
+  icon: pe-7s-diamond
+
+- name: Rating System
+  description: The rating of a player is calculated taking into account his/her performance across all games. Achieving <b>higher scores</b> in each game boosts the rating. <b>Playing more games</b> also helps in maintaining the rating<b>However, there's a catch!</b> Long streaks without improving one's highscore in a game may decrease the rating as well.
+  icon: pe-7s-star
+
+- name: Contribution
+  description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+  icon: pe-7s-users
+
+#
+# Core Features Game Right
+#
+core-features-game-right:
+
+- name: Description
+  description: Where you Imagine, we create!, Gaming portal is a great place to enjoy, compete via games and also to suggest your own ideas for creation of different games.
+  icon: pe-7s-news-paper
+
+- name: For IITB Folks
+  description: A place for everyone to relax, chill and get nostalgic while playing some of the classical hits!. A step towards making an environment for insti junta to be able to get together and play together in a centralized way.
+  icon: pe-7s-medal
+
+- name: Games
+  description: Play arcade, action, puzzle, racing and other fun games. Just dive in and choose what you want to play. For an even more exciting experience, challenge your friends and beat that high score!
+  icon: pe-7s-joy
+
+
+
 #####################################
 ############# Our Blog ##############
 #####################################

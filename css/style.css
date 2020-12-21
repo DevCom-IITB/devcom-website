@@ -4693,6 +4693,85 @@ section.parallax-features-section #courserank-popup .close-button button{
 section.parallax-features-section #courserank-popup .close-button i{
   transform: scale(3.5);
 }
+
+/* Gaming Portal Styles */
+
+section.parallax-features-section #game-modal {
+  display: none;
+}
+
+section.parallax-features-section #game-modal .game-blocker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: ' ';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 9999999;
+}
+
+section.parallax-features-section #game-popup {
+  display: block;
+  position: fixed;
+  top: -80px;
+  left: 0;
+  right: 0;
+  border-radius: 50px;
+
+  background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+  z-index: 99999999; 
+  transform: scale(0.85);
+
+}
+
+section.parallax-features-section #game-popup .popup {
+  margin: 0px auto;
+  align-items: center;
+}
+
+section.parallax-features-section #game-popup .popup img {
+  border-radius: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+section.parallax-features-section #game-popup .popup .logo {
+  margin-top: 60px;
+  padding: auto;
+  text-align: center;
+}
+
+section.parallax-features-section #game-popup .popup .logo i {
+  transform: scale(4);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+section.parallax-features-section #game-popup .close-button {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+section.parallax-features-section #game-popup .close-button button{
+  border: none;
+  background:  rgba(0,0,0,0);
+  transform: scale(0.7);
+  float: right;
+}
+
+section.parallax-features-section #game-popup .close-button i{
+  transform: scale(3.5);
+}
+
  /* Added codes end here 
  .
  .
@@ -5167,6 +5246,67 @@ section.parallax-features-section #courserank-popup .close-button i{
     margin-top: 50px !important;
   }
 
+  /* Gaming Portal */
+
+  section.parallax-features-section #game-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: 9999999;
+  }
+
+  section.parallax-features-section #game-popup {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: auto;
+    margin-top: auto;
+    border-radius: 50px;
+
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+    z-index: 99999999; 
+    transform: scale(0.85);
+  }
+
+  section.parallax-features-section #game-popup .popup {
+    transform: scale(0.5);
+  }
+
+  section.parallax-features-section #game-popup .popup img {
+    display: none;
+    width: 0;
+  }
+
+  section.parallax-features-section #game-popup .popup .logo {
+    margin-top: 20px;
+    padding: auto;
+  }
+
+  section.parallax-features-section #game-popup .popup .logo i {
+    position: relative;
+    left: -200px;
+    transform: scale(8);
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  section.parallax-features-section #game-popup .close-button {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  section.parallax-features-section #game-popup .close-button button{
+    transform: scale(0.7);
+    float: right;
+  }
+
    /* Added codes end here 
    .
    .
@@ -5599,6 +5739,82 @@ section.parallax-features-section #courserank-popup .close-button i{
     transform: scale(0.75);
     float: right;
   }
+
+  /* Gaming Portal */
+
+  section.parallax-features-section #game-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: 9999999;
+  }
+
+
+  section.parallax-features-section #game-popup {
+    display: block;
+    position: fixed;
+    top: 5vh;
+    left: auto;
+    right: auto;
+    margin-top: 0;
+    border-radius: 50px;
+
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+    z-index: 99999999; 
+    transform: scale(0.75);
+  }
+
+  section.parallax-features-section #game-popup .popup {
+    transform: scale(0.5);
+  }
+
+  section.parallax-features-section #game-popup .popup img {
+    display: none;
+    width: 0;
+  }
+
+  section.parallax-features-section #game-popup .popup .logo {
+    text-align: center;
+    margin-top: 20px;
+    padding: auto;
+  }
+
+  section.parallax-features-section #game-popup .popup .logo i {
+    position: fixed;
+    left: auto;
+    right: auto;
+    transform: scale(10);
+  }
+
+  /* Extra Code Required for Mobile View*/
+  /* section.parallax-features-section #game-popup .popup .logo .github-icon{
+    position: relative;
+    left: -100px;
+  } */
+
+  section.parallax-features-section #game-popup .popup .logo i.browser-icon {
+   position: relative;
+   left: -30px;
+ }
+  /* Extra code end */
+
+  section.parallax-features-section #game-popup .close-button {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  section.parallax-features-section #game-popup .close-button button{
+    background: rgba(0,0,0,0);
+    transform: scale(0.75);
+    float: right;
+  }
+
    /* Added codes end here 
    .
    .

@@ -200,7 +200,7 @@
     <div class="row section-features" style="margin-bottom: 70px;">
 
       <div class="col-md-4 phone" style="padding: auto; margin: auto; margin-bottom: 50px;">
-        <img src="/images/logos/gaming_portal.jpg" alt="Gaming Portal"/>
+        <img src="/images/logos/gaming_portal.jpg" alt="Gaming Portal" onclick="game()"/>
       </div>
 
       <div class="col-md-4 phone" style="padding: auto; margin: auto; margin-bottom: 50px;">
@@ -905,6 +905,121 @@
       </div>
     </div>
 
+    <div id="game-modal">
+
+      <div class="game-blocker" onclick="gameclose()"></div>
+
+      <div class="row section-features" id="game-popup">
+
+        <div class="close-button">
+          <button onclick="gameclose()"><i class="fa fa-close"></i></button>
+        </div>
+
+        <div class="col-md-4 col-sm-6 text-left">
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Features</h3>
+              <p>Uses SSO for login, allowing authentication of users and allows different options like leaderboard, ideas contribution, and much more to come.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-diamond child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Rating System</h3>
+              <p>The rating of a player is calculated taking into account his/her performance across all games. Achieving <b>higher scores</b> in each game boosts the rating. <b>Playing more games</b> also helps in maintaining the rating<b>However, there's a catch!</b> Long streaks without improving one's highscore in a game may decrease the rating as well.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-star child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Contribution</h3>
+              <p>This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-users child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+        </div>
+  
+        <div class="col-md-4 popup" style="padding: auto; margin: auto;">
+          <img src="/images/logos/gaming_portal.jpg" alt="Gaming Portal"/>
+          <div class="logo"><a href="https://games.devcom-iitb.org/" target="_blank"><i class="fa fa-globe browser-icon"></i></a></div>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 text-right">
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Description</h3>
+              <p>Where you Imagine, we create!, Gaming portal is a great place to enjoy, compete via games and also to suggest your own ideas for creation of different games.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-news-paper child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>For IITB Folks</h3>
+              <p>A place for everyone to relax, chill and get nostalgic while playing some of the classical hits!. A step towards making an environment for insti junta to be able to get together and play together in a centralized way.</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-medal child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>Games</h3>
+              <p>Play arcade, action, puzzle, racing and other fun games. Just dive in and choose what you want to play. For an even more exciting experience, challenge your friends and beat that high score!</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="pe-7s-joy child-center"></i>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+        </div>
+  
+      </div>
+
+    </div>
+
   </div> 
 </section>
 
@@ -975,6 +1090,16 @@
 
   function courserankclose() {
     document.getElementById("courserank-modal").style.display = "none";
+    enableScroll();
+  }
+
+  function game() {
+    document.getElementById("game-modal").style.display = "block";
+    disableScroll();
+  }
+
+  function gameclose() {
+    document.getElementById("game-modal").style.display = "none";
     enableScroll();
   }
 
