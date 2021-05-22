@@ -1,0 +1,639 @@
+#
+# Sera - OnePage Jekyll Template
+# Configuration File
+#
+
+# Information for compile
+exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "README.md"]
+
+#
+# If your website is placed in a separate folder on your server please modify
+# this with your folder name, by default is empty.
+# Example: Sera Demo is hosted on projects.gleesik.ro/sera-onepage
+# If I compile Sera Template and I put in /sera-onepage without modifing baseurl
+# than scripts can't be loaded corectly.
+# For this example my site url is: projects.gleesik.ro (This can be just www.example.com)
+# My folder for Demo Website is: /sera-onepage so baseurl: /sera-onepage
+#
+baseurl:
+
+# the base hostname & protocol for your site
+url: "http://localhost:3000"
+
+####################################
+######   Optional Features    ######
+####################################
+smooth-scroll: True
+
+####################################
+###########   Plugins    ###########
+####################################
+plugins:
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+
+jekyll-archives:
+  enabled:
+    # - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    # category: '/category/:name/'
+    tag: '/tag/:name/'
+
+#######################################################
+#######################################################
+###############   HEADER INFORMATIONS   ###############
+#######################################################
+#######################################################
+
+# This is your site title
+title: DevCom IITB
+# Website language
+lang: en-US
+# Header Title
+header-title: DevCom IITB
+# Header Tagline
+headter-tagline: I built this
+
+####################################
+######   CTA Header Buttons   ######
+####################################
+
+# Focus Buttons
+header-focus-button:
+  title: Blog
+  url: https://cybercodebear.github.io/blog.html # test
+
+#
+# This is your email adress, contact from send here all emails from contact section
+# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
+# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
+#
+email: alexjamesdesmond@gmail.com
+
+# Offer Banner Link
+# Default link is a link to all Sera OnePage products
+banner-link: https://cybercodebear.github.io
+
+####################################
+######  Global Social Links   ######
+####################################
+linkedin: 'https://www.linkedin.com/company/devcom-iit-bombay/'
+facebook: 'https://www.facebook.com/devcom.iitbombay/'
+# github: 'https://github.com/devcomiitb'
+email: 'mailto:devcom@iitb.ac.in'
+
+#########################
+######   Widgets   ######
+#########################
+
+#
+# About Blog Author Widget
+#
+about-widget:
+  author-avatar: codebear.jpg
+  author-name: Alex Desmond
+  author-tagline: Hobbyist
+  author-info: Interested in infosec both at work and home.
+  author-social-links:
+    youtube: 'https://www.youtube.com/channel/UC5JmJiob-C9u9tWhRXD-rag'
+    twitter: 'https://twitter.com/cybercodebear'
+    reddit: 'https://www.reddit.com/user/alexjamesdesmond/'
+    linkedin: 'https://www.linkedin.com/in/alexjamesdesmond/'
+
+####
+#
+# Hi you now use Sera - OnePage Jekyll Template created by Gleesik™
+#
+# Below are each section from the website in order from top to bottom
+# @TODO Edit each sections with your real information and each section from Sera will autocomplete with your information
+#
+####
+
+#####################################
+#############   About   #############
+#####################################
+# about-title:
+about-description: This is the official page for the Developers' Community of IIT Bombay. Envisioned as a group of the best developers in the Institute, the team is responsible for developing and maintaining InstiApp, and other dev/tech related projects in the Institute.
+
+#####################################
+##########     Features    ##########
+#####################################
+features-title: Features
+features-description: ...features...
+
+features:
+  - icon: pe-7s-vector
+    title: test1
+    description: test
+
+  - icon: pe-7s-help2
+    title: test2
+    description: test
+
+  - icon: pe-7s-airplay
+    title: test3
+    description: test
+
+#####################################
+##########       Team      ##########
+#####################################
+team-title: Team
+team-description: 
+
+OverallCoordinators:
+  - avatar: TezanSahu - Tezan Sahu.jpg
+    name: Tezan Sahu
+    tagline: Overall Coordinator
+    facebook: 'https://www.facebook.com/tezan.sahu.3'
+    github: 'https://github.com/tezansahu'
+    linkedin: 'https://www.linkedin.com/in/tezan-sahu/'
+
+  - avatar: yashwardhan.jpg
+    name: Yashwardhan Didwania
+    tagline: Overall Coordinator
+    facebook: 'https://www.facebook.com/ydidwania'
+    github: 'https://www.github.com/ydidwania'
+    linkedin: 'https://www.linkedin.com/in/yashvardhan-didwania-194575160'
+
+  - avatar: e aakash.jpg
+    name: E Aakash
+    tagline: InstiApp Head
+    facebook: 'https://www.facebook.com/09e.aakash'
+    github: 'https://github.com/e-aakash'
+    linkedin: 'https://www.linkedin.com/in/e-aakash'
+
+  - avatar: abeen.jpg
+    name: Abeen Bhattacharya
+    tagline: InstiApp Head
+    facebook: 'http://facebook.com/thenotsodarkknight'
+    github: 'https://github.com/thenotsodarkknight'
+    linkedin: 'https://in.linkedin.com/in/abeenbhattacharya'
+
+ProjectLeads:
+  - avatar: rishabh.jpg
+    name: Rishabh Arya
+    tagline: Project Lead
+    facebook: 'https://www.facebook.com/rishabh.arya.9822924'
+    github: 'https://github.com/arya2331'
+    linkedin: 'https://www.linkedin.com/in/rishabh-arya-99a37a145/'
+
+  - avatar: srijan karn.jpg
+    name: Srijan Karn
+    tagline: Project Lead
+    facebook: 'https://m.facebook.com/profile.php?id=100004023687791&ref=content_filter'
+    github: 'https://github.com/srijan2911'
+    linkedin: 'https://www.linkedin.com/in/srijan-karn-424083170'
+
+  - avatar: akshit.jpg
+    name: Akshit Srivastava
+    tagline: WnCC Manager
+    facebook: 'https://www.facebook.com/akshit1511'
+    github: 'https://github.com/akshitt'
+    linkedin: 'https://www.linkedin.com/in/akshit-srivastava/'
+
+  - avatar: latika.jpg
+    name: Latika Patel
+    tagline: WnCC Manager
+    facebook: 'https://www.facebook.com/latika.patel.526'
+    github: 'https://github.com/latika24'
+    linkedin: 'https://www.linkedin.com/in/latika-patel-1951b0196/'
+
+  # - avatar: rahul bukte.jpg
+  #   name: Rahul Bukte
+  #   tagline: Project Lead
+  #   facebook: 'https://www.facebook.com/rahul.bukte.5'
+  #   github: 'https://github.com/RahulB23'
+  #   linkedin: 'https://www.linkedin.com/in/rahul-bukte-069b3a1b3/'
+
+  # - avatar: Aman_Bharti - Aman Bharti.jpg
+  #   name: Aman Bharti
+  #   tagline: Project Lead
+  #   facebook: 'https://www.facebook.com/aman.bharti.315428'
+  #   github: 'https://github.com/amanbharti008'
+  #   linkedin: 'https://www.linkedin.com/in/aman-bharti-8327541b3/'
+
+# ManagementCoordinators:
+
+
+ 
+CoreMembers:
+ CoreMembers:
+  - avatar: Kaustav Prasad.jpg
+    name: Kaustav Prasad
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/kaustav.prasad'
+    github: 'https://www.facebook.com/kaustav.prasad'
+    linkedin: 'https://www.linkedin.com/in/kaustav-p-a92680128/'
+
+  - avatar: Palash Mittal.jpg
+    name: Palash Mittal
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/palash.mittal.5/'
+    github: 'https://github.com/PalMit2002'
+    linkedin: 'https://www.linkedin.com/in/palash-mittal-4224761bb/'
+
+  - avatar: Parth Dwivedi.jpeg
+    name: Parth Dwivedi
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/parth.dwivedi.3114'
+    github: 'https://github.com/ParthDwivedi1/'
+    linkedin: 'https://www.linkedin.com/in/parth-dwivedi-284928212/
+'
+
+  - avatar: Prakriti Shetty.jpg
+    name: Prakriti Shankar Shetty
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/prakriti.shetty02'
+    github: 'https://github.com/PrakritiShetty'
+    linkedin: 'www.linkedin.com/in/prakriti-shetty'
+
+  - avatar: Pranav Singla.jpg
+    name: Pranav Singla
+    tagline: Core Member
+    facebook: 'https://touch.facebook.com/pranav.singla.906?lst=100056221531552%3A100056221531552%3A1621579227
+'    github: 'https://github.com/pranavsingla'
+    linkedin: 'https://www.linkedin.com/in/pranav-singla-171690202/'
+
+  
+  
+
+#####################################
+##########     Portfolio    ##########
+#####################################
+# portfolio-title: Projects
+# portfolio-description: ...projects...
+
+# portfolio-categories:
+#   - Websites
+#   - Android
+#   - iOS
+#   - Logo
+#   - Graphic Design
+#   - Video
+
+# portfolio:
+#   - title: InstiApp
+#     categories:
+#       - Android
+#       - iOS
+#       - Websites
+#     url: #add url
+#     image: img-05.jpg
+
+#   - title: test2
+#     categories:
+#       - Logo
+#       - Video
+#       - Websites
+#     url: #add url
+#     image: img-01.jpg
+
+#   - title: test3
+#     categories:
+#       - Android
+#       - Graphic Design
+#       - Websites
+#     url: #add url
+#     image: img-02.jpg
+
+#   - title: test4
+#     categories:
+#       - Android
+#       - iOS
+#       - Websites
+#     url: #add url
+#     image: img-03.jpg
+
+#   - title: test5
+#     categories:
+#       - Video
+#       - iOS
+#       - Logo
+#     url: #add url
+#     image: img-04.jpg
+
+#   - title: test6
+#     categories:
+#       - Graphic Design
+#       - Video
+#       - Websites
+#     url: #add url
+#     image: img-08.jpg
+
+#####################################
+##########  Core Features  ##########
+#####################################
+core-title: Projects
+core-description: 'Over the course of time, the team has been developing & maintaining several projects. Tech projects that have been successfully completed by DevCom include InstiApp, Cerium and RPI Noticeboard. Details about each of them can be found below:'
+
+instiapp-github: 'https://github.com/wncc/instiapp-android'
+cerium-github:  'https://github.com/pulsejet/cerium'
+noticeboard-github: 'https://github.com/MayuBhattu/RPI_Modified'
+instiapp-site: 'https://www.insti.app/'
+cerium-database: 'https://github.com/pulsejet/go-cerium/'
+
+#
+# Core Features Instiapp Left
+#
+core-features-instiapp-left:
+
+# Feature
+- name: Mess Menu
+  description: The mess menu for all hostels is available as a list (with the user’s hostel’s current day menu occupying the top position)
+  icon: pe-7s-coffee
+
+# Feature
+- name: Calendar
+  description: The Calendar for the major bodies (Cult/Tech/any other body with a public calendar) will be available under this heading.
+  icon: pe-7s-date
+
+# Feature
+- name: People
+  description: This screen shows emergency contacts (ambulance, QRT, etc.). As well as the name, profile pic and phone number for every PoR holder within the institute arranged and shown in a structured manner with a subsection for each council.
+  icon: pe-7s-users
+
+#
+# Core Features Instiapp Right
+#
+core-features-instiapp-right:
+
+# Feature
+- name: Events Feed
+  description: The main feed will have only updates from Users and Entities that a User follows. Also Shows all current popular and upcoming events from major Institute bodies (even if they are not followed by the user).
+  icon: pe-7s-signal
+
+# Feature
+- name: Placement Blog
+  description: The Placement/Training blog is available inside the app with the option to get notifications for All posts / posts with certain keywords.
+  icon: pe-7s-news-paper
+
+# Feature
+- name: Map
+  description: The institute map along with current position and all currently active events visible as clickable icons.The most helpful map for freshies who just entered the insti.
+  icon: pe-7s-map-2
+
+
+#
+# Core Features Cerium Left
+#
+core-features-cerium-left:
+
+# Feature
+
+
+# Feature
+- name: Features
+  description: Uses SSO for login, allowing authentication of users of the form, allows anonymous forms, and also has feature of scheduling or closing of a form.
+  icon: pe-7s-diamond
+
+# Feature
+- name: Scheduling
+  description: Has option to schedule the closing of form, removing need for manually closing form at a specific time
+  icon: pe-7s-wristwatch
+
+- name: License and Code
+  description: All code is licensed under the Mozilla Public License 2.0. The instructions to deploy and use are provided in the README.md file of project's github repository.
+  icon: pe-7s-id
+
+# Feature
+# - name: Reporting
+#   description: Experienced writing reports conveying strategic risk based on technical vulnerabilities and exploits.
+#   icon: pe-7s-file
+
+#
+# Core Features Cerium Right
+#
+core-features-cerium-right:
+
+# Feature
+
+- name: Description
+  description: Cerium is a forms application very similar in design to Google forms. 
+  icon: pe-7s-note2
+
+- name: Go Cerium
+  description: go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium. The github repo for the backend can found by the database link provided or <a href="https://github.com/pulsejet/go-cerium/" target="_blank">here</a>.
+  icon: pe-7s-plugin
+
+# Feature
+- name: Security and Anonymity
+  description: Uses IITB SSO for authentication of users and authorization of form responses access. Also has an option to enable anonymous filling of form by institute students and one response from each user.
+  icon: pe-7s-door-lock
+
+# Feature
+
+
+# Feature
+# - name: Incident Response
+#   description: Can function in the technical or the governance space when responding to cyber incidents.
+#   icon: pe-7s-bandaid
+
+
+#
+# Core Features Noticeboard Left
+#
+core-features-noticeboard-left:
+
+# Feature
+
+
+# Feature
+
+- name: "File: config.json"
+  description: Helps you define the configuration for how you want the images to appear on the TV.
+  icon: pe-7s-config
+  
+- name: "File: fetch.py"
+  description:  A Python script that runs in the background and periodically fetches images from the server. We set up a cron job for this.
+  icon: pe-7s-loop
+
+# Feature
+- name: "File: gui.py"
+  description: The main script that runs on boot and occupies the foreground. This displays the images on the TV.
+  icon: pe-7s-monitor
+
+# Feature
+# - name: Reporting
+#   description: Experienced writing reports conveying strategic risk based on technical vulnerabilities and exploits.
+#   icon: pe-7s-file
+
+#
+# Core Features Noticeboard Right
+#
+core-features-noticeboard-right:
+
+# Feature
+
+- name: Description
+  description: Scripts to fetch and display images on a TV and also allows users to setup configuration how you want the images to appear on the TV.
+  icon: pe-7s-note2
+
+# Feature
+- name: Setup 
+  description: Install a standard Raspbian OS on the RPi and configure the RPi to connect to internet. Follow the steps in README.md of the RPi Noticeboard github repo.
+  icon: pe-7s-tools
+
+# Feature
+- name: Features
+  description: Bash Scripting, Python Scripts, and JSON Configuration files to fetch and show images of your choice on TV.
+  icon: pe-7s-photo
+
+
+
+# Feature
+# - name: Incident Response
+#   description: Can function in the technical or the governance space when responding to cyber incidents.
+#   icon: pe-7s-bandaid
+
+#############################
+##### Ongoing Projects ######
+#############################
+
+###### Resume Verification Portal #########
+
+ongoing-projects-resumeportal-left:
+
+- name: About
+  description: Resume Verification Portal, a portal to streamline the process of verification of resumes and cvs.
+  icon: pe-7s-network
+
+- name: Project Scope
+  description: This project is being developed in coordination with the Placement Cell of IITB, to be used by it's members and secretaries for the verification of points mentioned in resumes.
+  icon: pe-7s-note2
+
+- name: Contribution
+  description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+  icon: pe-7s-users
+
+ongoing-projects-resumeportal-right:
+
+- name: Description
+  description: RVP is codename for the IITB Resume Verification Portal to automate the process of authentication and verification of resume points, as this process consisted of complex steps earlier.
+  icon: pe-7s-note2
+
+- name: Features
+  description: This portal allows admins to access the certifications and proof for the points mentioned in one's resume and then transfer the details to the students.
+  icon: pe-7s-gleam
+
+- name: Development
+  description: The application is being developed using Angular (for the interface) & nodeJS (for the backend).
+  icon: pe-7s-config
+
+###### Atlas Hostel Management Portal #########
+
+ongoing-projects-atlas-left:
+
+- name: About
+  description: Atlas, IITB Hostel Management Portal, a project to automate the process of hostel and rooms allotment.
+  icon: pe-7s-network
+
+- name: Project Scope
+  description: This project is being developed in coordination with the Hostel Affairs Council, to be used my Hostel GSecs, Wardens, Hall Managers, GSHA, DoSA & HCU Office.
+  icon: pe-7s-note2
+
+- name: Contribution
+  description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+  icon: pe-7s-users
+
+ongoing-projects-atlas-right:
+
+- name: Description
+  description: Atlas is codename for the IITB Hostel Management Portal to streamline the process of allotment of hostels & rooms for the students as well as maintenance of the rooms by respective admins. 
+  icon: pe-7s-note2
+
+- name: Features
+  description: This portal allows admins to allocate rooms to hostelites, view the details after allocation on detailed hostel floor plans, tag vacant rooms for various purposes & view the full history of a student’s stay in the institute hostels.
+  icon: pe-7s-gleam
+
+- name: Development
+  description: The application is being developed using Angular (for the interface) & FastAPI (for the backend).
+  icon: pe-7s-config
+
+###### CourseRank #########
+
+ongoing-projects-courserank-left:
+
+- name: About
+  description: This project aims to create a separate portal that displays reviews on courses given by students who have already completed that course.
+  icon: pe-7s-network
+
+- name: Project Scope
+  description: This project is being developed in coordination with the Institute Academic Council and various other councils which focuses providing information regarding academics to students.
+  icon: pe-7s-note2
+
+- name: Contribution
+  description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+  icon: pe-7s-users
+
+ongoing-projects-courserank-right:
+
+- name: Description
+  description: CourseRank is the IMDB of courses which shows details, ratings, reviews (by the students), etc of all the courses provided buy the institute. 
+  icon: pe-7s-note2
+
+- name: Extra Features
+  description: This portal also have extra features such as rating of a course, likes on a review and course, description of course, etc.
+  icon: pe-7s-gleam
+
+- name: Development
+  description: The application is being developed using Django Templates (for the interface) & Django (for the backend).
+  icon: pe-7s-config
+
+
+#
+# Core Features Game Left
+#
+core-features-game-left:
+
+- name: Features
+  description: Uses SSO for login, allowing authentication of users and allows different options like leaderboard, ideas contribution, and much more to come.
+  icon: pe-7s-diamond
+
+- name: Rating System
+  description: The rating of a player is calculated taking into account his/her performance across all games. Achieving <b>higher scores</b> in each game boosts the rating. <b>Playing more games</b> also helps in maintaining the rating<b>However, there's a catch!</b> Long streaks without improving one's highscore in a game may decrease the rating as well.
+  icon: pe-7s-star
+
+- name: Contribution
+  description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+  icon: pe-7s-users
+
+#
+# Core Features Game Right
+#
+core-features-game-right:
+
+- name: Description
+  description: Where you Imagine, we create!, Gaming portal is a great place to enjoy, compete via games and also to suggest your own ideas for creation of different games.
+  icon: pe-7s-news-paper
+
+- name: For IITB Folks
+  description: A place for everyone to relax, chill and get nostalgic while playing some of the classical hits!. A step towards making an environment for insti junta to be able to get together and play together in a centralized way.
+  icon: pe-7s-medal
+
+- name: Games
+  description: Play arcade, action, puzzle, racing and other fun games. Just dive in and choose what you want to play. For an even more exciting experience, challenge your friends and beat that high score!
+  icon: pe-7s-joy
+
+
+
+#####################################
+############# Our Blog ##############
+#####################################
+blog-title: Blog
+blog-description: Check out some of the recent posts that I've put together. Want to know something then send me a suggestion.
+
+#####################################
+############   Contact   ############
+#####################################
+contact-title: Contact
+contact-description: Have a suggestion for a topic? Have an opportunity that you want to share? Just want to ask a question? This is the place!
+
+
+#####################################
+#############   Footer   ############
+#####################################
+footer-description: You've managed to reach to bottom of my page. Hope it was bearable.
+footer-copyright-text: Copyright 2020, DevCom IIT Bombay.
+#footer-copyright-url: http://gleesik.ro/
+#footer-copyright-year: 2016
