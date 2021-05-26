@@ -4,7 +4,7 @@
 #
 
 # Information for compile
-exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "README.md"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "README.md", "vendor"]
 
 #
 # If your website is placed in a separate folder on your server please modify
@@ -218,131 +218,92 @@ ProjectLeads:
 
  
 CoreMembers:
-  - avatar: Ayan Agrawal - Ayan Agrawal.jpg
-    name: Ayan Agarwal
+  - avatar: Adithya Krishna K.jpg
+    name: K Adithya Krishna
     tagline: Core Member
-    facebook: 'https://m.facebook.com/ayan.agrawal'
-    github: 'https://github.com/ayan312002'
-    linkedin: 'https://www.linkedin.com/in/ayan-agrawal-575966192'
+    facebook: 'https://www.facebook.com/adithya.krishna.1612'
+    github: 'https://github.com/AdithyaKrishnaK'
+    linkedin: 'https://www.linkedin.com/in/k-adithya-krishna-29a13620a/'
 
-  - avatar: adarsh.jpg
-    name: Adarsh Raj
+  - avatar: Aditya Sharma.jpg
+    name: Aditya Sharma
     tagline: Core Member
-    facebook: 'https://www.facebook.com/profile.php?id=100038153580563'
-    github: 'https://github.com/adarsh0raj'
-    linkedin: 'https://www.linkedin.com/mwlite/in/adarsh-raj-319418192'
+    facebook: 'https://www.facebook.com/profile.php?id=100015386648129'
+    github: 'https://github.com/adityasharma1306'
+    linkedin: 'https://www.linkedin.com/in/aditya-sharma-60b8081a8/'
 
-  - avatar: profile3 - Sahasra Ranjan.jpg
-    name: Sahasra Ranjan
+  - avatar: Ashwin Ram.jpg
+    name: Ashwin Ramachandran
     tagline: Core Member
-    facebook: 'https://www.facebook.com/sahasra.ranjan/'
-    github: 'https://github.com/sahasrarjn/'
-    linkedin: 'https://www.linkedin.com/in/sahasra-ranjan-2478521a6/'
+    facebook: 'https://www.facebook.com/ashwin.ram.545/'
+    github: 'https://github.com/AshwinRamachandran2002'
+    linkedin: 'http://www.linkedin.com/in/ashwin-ramachandran-042152204'
 
-  - avatar: IMG-20200101-WA0074 - Divyanshi kamra.jpg
-    name: Divyanshi Kamra
+  - avatar: ayush kapoor.jpg
+    name: Ayush Kapoor
     tagline: Core Member
-    facebook: 'https://www.facebook.com/divyanshi.kamra.7'
-    github: 'https://github.com/divyanshikamra/'
-    linkedin: 'https://www.linkedin.com/company/devcom-iit-bombay/about/'
+    facebook: 'https://www.facebook.com/ayush.kapoor.92317'
+    github: 'https://github.com/ayushk26'
+    linkedin: 'https://www.linkedin.com/in/ayush-kapoor-16246b207'
 
-  - avatar: AnaghaSavit.jpg
-    name: Anagha Savit
+  - avatar: Gauri Baheti.jpg
+    name: Gauri Baheti 
     tagline: Core Member
-    facebook: 'https://www.facebook.com/anagha.savit'
-    github: 'https://github.com/anaghasavit'
-    linkedin: 'https://www.linkedin.com/in/anagha-savit-51b6821b3/'
+    facebook: 'http://facebook.com/gauri.baheti.31/'
+    github: 'http://github.com/gauribaheti'
+    linkedin: 'http://linkedin.com/in/gauri-baheti-105692202/'
 
-  - avatar: 20190824_124036 - Aaron Jerry Ninan.jpg
-    name: Aaron Jerry Ninan
+  - avatar: Hardik Rajpal.png
+    name: Hardik Rajpal
     tagline: Core Member
-    facebook: 'https://www.facebook.com/aaron.jerryninan.5'
-    github: 'https://github.com/aaroncodebro'
-    linkedin: 'https://www.linkedin.com/in/aaron-jerry-ninan-b5530618b/'
+    facebook: 'https://www.facebook.com/profile.php?id=100009137745961'
+    github: 'https://github.com/hardik-rajpal'
+    linkedin: 'https://www.linkedin.com/feed/'
 
-  - avatar: Satdhruti Paul - Satdhruti Paul.jpg
-    name: Satdhruti Paul
+  - avatar: Harsh Jha.png
+    name: Harsh Jha
     tagline: Core Member
-    facebook: 'https://www.facebook.com/satdhruti.paul.33/'
-    github: 'https://github.com/ricky421'
-    linkedin: 'https://www.linkedin.com/in/satdhruti-paul-78010a192/'
+    facebook: 'https://www.facebook.com/profile.php?id=100009067948475'
+    github: 'http://github.com/harsh-kr-jha'
+    linkedin: 'www.linkedin.com/in/harsh-kr-jha'
 
-  - avatar: aditya - ADITYA RAJ SINGH UDAWAT.jpg
-    name: Aditya Raj Singh
-    tagline: Core Member
-    facebook: 'https://www.facebook.com/adityaraj.singhudawat.9'
-    github: 'https://github.com/Aditya2151'
-    linkedin: 'https://www.linkedin.com/in/aditya-raj-singh-udawat-0a24b6194'
+  - avatar: Kaustav Prasad.jpg
+    name: Kaustav Prasad
+    tagline: Core Members
+    facebook: 'https://www.facebook.com/kaustav.prasad'
+    github: 'https://www.facebook.com/kaustav.prasad'
+    linkedin: 'https://www.linkedin.com/in/kaustav-p-a92680128/'
 
-  - avatar: IMG-20200709-WA0006 - Jayesh Singla.jpg
-    name: Jayesh Singla
+  - avatar: Palash Mittal.jpg
+    name: Palash Mittal
     tagline: Core Member
-    facebook: 'https://m.facebook.com/profile.php?id=100008085613094'
-    github: 'https://github.com/jayeshs999'
-    linkedin: 'https://www.linkedin.com/in/jayesh-singla-684b3b1b0'
+    facebook: 'https://www.facebook.com/palash.mittal.5/'
+    github: 'https://github.com/PalMit2002'
+    linkedin: 'https://www.linkedin.com/in/palash-mittal-4224761bb/'
 
-  - avatar: DevDesai.jpg
-    name: Dev Moxaj Desai
+  - avatar: Parth Dwivedi.jpeg
+    name: Parth Dwivedi
     tagline: Core Member
-    facebook: 'https://m.facebook.com/dev.desai.77920?ref=bookmarks'
-    github: 'https://github.com/dev9318'
-    linkedin: 'https://www.linkedin.com/mwlite/in/dev-desai-a58860194'
+    facebook: 'https://www.facebook.com/parth.dwivedi.3114'
+    github: 'https://github.com/ParthDwivedi1/'
+    linkedin: 'https://www.linkedin.com/in/parth-dwivedi-284928212/'
 
-  - avatar: amanSingh - Aman Singh.jpg
-    name: Aman Singh
+  - avatar: Prakriti Shetty.jpg
+    name: Prakriti Shankar Shetty
     tagline: Core Member
-    facebook: 'https://www.facebook.com/aman.singh.7297351'
-    github: 'https://github.com/feyn-aman'
-    linkedin: 'https://www.linkedin.com/in/aman-singh-b37a85176/'
+    facebook: 'https://www.facebook.com/prakriti.shetty02'
+    github: 'https://github.com/PrakritiShetty'
+    linkedin: 'www.linkedin.com/in/prakriti-shetty'
 
-  - avatar: devansh jain.jpg
-    name: Devansh Jain
+  - avatar: Pranav Singla.jpeg
+    name: Pranav Singla
     tagline: Core Member
-    facebook: 'https://www.facebook.com/devansh.jain.777/'
-    github: 'https://github.com/DEVANSH-DVJ'
-    linkedin: 'https://www.linkedin.com/in/devansh-jain-0517461a9/'
+    facebook: 'https://touch.facebook.com/pranav.singla.906?lst=100056221531552%3A100056221531552%3A1621579227'  
+    github: 'https://github.com/pranavsingla'
+    linkedin: 'https://www.linkedin.com/in/pranav-singla-171690202/'
 
-  - avatar: vibhav - Vibhav Aggarwal.jpg
-    name: Vibhav Aggarwal
-    tagline: Core Member
-    facebook: 'https://www.facebook.com/vibhav.aggarwal.7/'
-    github: 'https://github.com/vibhav011'
-    linkedin: 'https://www.linkedin.com/in/vibhav-a-55a668113'
-
-  - avatar: bhavnoor copy - Bhavnoor Singh Marok.jpg
-    name: Bhavnoor Singh Marok
-    tagline: Core Member
-    facebook: 'https://www.facebook.com/bhavnoorsingh.marok.7'
-    github: 'https://github.com/bhavnoormarok'
-    linkedin: 'https://www.linkedin.com/in/bhavnoor-singh-marok-894277193/'
-
-  - avatar: IMG_20200116_004154 - Abhinav Gupta.jpg
-    name: Abhinav Gupta
-    tagline: Core Member
-    facebook: 'https://m.facebook.com/abhinav.gupta.35762'
-    github: 'https://github.com/abhi-cloud'
-    linkedin: 'https://www.linkedin.com/in/abhinav-gupta-a64874192'
-
-  - avatar: Arvind - Arvind Murali.jpg
-    name: Arvind Murali
-    tagline: Core Member
-    facebook: 'https://www.facebook.com/arvindmurali01'
-    github: 'https://github.com/ArvindMurali2001'
-    linkedin: 'https://www.linkedin.com/in/arvind-murali-75511a1a6'
-
-  - avatar: Shruti Singh - Shruti.jpg
-    name: Shruti Singh
-    tagline: Core Member
-    facebook: 'https://www.facebook.com/shruti.s.50364592/'
-    github: 'https://github.com/shruhh'
-    linkedin: 'https://www.linkedin.com/in/shruti-singh-a02714195/'
-
-  - avatar: Labdhi - Labdhi Gandhi.jpg
-    name: Labdhi Gandhi
-    tagline: Core Member
-    facebook: 'https://m.facebook.com/labdhi.gandhi.96'
-    github: 'https://github.com/labdhigandhi'
-    linkedin: 'https://www.linkedin.com/in/labdhi-gandhi-1a0188191'
+  
+  
 
 #####################################
 ##########     Portfolio    ##########

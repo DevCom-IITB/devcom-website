@@ -4,7 +4,7 @@
 #
 
 # Information for compile
-exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "README.md"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "README.md", "vendor"]
 
 #
 # If your website is placed in a separate folder on your server please modify
@@ -218,45 +218,131 @@ ProjectLeads:
 
  
 CoreMembers:
- CoreMembers:
-  - avatar: Kaustav Prasad.jpg
-    name: Kaustav Prasad
+  - avatar: Ayan Agrawal - Ayan Agrawal.jpg
+    name: Ayan Agarwal
     tagline: Core Member
-    facebook: 'https://www.facebook.com/kaustav.prasad'
-    github: 'https://www.facebook.com/kaustav.prasad'
-    linkedin: 'https://www.linkedin.com/in/kaustav-p-a92680128/'
+    facebook: 'https://m.facebook.com/ayan.agrawal'
+    github: 'https://github.com/ayan312002'
+    linkedin: 'https://www.linkedin.com/in/ayan-agrawal-575966192'
 
-  - avatar: Palash Mittal.jpg
-    name: Palash Mittal
+  - avatar: adarsh.jpg
+    name: Adarsh Raj
     tagline: Core Member
-    facebook: 'https://www.facebook.com/palash.mittal.5/'
-    github: 'https://github.com/PalMit2002'
-    linkedin: 'https://www.linkedin.com/in/palash-mittal-4224761bb/'
+    facebook: 'https://www.facebook.com/profile.php?id=100038153580563'
+    github: 'https://github.com/adarsh0raj'
+    linkedin: 'https://www.linkedin.com/mwlite/in/adarsh-raj-319418192'
 
-  - avatar: Parth Dwivedi.jpeg
-    name: Parth Dwivedi
+  - avatar: profile3 - Sahasra Ranjan.jpg
+    name: Sahasra Ranjan
     tagline: Core Member
-    facebook: 'https://www.facebook.com/parth.dwivedi.3114'
-    github: 'https://github.com/ParthDwivedi1/'
-    linkedin: 'https://www.linkedin.com/in/parth-dwivedi-284928212/
-'
+    facebook: 'https://www.facebook.com/sahasra.ranjan/'
+    github: 'https://github.com/sahasrarjn/'
+    linkedin: 'https://www.linkedin.com/in/sahasra-ranjan-2478521a6/'
 
-  - avatar: Prakriti Shetty.jpg
-    name: Prakriti Shankar Shetty
+  - avatar: IMG-20200101-WA0074 - Divyanshi kamra.jpg
+    name: Divyanshi Kamra
     tagline: Core Member
-    facebook: 'https://www.facebook.com/prakriti.shetty02'
-    github: 'https://github.com/PrakritiShetty'
-    linkedin: 'www.linkedin.com/in/prakriti-shetty'
+    facebook: 'https://www.facebook.com/divyanshi.kamra.7'
+    github: 'https://github.com/divyanshikamra/'
+    linkedin: 'https://www.linkedin.com/company/devcom-iit-bombay/about/'
 
-  - avatar: Pranav Singla.jpg
-    name: Pranav Singla
+  - avatar: AnaghaSavit.jpg
+    name: Anagha Savit
     tagline: Core Member
-    facebook: 'https://touch.facebook.com/pranav.singla.906?lst=100056221531552%3A100056221531552%3A1621579227
-'    github: 'https://github.com/pranavsingla'
-    linkedin: 'https://www.linkedin.com/in/pranav-singla-171690202/'
+    facebook: 'https://www.facebook.com/anagha.savit'
+    github: 'https://github.com/anaghasavit'
+    linkedin: 'https://www.linkedin.com/in/anagha-savit-51b6821b3/'
 
-  
-  
+  - avatar: 20190824_124036 - Aaron Jerry Ninan.jpg
+    name: Aaron Jerry Ninan
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/aaron.jerryninan.5'
+    github: 'https://github.com/aaroncodebro'
+    linkedin: 'https://www.linkedin.com/in/aaron-jerry-ninan-b5530618b/'
+
+  - avatar: Satdhruti Paul - Satdhruti Paul.jpg
+    name: Satdhruti Paul
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/satdhruti.paul.33/'
+    github: 'https://github.com/ricky421'
+    linkedin: 'https://www.linkedin.com/in/satdhruti-paul-78010a192/'
+
+  - avatar: aditya - ADITYA RAJ SINGH UDAWAT.jpg
+    name: Aditya Raj Singh
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/adityaraj.singhudawat.9'
+    github: 'https://github.com/Aditya2151'
+    linkedin: 'https://www.linkedin.com/in/aditya-raj-singh-udawat-0a24b6194'
+
+  - avatar: IMG-20200709-WA0006 - Jayesh Singla.jpg
+    name: Jayesh Singla
+    tagline: Core Member
+    facebook: 'https://m.facebook.com/profile.php?id=100008085613094'
+    github: 'https://github.com/jayeshs999'
+    linkedin: 'https://www.linkedin.com/in/jayesh-singla-684b3b1b0'
+
+  - avatar: DevDesai.jpg
+    name: Dev Moxaj Desai
+    tagline: Core Member
+    facebook: 'https://m.facebook.com/dev.desai.77920?ref=bookmarks'
+    github: 'https://github.com/dev9318'
+    linkedin: 'https://www.linkedin.com/mwlite/in/dev-desai-a58860194'
+
+  - avatar: amanSingh - Aman Singh.jpg
+    name: Aman Singh
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/aman.singh.7297351'
+    github: 'https://github.com/feyn-aman'
+    linkedin: 'https://www.linkedin.com/in/aman-singh-b37a85176/'
+
+  - avatar: devansh jain.jpg
+    name: Devansh Jain
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/devansh.jain.777/'
+    github: 'https://github.com/DEVANSH-DVJ'
+    linkedin: 'https://www.linkedin.com/in/devansh-jain-0517461a9/'
+
+  - avatar: vibhav - Vibhav Aggarwal.jpg
+    name: Vibhav Aggarwal
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/vibhav.aggarwal.7/'
+    github: 'https://github.com/vibhav011'
+    linkedin: 'https://www.linkedin.com/in/vibhav-a-55a668113'
+
+  - avatar: bhavnoor copy - Bhavnoor Singh Marok.jpg
+    name: Bhavnoor Singh Marok
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/bhavnoorsingh.marok.7'
+    github: 'https://github.com/bhavnoormarok'
+    linkedin: 'https://www.linkedin.com/in/bhavnoor-singh-marok-894277193/'
+
+  - avatar: IMG_20200116_004154 - Abhinav Gupta.jpg
+    name: Abhinav Gupta
+    tagline: Core Member
+    facebook: 'https://m.facebook.com/abhinav.gupta.35762'
+    github: 'https://github.com/abhi-cloud'
+    linkedin: 'https://www.linkedin.com/in/abhinav-gupta-a64874192'
+
+  - avatar: Arvind - Arvind Murali.jpg
+    name: Arvind Murali
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/arvindmurali01'
+    github: 'https://github.com/ArvindMurali2001'
+    linkedin: 'https://www.linkedin.com/in/arvind-murali-75511a1a6'
+
+  - avatar: Shruti Singh - Shruti.jpg
+    name: Shruti Singh
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/shruti.s.50364592/'
+    github: 'https://github.com/shruhh'
+    linkedin: 'https://www.linkedin.com/in/shruti-singh-a02714195/'
+
+  - avatar: Labdhi - Labdhi Gandhi.jpg
+    name: Labdhi Gandhi
+    tagline: Core Member
+    facebook: 'https://m.facebook.com/labdhi.gandhi.96'
+    github: 'https://github.com/labdhigandhi'
+    linkedin: 'https://www.linkedin.com/in/labdhi-gandhi-1a0188191'
 
 #####################################
 ##########     Portfolio    ##########
