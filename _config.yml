@@ -142,19 +142,12 @@ team-title: Team
 team-description: 
 
 OverallCoordinators:
-  - avatar: TezanSahu - Tezan Sahu.jpg
-    name: Tezan Sahu
+  - avatar: rishabh.jpg
+    name: Rishabh Arya
     tagline: Overall Coordinator
-    facebook: 'https://www.facebook.com/tezan.sahu.3'
-    github: 'https://github.com/tezansahu'
-    linkedin: 'https://www.linkedin.com/in/tezan-sahu/'
-
-  - avatar: yashwardhan.jpg
-    name: Yashwardhan Didwania
-    tagline: Overall Coordinator
-    facebook: 'https://www.facebook.com/ydidwania'
-    github: 'https://www.github.com/ydidwania'
-    linkedin: 'https://www.linkedin.com/in/yashvardhan-didwania-194575160'
+    facebook: 'https://www.facebook.com/rishabh.arya.9822924'
+    github: 'https://github.com/arya2331'
+    linkedin: 'https://www.linkedin.com/in/rishabh-arya-99a37a145/'
 
   - avatar: e aakash.jpg
     name: E Aakash
@@ -171,33 +164,26 @@ OverallCoordinators:
     linkedin: 'https://in.linkedin.com/in/abeenbhattacharya'
 
 ProjectLeads:
-  - avatar: rishabh.jpg
-    name: Rishabh Arya
+  - avatar: DevDesai.jpg
+    name: Dev Moxaj Desai
     tagline: Project Lead
-    facebook: 'https://www.facebook.com/rishabh.arya.9822924'
-    github: 'https://github.com/arya2331'
-    linkedin: 'https://www.linkedin.com/in/rishabh-arya-99a37a145/'
+    facebook: 'https://m.facebook.com/dev.desai.77920?ref=bookmarks'
+    github: 'https://github.com/dev9318'
+    linkedin: 'https://www.linkedin.com/mwlite/in/dev-desai-a58860194'
 
-  - avatar: srijan karn.jpg
-    name: Srijan Karn
+  - avatar: IMG-20200709-WA0006 - Jayesh Singla.jpg
+    name: Jayesh Singla
     tagline: Project Lead
-    facebook: 'https://m.facebook.com/profile.php?id=100004023687791&ref=content_filter'
-    github: 'https://github.com/srijan2911'
-    linkedin: 'https://www.linkedin.com/in/srijan-karn-424083170'
+    facebook: 'https://m.facebook.com/profile.php?id=100008085613094'
+    github: 'https://github.com/jayeshs999'
+    linkedin: 'https://www.linkedin.com/in/jayesh-singla-684b3b1b0'
 
-  - avatar: akshit.jpg
-    name: Akshit Srivastava
-    tagline: WnCC Manager
-    facebook: 'https://www.facebook.com/akshit1511'
-    github: 'https://github.com/akshitt'
-    linkedin: 'https://www.linkedin.com/in/akshit-srivastava/'
-
-  - avatar: latika.jpg
-    name: Latika Patel
-    tagline: WnCC Manager
-    facebook: 'https://www.facebook.com/latika.patel.526'
-    github: 'https://github.com/latika24'
-    linkedin: 'https://www.linkedin.com/in/latika-patel-1951b0196/'
+  - avatar: vibhav - Vibhav Aggarwal.jpg
+    name: Vibhav Aggarwal
+    tagline: Project Lead
+    facebook: 'https://www.facebook.com/vibhav.aggarwal.7/'
+    github: 'https://github.com/vibhav011'
+    linkedin: 'https://www.linkedin.com/in/vibhav-a-55a668113'
 
   # - avatar: rahul bukte.jpg
   #   name: Rahul Bukte
