@@ -142,26 +142,6 @@ team-title: Team
 team-description: 
 
 OverallCoordinators:
-  - avatar: rishabh.jpg
-    name: Rishabh Arya
-    tagline: Overall Coordinator
-    facebook: 'https://www.facebook.com/rishabh.arya.9822924'
-    github: 'https://github.com/arya2331'
-    linkedin: 'https://www.linkedin.com/in/rishabh-arya-99a37a145/'
-
-  - avatar: e aakash.jpg
-    name: E Aakash
-    tagline: InstiApp Head
-    facebook: 'https://www.facebook.com/09e.aakash'
-    github: 'https://github.com/e-aakash'
-    linkedin: 'https://www.linkedin.com/in/e-aakash'
-
-  - avatar: abeen.jpg
-    name: Abeen Bhattacharya
-    tagline: InstiApp Head
-    facebook: 'http://facebook.com/thenotsodarkknight'
-    github: 'https://github.com/thenotsodarkknight'
-    linkedin: 'https://in.linkedin.com/in/abeenbhattacharya'
 
 ProjectLeads:
   - avatar: DevDesai.jpg
