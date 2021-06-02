@@ -259,7 +259,7 @@ CoreMembers:
     tagline: Core Member
     facebook: 'https://www.facebook.com/prakriti.shetty02'
     github: 'https://github.com/PrakritiShetty'
-    linkedin: 'www.linkedin.com/in/prakriti-shetty'
+    linkedin: 'https://www.linkedin.com/in/prakriti-shetty'
 
   - avatar: Pranav Singla.jpeg
     name: Pranav Singla
@@ -267,7 +267,14 @@ CoreMembers:
     facebook: 'https://touch.facebook.com/pranav.singla.906?lst=100056221531552%3A100056221531552%3A1621579227'  
     github: 'https://github.com/pranavsingla'
     linkedin: 'https://www.linkedin.com/in/pranav-singla-171690202/'
-  
+
+  - avatar: VaibhRj.jpg
+    name: Vaibhav Raj
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/vaibhav.raj.92372446'  
+    github: 'https://github.com/scimaths'
+    linkedin: 'https://www.linkedin.com/in/vaibhav-raj-8446421b9/'
+
   - avatar: vedk.jpeg
     name: Ved Khandekar
     tagline: Core Member
