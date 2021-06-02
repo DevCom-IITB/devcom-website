@@ -230,14 +230,14 @@ CoreMembers:
     name: Harsh Jha
     tagline: Core Member
     facebook: 'https://www.facebook.com/profile.php?id=100009067948475'
-    github: 'http://github.com/harsh-kr-jha'
-    linkedin: 'www.linkedin.com/in/harsh-kr-jha'
+    github: 'https://github.com/harsh-kr-jha'
+    linkedin: 'https://www.linkedin.com/in/harsh-kr-jha'
 
   - avatar: Kaustav Prasad.jpg
     name: Kaustav Prasad
-    tagline: Core Members
+    tagline: Core Member
     facebook: 'https://www.facebook.com/kaustav.prasad'
-    github: 'https://www.facebook.com/kaustav.prasad'
+    github: 'https://github.com/Anomaly42'
     linkedin: 'https://www.linkedin.com/in/kaustav-p-a92680128/'
 
   - avatar: Palash Mittal.jpg
@@ -267,6 +267,13 @@ CoreMembers:
     facebook: 'https://touch.facebook.com/pranav.singla.906?lst=100056221531552%3A100056221531552%3A1621579227'  
     github: 'https://github.com/pranavsingla'
     linkedin: 'https://www.linkedin.com/in/pranav-singla-171690202/'
+  
+  - avatar: vedk.jpeg
+    name: Ved Khandekar
+    tagline: Core Member
+    facebook: 'https://facebook.com/ved.khandekar.1'  
+    github: 'https://github.com/vedk'
+    linkedin: 'https://www.linkedin.com/in/ved-khandekar-29824612b/'
 
   
   
