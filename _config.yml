@@ -142,6 +142,19 @@ team-title: Team
 team-description: 
 
 OverallCoordinators:
+  - avatar: rishabh.jpg
+    name: Rishabh Arya
+    tagline: Overall Coordinator
+    facebook: 'https://www.facebook.com/rishabh.arya.9822924'
+    github: 'https://github.com/arya2331'
+    linkedin: 'https://www.linkedin.com/in/rishabh-arya-99a37a145/'
+
+  - avatar: ss.jpg
+    name: Sudhanshu Sahil
+    tagline: Overall Coordinator
+    facebook: 'https://www.facebook.com/sudhanshu.sahil'
+    github: 'https://github.com/SudhanshuSahil'
+    linkedin: ''
 
 ProjectLeads:
   - avatar: DevDesai.jpg
@@ -164,6 +177,20 @@ ProjectLeads:
     facebook: 'https://www.facebook.com/vibhav.aggarwal.7/'
     github: 'https://github.com/vibhav011'
     linkedin: 'https://www.linkedin.com/in/vibhav-a-55a668113'
+
+  - avatar: dk.jpeg
+    name: Divyanshi Kamra
+    tagline: WnCC Manager
+    facebook: 'https://www.facebook.com/divyanshi.kamra.7'
+    github : 'https://github.com/divyanshikamra'
+    linkedin : 'https://www.linkedin.com/in/divkamra/'
+
+  - avatar: Shruti Singh - Shruti.jpg
+    name: Shruti Singh
+    tagline: WnCC Manager
+    facebook: 'https://www.facebook.com/shruti.s.50364592/'
+    github: 'https://github.com/shruhh'
+    linkedin: 'https://www.linkedin.com/in/shruti-singh-a02714195/'
 
   # - avatar: rahul bukte.jpg
   #   name: Rahul Bukte
@@ -267,6 +294,8 @@ CoreMembers:
     facebook: 'https://touch.facebook.com/pranav.singla.906?lst=100056221531552%3A100056221531552%3A1621579227'  
     github: 'https://github.com/pranavsingla'
     linkedin: 'https://www.linkedin.com/in/pranav-singla-171690202/'
+
+LastLineCoreMembers:
 
   - avatar: VaibhRj.jpg
     name: Vaibhav Raj
@@ -661,6 +690,6 @@ contact-description: Have a suggestion for a topic? Have an opportunity that you
 #############   Footer   ############
 #####################################
 footer-description: You've managed to reach to bottom of my page. Hope it was bearable.
-footer-copyright-text: Copyright 2020, DevCom IIT Bombay.
+footer-copyright-text: Copyright 2021, DevCom IIT Bombay.
 #footer-copyright-url: http://gleesik.ro/
 #footer-copyright-year: 2016

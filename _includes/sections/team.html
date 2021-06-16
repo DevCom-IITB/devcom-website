@@ -45,7 +45,7 @@
     </div> -->
 
     <div class="row">
-        <div class="col-md-2"></div>
+        <div class="col-md-4"></div>
       
         {% for member in site.OverallCoordinators %}
 
@@ -68,7 +68,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-2"></div>
+        <div class="col-md-1"></div>
        {% for member in site.ProjectLeads %}
 
         <div class="col-md-2 col-xs-6 col-sm-3">
@@ -92,6 +92,28 @@
     <div class="row">
 
       {% for member in site.CoreMembers %}
+
+        <div class="col-md-2 col-xs-6 col-sm-3">
+            <div class="our-team">
+                <img src="{{ site.baseurl }}/images/avatars/{{ member.avatar }}">
+                <div class="team-content">
+                    <h3 class="title">{{ member.name }}</h3>
+                    <span class="post">{{ member.tagline }}</span>
+                    <ul class="social">
+                        <li><a href="{{ member.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="{{ member.github }}" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li><a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+      {% endfor %}
+    </div>
+    <div class="row">
+    	<div class="col-md-4"></div>
+
+      {% for member in site.LastLineCoreMembers %}
 
         <div class="col-md-2 col-xs-6 col-sm-3">
             <div class="our-team">
