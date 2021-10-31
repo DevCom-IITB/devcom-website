@@ -47,13 +47,13 @@ jekyll-archives:
 #######################################################
 
 # This is your site title
-title: DevCom IITB
+title: DevCom IIT Bombay
 # Website language
 lang: en-US
 # Header Title
-header-title: DevCom IITB
+header-title: DevCom IIT Bombay
 # Header Tagline
-headter-tagline: I built this
+headter-tagline: Group of Developers
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -62,14 +62,14 @@ headter-tagline: I built this
 # Focus Buttons
 header-focus-button:
   title: Blog
-  url: https://cybercodebear.github.io/blog.html # test
+  url: https://devcom-iitb.org # test
 
 #
 # This is your email adress, contact from send here all emails from contact section
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
-email: alexjamesdesmond@gmail.com
+email: devcom@iitb.ac.in
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
