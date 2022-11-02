@@ -1,0 +1,16 @@
+current directory: /home/palash/Palash/IITB/Others/DevCom/Website/devcomiitb.github.io/vendor/cache/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20220831-223419-tz7i0w.rb extconf.rb
+creating Makefile
+
+current directory: /home/palash/Palash/IITB/Others/DevCom/Website/devcomiitb.github.io/vendor/cache/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= clean
+
+current directory: /home/palash/Palash/IITB/Others/DevCom/Website/devcomiitb.github.io/vendor/cache/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\=
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/palash/Palash/IITB/Others/DevCom/Website/devcomiitb.github.io/vendor/cache/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20220831-223419-2j2gq7
