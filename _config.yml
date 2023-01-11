@@ -476,26 +476,26 @@ core-features-instiapp-right:
 
 
 #
-# Core Features Cerium Left
+# Core Features ResoBin Left
 #
-core-features-cerium-left:
+core-features-resobin-left:
 
 # Feature
 
 
 # Feature
 - name: Features
-  description: Uses SSO for login, allowing authentication of users of the form, allows anonymous forms, and also has feature of scheduling or closing of a form.
+  description: Search and filter courses and viewing all reviews and past resources under one head.
   icon: pe-7s-diamond
 
 # Feature
-- name: Scheduling
-  description: Has option to schedule the closing of form, removing need for manually closing form at a specific time
+- name: Timetable
+  description: Create your own personalised timetable and plan your day better!
   icon: pe-7s-wristwatch
 
-- name: License and Code
-  description: All code is licensed under the Mozilla Public License 2.0. The instructions to deploy and use are provided in the README.md file of project's github repository.
-  icon: pe-7s-id
+# - name: License and Code
+#   description: All code is licensed under the Mozilla Public License 2.0. The instructions to deploy and use are provided in the README.md file of project's github repository.
+#   icon: pe-7s-id
 
 # Feature
 # - name: Reporting
@@ -503,19 +503,19 @@ core-features-cerium-left:
 #   icon: pe-7s-file
 
 #
-# Core Features Cerium Right
+# Core Features ResoBin Right
 #
-core-features-cerium-right:
+core-features-resobin-right:
 
 # Feature
 
 - name: Description
-  description: Cerium is a forms application very similar in design to Google forms. 
+  description: A one stop solution to ace your academics here at IITB! 
   icon: pe-7s-note2
 
-- name: Go Cerium
-  description: go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium. The github repo for the backend can found by the database link provided or <a href="https://github.com/pulsejet/go-cerium/" target="_blank">here</a>.
-  icon: pe-7s-plugin
+# - name: Go Cerium
+#   description: go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium. The github repo for the backend can found by the database link provided or <a href="https://github.com/pulsejet/go-cerium/" target="_blank">here</a>.
+#   icon: pe-7s-plugin
 
 # Feature
 - name: Security and Anonymity
@@ -525,75 +525,9 @@ core-features-cerium-right:
 # Feature
 
 
-# Feature
-# - name: Incident Response
-#   description: Can function in the technical or the governance space when responding to cyber incidents.
-#   icon: pe-7s-bandaid
-
-
-#
-# Core Features Noticeboard Left
-#
-core-features-noticeboard-left:
-
-# Feature
-
-
-# Feature
-
-- name: "File: config.json"
-  description: Helps you define the configuration for how you want the images to appear on the TV.
-  icon: pe-7s-config
-  
-- name: "File: fetch.py"
-  description:  A Python script that runs in the background and periodically fetches images from the server. We set up a cron job for this.
-  icon: pe-7s-loop
-
-# Feature
-- name: "File: gui.py"
-  description: The main script that runs on boot and occupies the foreground. This displays the images on the TV.
-  icon: pe-7s-monitor
-
-# Feature
-# - name: Reporting
-#   description: Experienced writing reports conveying strategic risk based on technical vulnerabilities and exploits.
-#   icon: pe-7s-file
-
-#
-# Core Features Noticeboard Right
-#
-core-features-noticeboard-right:
-
-# Feature
-
-- name: Description
-  description: Scripts to fetch and display images on a TV and also allows users to setup configuration how you want the images to appear on the TV.
-  icon: pe-7s-note2
-
-# Feature
-- name: Setup 
-  description: Install a standard Raspbian OS on the RPi and configure the RPi to connect to internet. Follow the steps in README.md of the RPi Noticeboard github repo.
-  icon: pe-7s-tools
-
-# Feature
-- name: Features
-  description: Bash Scripting, Python Scripts, and JSON Configuration files to fetch and show images of your choice on TV.
-  icon: pe-7s-photo
-
-
-
-# Feature
-# - name: Incident Response
-#   description: Can function in the technical or the governance space when responding to cyber incidents.
-#   icon: pe-7s-bandaid
-
-#############################
-##### Ongoing Projects ######
-#############################
-
 ###### Resume Verification Portal #########
 
-ongoing-projects-resumeportal-left:
+core-features-resumeportal-left:
 
 - name: About
   description: Resume Verification Portal, a portal to streamline the process of verification of resumes and cvs.
@@ -607,7 +541,7 @@ ongoing-projects-resumeportal-left:
   description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
   icon: pe-7s-users
 
-ongoing-projects-resumeportal-right:
+core-features-resumeportal-right:
 
 - name: Description
   description: RVP is codename for the IITB Resume Verification Portal to automate the process of authentication and verification of resume points, as this process consisted of complex steps earlier.
@@ -621,100 +555,171 @@ ongoing-projects-resumeportal-right:
   description: The application is being developed using Angular (for the interface) & nodeJS (for the backend).
   icon: pe-7s-config
 
-###### Atlas Hostel Management Portal #########
 
-ongoing-projects-atlas-left:
-
-- name: About
-  description: Atlas, IITB Hostel Management Portal, a project to automate the process of hostel and rooms allotment.
-  icon: pe-7s-network
-
-- name: Project Scope
-  description: This project is being developed in coordination with the Hostel Affairs Council, to be used my Hostel GSecs, Wardens, Hall Managers, GSHA, DoSA & HCU Office.
-  icon: pe-7s-note2
-
-- name: Contribution
-  description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
-  icon: pe-7s-users
-
-ongoing-projects-atlas-right:
-
-- name: Description
-  description: Atlas is codename for the IITB Hostel Management Portal to streamline the process of allotment of hostels & rooms for the students as well as maintenance of the rooms by respective admins. 
-  icon: pe-7s-note2
-
-- name: Features
-  description: This portal allows admins to allocate rooms to hostelites, view the details after allocation on detailed hostel floor plans, tag vacant rooms for various purposes & view the full history of a student’s stay in the institute hostels.
-  icon: pe-7s-gleam
-
-- name: Development
-  description: The application is being developed using Angular (for the interface) & FastAPI (for the backend).
-  icon: pe-7s-config
-
-###### CourseRank #########
-
-ongoing-projects-courserank-left:
-
-- name: About
-  description: This project aims to create a separate portal that displays reviews on courses given by students who have already completed that course.
-  icon: pe-7s-network
-
-- name: Project Scope
-  description: This project is being developed in coordination with the Institute Academic Council and various other councils which focuses providing information regarding academics to students.
-  icon: pe-7s-note2
-
-- name: Contribution
-  description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
-  icon: pe-7s-users
-
-ongoing-projects-courserank-right:
-
-- name: Description
-  description: CourseRank is the IMDB of courses which shows details, ratings, reviews (by the students), etc of all the courses provided buy the institute. 
-  icon: pe-7s-note2
-
-- name: Extra Features
-  description: This portal also have extra features such as rating of a course, likes on a review and course, description of course, etc.
-  icon: pe-7s-gleam
-
-- name: Development
-  description: The application is being developed using Django Templates (for the interface) & Django (for the backend).
-  icon: pe-7s-config
+# Feature
+# - name: Incident Response
+#   description: Can function in the technical or the governance space when responding to cyber incidents.
+#   icon: pe-7s-bandaid
 
 
 #
-# Core Features Game Left
+# Core Features Mess-I Left
 #
-core-features-game-left:
+core-features-messi-left:
+
+# Feature
+
+
+# Feature
 
 - name: Features
-  description: Uses SSO for login, allowing authentication of users and allows different options like leaderboard, ideas contribution, and much more to come.
+  description: Optimizes Mess functioningOptimizes Mess functioning. Save 3000+ hours spent on organising the (mess)cards and figuring out the mess bill.
   icon: pe-7s-diamond
+  
+- name: Statistics
+  description: Implemented in 6 Hostels with 5000+ students.
+  icon: pe-7s-loop
 
-- name: Rating System
-  description: The rating of a player is calculated taking into account his/her performance across all games. Achieving <b>higher scores</b> in each game boosts the rating. <b>Playing more games</b> also helps in maintaining the rating<b>However, there's a catch!</b> Long streaks without improving one's highscore in a game may decrease the rating as well.
-  icon: pe-7s-star
+# Feature
+# - name: "File: gui.py"
+#   description: The main script that runs on boot and occupies the foreground. This displays the images on the TV.
+#   icon: pe-7s-monitor
 
-- name: Contribution
-  description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
-  icon: pe-7s-users
+# Feature
+# - name: Reporting
+#   description: Experienced writing reports conveying strategic risk based on technical vulnerabilities and exploits.
+#   icon: pe-7s-file
 
 #
-# Core Features Game Right
+# Core Features Mess-I Right
 #
-core-features-game-right:
+core-features-messi-right:
+
+# Feature
 
 - name: Description
-  description: Where you Imagine, we create!, Gaming portal is a great place to enjoy, compete via games and also to suggest your own ideas for creation of different games.
-  icon: pe-7s-news-paper
+  description: Mess-I is a mess digitization platform.
+  icon: pe-7s-note2
 
-- name: For IITB Folks
-  description: A place for everyone to relax, chill and get nostalgic while playing some of the classical hits!. A step towards making an environment for insti junta to be able to get together and play together in a centralized way.
-  icon: pe-7s-medal
+# Feature
+# - name: Setup 
+#   description: Install a standard Raspbian OS on the RPi and configure the RPi to connect to internet. Follow the steps in README.md of the RPi Noticeboard github repo.
+#   icon: pe-7s-tools
 
-- name: Games
-  description: Play arcade, action, puzzle, racing and other fun games. Just dive in and choose what you want to play. For an even more exciting experience, challenge your friends and beat that high score!
-  icon: pe-7s-joy
+# Feature
+- name: "???"
+  description: 
+  icon: pe-7s-photo
+
+
+
+
+
+# Feature
+# - name: Incident Response
+#   description: Can function in the technical or the governance space when responding to cyber incidents.
+#   icon: pe-7s-bandaid
+
+#############################
+##### Ongoing Projects ######
+#############################
+
+
+
+# ###### Atlas Hostel Management Portal #########
+
+# ongoing-projects-atlas-left:
+
+# - name: About
+#   description: Atlas, IITB Hostel Management Portal, a project to automate the process of hostel and rooms allotment.
+#   icon: pe-7s-network
+
+# - name: Project Scope
+#   description: This project is being developed in coordination with the Hostel Affairs Council, to be used my Hostel GSecs, Wardens, Hall Managers, GSHA, DoSA & HCU Office.
+#   icon: pe-7s-note2
+
+# - name: Contribution
+#   description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+#   icon: pe-7s-users
+
+# ongoing-projects-atlas-right:
+
+# - name: Description
+#   description: Atlas is codename for the IITB Hostel Management Portal to streamline the process of allotment of hostels & rooms for the students as well as maintenance of the rooms by respective admins. 
+#   icon: pe-7s-note2
+
+# - name: Features
+#   description: This portal allows admins to allocate rooms to hostelites, view the details after allocation on detailed hostel floor plans, tag vacant rooms for various purposes & view the full history of a student’s stay in the institute hostels.
+#   icon: pe-7s-gleam
+
+# - name: Development
+#   description: The application is being developed using Angular (for the interface) & FastAPI (for the backend).
+#   icon: pe-7s-config
+
+# ###### CourseRank #########
+
+# ongoing-projects-courserank-left:
+
+# - name: About
+#   description: This project aims to create a separate portal that displays reviews on courses given by students who have already completed that course.
+#   icon: pe-7s-network
+
+# - name: Project Scope
+#   description: This project is being developed in coordination with the Institute Academic Council and various other councils which focuses providing information regarding academics to students.
+#   icon: pe-7s-note2
+
+# - name: Contribution
+#   description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+#   icon: pe-7s-users
+
+# ongoing-projects-courserank-right:
+
+# - name: Description
+#   description: CourseRank is the IMDB of courses which shows details, ratings, reviews (by the students), etc of all the courses provided buy the institute. 
+#   icon: pe-7s-note2
+
+# - name: Extra Features
+#   description: This portal also have extra features such as rating of a course, likes on a review and course, description of course, etc.
+#   icon: pe-7s-gleam
+
+# - name: Development
+#   description: The application is being developed using Django Templates (for the interface) & Django (for the backend).
+#   icon: pe-7s-config
+
+
+# #
+# # Core Features Game Left
+# #
+# core-features-game-left:
+
+# - name: Features
+#   description: Uses SSO for login, allowing authentication of users and allows different options like leaderboard, ideas contribution, and much more to come.
+#   icon: pe-7s-diamond
+
+# - name: Rating System
+#   description: The rating of a player is calculated taking into account his/her performance across all games. Achieving <b>higher scores</b> in each game boosts the rating. <b>Playing more games</b> also helps in maintaining the rating<b>However, there's a catch!</b> Long streaks without improving one's highscore in a game may decrease the rating as well.
+#   icon: pe-7s-star
+
+# - name: Contribution
+#   description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+#   icon: pe-7s-users
+
+# #
+# # Core Features Game Right
+# #
+# core-features-game-right:
+
+# - name: Description
+#   description: Where you Imagine, we create!, Gaming portal is a great place to enjoy, compete via games and also to suggest your own ideas for creation of different games.
+#   icon: pe-7s-news-paper
+
+# - name: For IITB Folks
+#   description: A place for everyone to relax, chill and get nostalgic while playing some of the classical hits!. A step towards making an environment for insti junta to be able to get together and play together in a centralized way.
+#   icon: pe-7s-medal
+
+# - name: Games
+#   description: Play arcade, action, puzzle, racing and other fun games. Just dive in and choose what you want to play. For an even more exciting experience, challenge your friends and beat that high score!
+#   icon: pe-7s-joy
 
 
 
@@ -735,6 +740,6 @@ contact-description: Have a suggestion for a topic? Have an opportunity that you
 #############   Footer   ############
 #####################################
 footer-description: You've managed to reach to bottom of my page. Hope it was bearable.
-footer-copyright-text: Copyright 2021, DevCom IIT Bombay.
+footer-copyright-text: Copyright 2022, DevCom IIT Bombay.
 #footer-copyright-url: http://gleesik.ro/
 #footer-copyright-year: 2016

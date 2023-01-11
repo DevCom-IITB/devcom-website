@@ -1,0 +1,17 @@
+current directory: C:/Users/aditya/Documents/Devcom_Websit/devcomiitb.github.io/vendor/cache/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+C:/Ruby27-x64/bin/ruby.exe -I C:/Ruby27-x64/lib/ruby/2.7.0 -r ./siteconf20210522-25264-1hnxxsc.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: C:/Users/aditya/Documents/Devcom_Websit/devcomiitb.github.io/vendor/cache/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: C:/Users/aditya/Documents/Devcom_Websit/devcomiitb.github.io/vendor/cache/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR="
+generating cparse-x64-mingw32.def
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: C:/Users/aditya/Documents/Devcom_Websit/devcomiitb.github.io/vendor/cache/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20210522-25264-1i33a9/racc
