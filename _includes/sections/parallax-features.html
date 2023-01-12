@@ -36,9 +36,12 @@
     </div>
 
     <div class="row section-features" style="margin-bottom: 50px;">
-      <div class="col-md-6 phone" style="padding: auto; margin: auto; margin-bottom: 50px;">
+      <!-- <div class="col-md-6 phone" style="padding: auto; margin: auto; margin-bottom: 50px;">
         <img src="/images/logos/resumeportal.jpeg" width="255px" alt="Resume Verification Portal"
           onclick="resumeportal()" />
+      </div> -->
+      <div class="col-md-6 phone" style="padding: auto; margin: auto; margin-bottom: 50px;">
+        <img src="/images/logos/resumeportal.jpeg" width="255px" alt="EnEx" onclick="enex()" />
       </div>
 
       <div class="col-md-6 phone" style="padding: auto; margin: auto;">
@@ -172,9 +175,8 @@
         <div class="col-md-4 popup" style="padding: auto; margin: auto;">
           <img src="{{ site.baseurl }}/images/logos/resobin.png" alt="Cerium" />
           <div class="logo">
-            <a href="{{ site.cerium-github }}" target="_blank"><i class="fa fa-github cerium-github-icon"></i></a>
-            <a href="{{ site.cerium-database }}" target="_blank"><i class="fa fa-database doc-icon"
-                style="transform: scale(3);"></i></a>
+            <!-- <a href="{{ site.cerium-github }}" target="_blank"><i class="fa fa-github github-icon"></i></a> -->
+            <a href="{{ site.cerium-database }}" target="_blank"><i class="fa fa-globe browser-icon"></i></a>
           </div>
         </div>
 
@@ -234,7 +236,8 @@
 
         <div class="col-md-4 popup" style="padding: auto; margin: auto;">
           <img src="{{ site.baseurl }}/images/logos/messi.png" alt="InstiApp" />
-          <div class="logo"><a href="{{ site.noticeboard-github }}" target="_blank"><i class="fa fa-github"></i></a>
+          <div class="logo">
+            <!-- <a href="{{ site.noticeboard-github }}" target="_blank"><i class="fa fa-github"></i></a> -->
           </div>
         </div>
 
@@ -357,6 +360,64 @@
         <div class="col-md-4 col-sm-6 text-right">
 
           {% for feature in site.core-features-resumeportal-right %}
+
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+
+          {% endfor %}
+
+        </div>
+
+      </div>
+    </div>
+
+    <div id="enex-modal">
+
+      <div class="resumeportal-blocker" onclick="enexclose()"></div>
+
+      <div class="row section-features" id="enex-popup">
+
+        <div class="close-button">
+          <button onclick="enexclose()"><i class="fa fa-close"></i></button>
+        </div>
+
+        <div class="col-md-4 col-sm-6 text-left">
+
+          {% for feature in site.core-features-enex-left %}
+
+          <div class="feature">
+            <div class="text-wrap">
+              <h3>{{ feature.name }}</h3>
+              <p>{{ feature.description }}</p>
+            </div>
+            <div class="icon-wrap">
+              <div class="circle parent">
+                <i class="{{ feature.icon }} child-center"></i>
+              </div>
+            </div>
+          </div>
+
+          {% endfor %}
+
+        </div>
+
+        <div class="col-md-4 popup" style="padding: auto; margin: auto;">
+          <img src="{{ site.baseurl }}/images/logos/resumeportal.jpeg" alt="EnEx" />
+          <!-- <div class="logo"><a href="{{ site.noticeboard-github }}" target="_blank"><i class="fa fa-github"></i></a></div> -->
+        </div>
+
+        <div class="col-md-4 col-sm-6 text-right">
+
+          {% for feature in site.core-features-enex-right %}
 
           <div class="feature">
             <div class="text-wrap">
@@ -555,6 +616,16 @@
 
   function resumeportalclose() {
     document.getElementById("resumeportal-modal").style.display = "none";
+    enableScroll();
+  }
+
+  function enex() {
+    document.getElementById("enex-modal").style.display = "block";
+    disableScroll();
+  }
+
+  function enexclose() {
+    document.getElementById("enex-modal").style.display = "none";
     enableScroll();
   }
 

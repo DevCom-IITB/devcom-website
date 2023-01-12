@@ -138,7 +138,7 @@ features:
 #####################################
 ##########       Team      ##########
 #####################################
-team-title: Team 2021-22
+team-title: Team 2022-23
 team-description: 
 
 OverallCoordinators:
@@ -187,7 +187,7 @@ ProjectLeads:
 
   - avatar: Palash Mittal.jpg
     name: Palash Mittal
-    tagline: Core Member
+    tagline: Project Lead
     facebook: 'https://www.facebook.com/palash.mittal.5/'
     github: 'https://github.com/PalMit2002'
     linkedin: 'https://www.linkedin.com/in/palash-mittal-4224761bb/'
@@ -213,151 +213,150 @@ ProjectLeads:
 CoreMembers:
   - name: Abhijat Bharadwaj
     avatar: Abhijat Bharadwaj.jpg
-    tagline: Core Member
+    tagline: Developer
     facebook: "https://www.facebook.com/abhijat.bh"
     github: "https://github.com/Keymii"
     linkedin: "https://www.linkedin.com/in/abhijat-bharadwaj-459b26227"
 
   - name: Ameya Deshmukh
     avatar: Ameya Deshmukh.jpeg
-    tagline: Core Member
+    tagline: Developer
     facebook: ""
     github: "https://github.com/Woolverine563"
     linkedin: ""
 
   - name: Amit Kumar
     avatar: Amit Kumar.png
-    tagline: Core Member
+    tagline: Developer
     facebook: "https://www.facebook.com/Be-the-best-version-of-yourself-109949981717561/photos"
     github: "https://github.com/Amit-Rohila33"
     linkedin: "https://www.linkedin.com/in/amit-kumar-0b0540234"
 
   - name: Anmol Kurothe
     avatar: Anmol Kurothe.PNG
-    tagline: Core Member
+    tagline: Developer
     facebook: "https://www.facebook.com/anmol.kurothe.1/"
     github: "https://github.com/AnmolKurothe"
     linkedin: "https://www.linkedin.com/in/anmol-kurothe-490272227/"
 
   - name: Atharv Kurde
     avatar: Atharv Kurde.jpg
-    tagline: Core Member
+    tagline: Developer
     facebook: "https://www.facebook.com/atharv.kurde"
     github: "https://github.com/Atharv140903"
     linkedin: "https://www.linkedin.com/in/atharv-kurde-067b45223"
 
   - name: Dhananjay Raman
     avatar: Dhananjay Raman.jpg
-    tagline: Core Member
+    tagline: Developer
     facebook: "https://www.facebook.com/dhananjay.raman.7"
     github: "https://github.com/DhanoHacks"
     linkedin: "https://www.linkedin.com/in/dhananjay-raman-b969a823a/"
 
   - name: Dheer Harshad Banker
     avatar: Dheer Harshad Banker.jpg
-    tagline: Core Member
+    tagline: Developer
     facebook: "https://www.facebook.com/people/Dheer-Banker/100073751046974/"
     github: ""
     linkedin: "https://www.linkedin.com/in/dheer-banker/"
 
   - name: Divyam Gupta
     avatar: Divyam Gupta.jpg
-    tagline: Core Member
+    tagline: Developer
     facebook: "https://www.facebook.com/divyam.gupta.509"
     github: "https://github.com/dgibn"
     linkedin: "https://www.linkedin.com/in/divyam-gupta-425695228" 
 
   - name: Himank Gupta 
     avatar: Himank Gupta.jpeg
-    tagline: Core Member
+    tagline: Developer
     facebook: ""
     github: "https://github.com/himank29"
     linkedin: "https://www.linkedin.com/in/himank-gupta-069865190/"
 
   - name: Josyula Venkata Aditya
     avatar: Josyula Venkata Aditya.jpg
-    tagline: Core Member
+    tagline: Developer
     facebook: "https://www.facebook.com/jv.aditya"
     github: "https://github.com/JVAditya"
     linkedin: "https://www.linkedin.com/in/aditya-j-v-87aa80235/"
 
   - name: Krishna Baldwa
     avatar: Krishna Baldwa.jpg
-    tagline: Core Member
+    tagline: Developer
     facebook: "https://www.facebook.com/profile.php?id=100075356306254"
     github: "https://github.com/Krishna-Baldwa"
     linkedin: "https://www.linkedin.com/in/krishna-baldwa/"
 
-  - name: Mankirat 
-    avatar: Mankirat.jpg
-    tagline: Core Member
-    facebook: ""
-    github: "https://github.com/manki07"
-    linkedin: "https://www.linkedin.com/in/mankirat-chawla-2b3123227"
-
   - name: Mayur Ahire
     avatar: Mayur Ahire.jpeg
-    tagline: Core Member
+    tagline: Developer
     facebook: ""
     github: "https://github.com/ahiremayur"
     linkedin: ""
 
   - name: Rahul Kumar
     avatar: Rahul Kumar.jpg
-    tagline: Core Member
+    tagline: Developer
     facebook: ""
     github: "https://github.com/kumarrahul33"
     linkedin: ""
 
   - name: Sahiti Reddy
     avatar: Sahiti Reddy.jpg
-    tagline: Core Member
+    tagline: Developer
     facebook: ""
     github: "https://github.com/Sahiti004"
     linkedin: ""
 
   - name: Sankalan Baidya
     avatar: Sankalan Baidya.jpg
-    tagline: Core Member
+    tagline: Developer
     facebook: ""
     github: "https://github.com/PrrsnCrVS4sr"
     linkedin: ""
 
   - name: Sanskar Gosavi
     avatar: Sanskar Gosavi.jpg
-    tagline: Core Member
+    tagline: Developer
     facebook: ""
     github: "https://github.com/SanskarGosavi2003"
     linkedin: "https://www.linkedin.com/in/sanskar-gosavi-3b84811b0/"
 
   - name: Sanya Agrawal
     avatar: Sanya Agrawal.jpeg
-    tagline: Core Member
+    tagline: Developer
     facebook: "https://www.facebook.com/sanya.agrawal.1656"
     github: "https://github.com/sanyaagrawal0311"
     linkedin: "https://www.linkedin.com/in/sanya-agrawal-893725224"
 
   - name: Vedant Thakre
     avatar: Vedant Thakre.jpg
-    tagline: Core Member
+    tagline: Developer
     facebook: ""
     github: "https://github.com/vedant-github"
     linkedin: "https://www.linkedin.com/in/vedant-thakre-64144822b/"
 
   - name: Vidit Khazanchi
     avatar: Vidit Khazanchi.jpeg
-    tagline: Core Member
+    tagline: Developer
     facebook: ""
     github: "https://github.com/vk0812"
     linkedin: "https://www.linkedin.com/in/viditkhazanchi/"
 
   - name: Vinu Rakav S
     avatar: Vinu Rakav S.jpg
-    tagline: Core Member
+    tagline: Developer
     facebook: ""
     github: "https://github.com/LordofUniverse/"
     linkedin: "https://www.linkedin.com/in/vinu-rakav-581191203/"
 
+  - name: Mankirat 
+    avatar: Mankirat.jpg
+    tagline: Developer
+    facebook: ""
+    github: "https://github.com/manki07"
+    linkedin: "https://www.linkedin.com/in/mankirat-chawla-2b3123227"
 
 #####################################
 ##########     Portfolio    ##########
@@ -432,7 +431,7 @@ instiapp-github: 'https://github.com/wncc/instiapp-android'
 cerium-github:  'https://github.com/pulsejet/cerium'
 noticeboard-github: 'https://github.com/MayuBhattu/RPI_Modified'
 instiapp-site: 'https://www.insti.app/'
-cerium-database: 'https://github.com/pulsejet/go-cerium/'
+cerium-database: 'https://resobin.gymkhana.iitb.ac.in/'
 
 #
 # Core Features Instiapp Left
@@ -519,7 +518,7 @@ core-features-resobin-right:
 
 # Feature
 - name: Security and Anonymity
-  description: Uses IITB SSO for authentication of users and authorization of form responses access. Also has an option to enable anonymous filling of form by institute students and one response from each user.
+  description: Uses IITB SSO for authentication of users and authorization of form responses access.
   icon: pe-7s-door-lock
 
 # Feature
@@ -538,7 +537,7 @@ core-features-resumeportal-left:
   icon: pe-7s-note2
 
 - name: Contribution
-  description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+  description: This project is being developed by Developers of DevCom, IIT Bombay under the mentorship of project leads and OCs.
   icon: pe-7s-users
 
 core-features-resumeportal-right:
@@ -569,26 +568,13 @@ core-features-messi-left:
 
 # Feature
 
-
-# Feature
-
-- name: Features
-  description: Optimizes Mess functioningOptimizes Mess functioning. Save 3000+ hours spent on organising the (mess)cards and figuring out the mess bill.
+- name: Features Tablet
+  description: Supports all types of cards, offline funcionality, use of InstiApp QR and in app updates.
   icon: pe-7s-diamond
   
-- name: Statistics
-  description: Implemented in 6 Hostels with 5000+ students.
-  icon: pe-7s-loop
-
-# Feature
-# - name: "File: gui.py"
-#   description: The main script that runs on boot and occupies the foreground. This displays the images on the TV.
-#   icon: pe-7s-monitor
-
-# Feature
-# - name: Reporting
-#   description: Experienced writing reports conveying strategic risk based on technical vulnerabilities and exploits.
-#   icon: pe-7s-file
+- name: Features Dashboard
+  description: It shows mess statistics, option to disable mess for opt-out students and rebate functionality
+  icon: pe-7s-airplay
 
 #
 # Core Features Mess-I Right
@@ -598,27 +584,44 @@ core-features-messi-right:
 # Feature
 
 - name: Description
-  description: Mess-I is a mess digitization platform.
+  description: Mess-I is a mess digitization platform that Optimizes Mess functioning. Saves 3000+ hours spent on organising the (mess)cards and figuring out the mess bill.
   icon: pe-7s-note2
 
 # Feature
-# - name: Setup 
-#   description: Install a standard Raspbian OS on the RPi and configure the RPi to connect to internet. Follow the steps in README.md of the RPi Noticeboard github repo.
-#   icon: pe-7s-tools
+- name: Statistics
+  description: 9 Hostels, 6500+ Students, 5,00,000+ meals since 5 Months of opertation
+  icon: pe-7s-graph2
+
+#
+# Core Features EnEx Left
+#
+core-features-enex-left:
 
 # Feature
-- name: "???"
-  description: 
-  icon: pe-7s-photo
 
+- name: Features
+  description: Fill in a form which generates a digital pass for a guest. Guest can use it at the gate for entry in to the hostel. 
+  icon: pe-7s-diamond
+  
+- name: Development
+  description: EnEx is being developed using React as frontend and Flask as backend.
+  icon: pe-7s-config
 
-
-
+#
+# Core Features EnEx Right
+#
+core-features-enex-right:
 
 # Feature
-# - name: Incident Response
-#   description: Can function in the technical or the governance space when responding to cyber incidents.
-#   icon: pe-7s-bandaid
+
+- name: Description
+  description: EnEx (short for Entry Exit) digitizes the entry and exit of guests inside IIT Bombay.
+  icon: pe-7s-note2
+
+# Feature
+- name: Security and Anonymity
+  description: Uses IITB SSO for authentication of users and authorization of form responses access.
+  icon: pe-7s-door-lock
 
 #############################
 ##### Ongoing Projects ######
@@ -639,7 +642,7 @@ core-features-messi-right:
 #   icon: pe-7s-note2
 
 # - name: Contribution
-#   description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+#   description: This project is being developed by Developers of DevCom, IIT Bombay under the mentorship of project leads and OCs.
 #   icon: pe-7s-users
 
 # ongoing-projects-atlas-right:
@@ -669,7 +672,7 @@ core-features-messi-right:
 #   icon: pe-7s-note2
 
 # - name: Contribution
-#   description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+#   description: This project is in it's development phase by Developers of DevCom, IIT Bombay under the mentorship of project leads and OCs.
 #   icon: pe-7s-users
 
 # ongoing-projects-courserank-right:
@@ -701,7 +704,7 @@ core-features-messi-right:
 #   icon: pe-7s-star
 
 # - name: Contribution
-#   description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+#   description: This project is in it's development phase by Developers of DevCom, IIT Bombay under the mentorship of project leads and OCs.
 #   icon: pe-7s-users
 
 # #
