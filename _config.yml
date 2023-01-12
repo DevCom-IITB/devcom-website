@@ -142,62 +142,55 @@ team-title: Team 2021-22
 team-description: 
 
 OverallCoordinators:
-  - avatar: rishabh.jpg
-    name: Rishabh Arya
-    tagline: Overall Coordinator
-    facebook: 'https://www.facebook.com/rishabh.arya.9822924'
-    github: 'https://github.com/arya2331'
-    linkedin: 'https://www.linkedin.com/in/rishabh-arya-99a37a145/'
-
-  - avatar: ss.jpg
-    name: Sudhanshu Sahil
-    tagline: Overall Coordinator
-    facebook: 'https://www.facebook.com/sudhanshu.sahil'
-    github: 'https://github.com/SudhanshuSahil'
-    linkedin: ''
-
-ProjectLeads:
   - avatar: DevDesai.jpg
     name: Dev Moxaj Desai
-    tagline: Project Lead
+    tagline: Overall Coordinator
     facebook: 'https://m.facebook.com/dev.desai.77920?ref=bookmarks'
     github: 'https://github.com/dev9318'
     linkedin: 'https://www.linkedin.com/in/dev-moxaj-desai/'
 
-  - avatar: IMG-20200709-WA0006 - Jayesh Singla.jpg
-    name: Jayesh Singla
-    tagline: Project Lead
-    facebook: 'https://m.facebook.com/profile.php?id=100008085613094'
-    github: 'https://github.com/jayeshs999'
-    linkedin: 'https://www.linkedin.com/in/jayesh-singla-684b3b1b0'
-  
-  - avatar: lx.jpeg
-    name: Laxman Desai
-    tagline: UI Lead
-    facebook: ''
-    github: 'https://github.com/relaxxpls'
-    linkedin: 'https://www.linkedin.com/in/laxmandesai'
-
-  - avatar: vibhav - Vibhav Aggarwal.jpg
-    name: Vibhav Aggarwal
-    tagline: Project Lead
-    facebook: 'https://www.facebook.com/vibhav.aggarwal.7/'
-    github: 'https://github.com/vibhav011'
-    linkedin: 'https://www.linkedin.com/in/vibhav-aggarwal/'
-
-  - avatar: dk.jpeg
-    name: Divyanshi Kamra
-    tagline: WnCC Manager
-    facebook: 'https://www.facebook.com/divyanshi.kamra.7'
-    github : 'https://github.com/divyanshikamra'
-    linkedin : 'https://www.linkedin.com/in/divkamra/'
-
   - avatar: Shruti Singh - Shruti.jpg
     name: Shruti Singh
-    tagline: WnCC Manager
+    tagline: Overall Coordinator
     facebook: 'https://www.facebook.com/shruti.s.50364592/'
     github: 'https://github.com/shruhh'
     linkedin: 'https://www.linkedin.com/in/shruti-singh-a02714195/'
+
+ProjectLeads:
+  - avatar: Adithya Krishna K.jpg
+    name: K Adithya Krishna
+    tagline: Project Lead
+    facebook: 'https://www.facebook.com/adithya.krishna.1612'
+    github: 'https://github.com/AdithyaKrishnaK'
+    linkedin: 'https://www.linkedin.com/in/k-adithya-krishna-29a13620a/'
+
+  - avatar: Ashwin Ram.jpg
+    name: Ashwin Ramachandran
+    tagline: Project Lead
+    facebook: 'https://www.facebook.com/ashwin.ram.545/'
+    github: 'https://github.com/AshwinRamachandran2002'
+    linkedin: 'http://www.linkedin.com/in/ashwin-ramachandran-042152204'
+
+  - avatar: ayush kapoor.jpg
+    name: Ayush Kapoor
+    tagline: Project Lead
+    facebook: 'https://www.facebook.com/ayush.kapoor.92317'
+    github: 'https://github.com/ayushk26'
+    linkedin: 'https://www.linkedin.com/in/ayush-kapoor-17a107214'
+
+  - avatar: Harsh Jha.png
+    name: Harsh Jha
+    tagline: Project Lead
+    facebook: 'https://www.facebook.com/profile.php?id=100009067948475'
+    github: 'https://github.com/harsh-kr-jha'
+    linkedin: 'https://www.linkedin.com/in/harsh-kr-jha'
+
+  - avatar: Palash Mittal.jpg
+    name: Palash Mittal
+    tagline: Core Member
+    facebook: 'https://www.facebook.com/palash.mittal.5/'
+    github: 'https://github.com/PalMit2002'
+    linkedin: 'https://www.linkedin.com/in/palash-mittal-4224761bb/'
 
   # - avatar: rahul bukte.jpg
   #   name: Rahul Bukte
@@ -218,108 +211,153 @@ ProjectLeads:
 
  
 CoreMembers:
-  - avatar: Adithya Krishna K.jpg
-    name: K Adithya Krishna
+  - name: Abhijat Bharadwaj
+    avatar: Abhijat Bharadwaj.jpg
     tagline: Core Member
-    facebook: 'https://www.facebook.com/adithya.krishna.1612'
-    github: 'https://github.com/AdithyaKrishnaK'
-    linkedin: 'https://www.linkedin.com/in/k-adithya-krishna-29a13620a/'
+    facebook: "https://www.facebook.com/abhijat.bh"
+    github: "https://github.com/Keymii"
+    linkedin: "https://www.linkedin.com/in/abhijat-bharadwaj-459b26227"
 
-  - avatar: Aditya Sharma.jpg
-    name: Aditya Sharma
+  - name: Ameya Deshmukh
+    avatar: Ameya Deshmukh.jpeg
     tagline: Core Member
-    facebook: 'https://www.facebook.com/profile.php?id=100015386648129'
-    github: 'https://github.com/adityasharma1306'
-    linkedin: 'https://www.linkedin.com/in/aditya-sharma-60b8081a8/'
+    facebook: ""
+    github: "https://github.com/Woolverine563"
+    linkedin: ""
 
-  - avatar: Ashwin Ram.jpg
-    name: Ashwin Ramachandran
+  - name: Amit Kumar
+    avatar: Amit Kumar.png
     tagline: Core Member
-    facebook: 'https://www.facebook.com/ashwin.ram.545/'
-    github: 'https://github.com/AshwinRamachandran2002'
-    linkedin: 'http://www.linkedin.com/in/ashwin-ramachandran-042152204'
+    facebook: "https://www.facebook.com/Be-the-best-version-of-yourself-109949981717561/photos"
+    github: "https://github.com/Amit-Rohila33"
+    linkedin: "https://www.linkedin.com/in/amit-kumar-0b0540234"
 
-  - avatar: ayush kapoor.jpg
-    name: Ayush Kapoor
+  - name: Anmol Kurothe
+    avatar: Anmol Kurothe.PNG
     tagline: Core Member
-    facebook: 'https://www.facebook.com/ayush.kapoor.92317'
-    github: 'https://github.com/ayushk26'
-    linkedin: 'https://www.linkedin.com/in/ayush-kapoor-17a107214'
+    facebook: "https://www.facebook.com/anmol.kurothe.1/"
+    github: "https://github.com/AnmolKurothe"
+    linkedin: "https://www.linkedin.com/in/anmol-kurothe-490272227/"
 
-  - avatar: Gauri Baheti.jpg
-    name: Gauri Baheti 
+  - name: Atharv Kurde
+    avatar: Atharv Kurde.jpg
     tagline: Core Member
-    facebook: 'http://facebook.com/gauri.baheti.31/'
-    github: 'http://github.com/gauribaheti'
-    linkedin: 'http://linkedin.com/in/gauri-baheti-105692202/'
+    facebook: "https://www.facebook.com/atharv.kurde"
+    github: "https://github.com/Atharv140903"
+    linkedin: "https://www.linkedin.com/in/atharv-kurde-067b45223"
 
-  - avatar: Hardik Rajpal.png
-    name: Hardik Rajpal
+  - name: Dhananjay Raman
+    avatar: Dhananjay Raman.jpg
     tagline: Core Member
-    facebook: 'https://www.facebook.com/profile.php?id=100009137745961'
-    github: 'https://github.com/hardik-rajpal'
-    linkedin: 'https://www.linkedin.com/feed/'
+    facebook: "https://www.facebook.com/dhananjay.raman.7"
+    github: "https://github.com/DhanoHacks"
+    linkedin: "https://www.linkedin.com/in/dhananjay-raman-b969a823a/"
 
-  - avatar: Harsh Jha.png
-    name: Harsh Jha
+  - name: Dheer Harshad Banker
+    avatar: Dheer Harshad Banker.jpg
     tagline: Core Member
-    facebook: 'https://www.facebook.com/profile.php?id=100009067948475'
-    github: 'https://github.com/harsh-kr-jha'
-    linkedin: 'https://www.linkedin.com/in/harsh-kr-jha'
+    facebook: "https://www.facebook.com/people/Dheer-Banker/100073751046974/"
+    github: ""
+    linkedin: "https://www.linkedin.com/in/dheer-banker/"
 
-  - avatar: Kaustav Prasad.jpg
-    name: Kaustav Prasad
+  - name: Divyam Gupta
+    avatar: Divyam Gupta.jpg
     tagline: Core Member
-    facebook: 'https://www.facebook.com/kaustav.prasad'
-    github: 'https://github.com/Anomaly42'
-    linkedin: 'https://www.linkedin.com/in/kaustav-p-a92680128/'
+    facebook: "https://www.facebook.com/divyam.gupta.509"
+    github: "https://github.com/dgibn"
+    linkedin: "https://www.linkedin.com/in/divyam-gupta-425695228" 
 
-  - avatar: Palash Mittal.jpg
-    name: Palash Mittal
+  - name: Himank Gupta 
+    avatar: Himank Gupta.jpeg
     tagline: Core Member
-    facebook: 'https://www.facebook.com/palash.mittal.5/'
-    github: 'https://github.com/PalMit2002'
-    linkedin: 'https://www.linkedin.com/in/palash-mittal-4224761bb/'
+    facebook: ""
+    github: "https://github.com/himank29"
+    linkedin: "https://www.linkedin.com/in/himank-gupta-069865190/"
 
-  - avatar: Parth Dwivedi.jpeg
-    name: Parth Dwivedi
+  - name: Josyula Venkata Aditya
+    avatar: Josyula Venkata Aditya.jpg
     tagline: Core Member
-    facebook: 'https://www.facebook.com/parth.dwivedi.3114'
-    github: 'https://github.com/ParthDwivedi1/'
-    linkedin: 'https://www.linkedin.com/in/parth-dwivedi-284928212/'
+    facebook: "https://www.facebook.com/jv.aditya"
+    github: "https://github.com/JVAditya"
+    linkedin: "https://www.linkedin.com/in/aditya-j-v-87aa80235/"
 
-  - avatar: Prakriti Shetty.jpg
-    name: Prakriti Shankar Shetty
+  - name: Krishna Baldwa
+    avatar: Krishna Baldwa.jpg
     tagline: Core Member
-    facebook: 'https://www.facebook.com/prakriti.shetty02'
-    github: 'https://github.com/PrakritiShetty'
-    linkedin: 'https://www.linkedin.com/in/prakriti-shetty'
+    facebook: "https://www.facebook.com/profile.php?id=100075356306254"
+    github: "https://github.com/Krishna-Baldwa"
+    linkedin: "https://www.linkedin.com/in/krishna-baldwa/"
 
-  - avatar: Pranav Singla.jpeg
-    name: Pranav Singla
+  - name: Mankirat 
+    avatar: Mankirat.jpg
     tagline: Core Member
-    facebook: 'https://touch.facebook.com/pranav.singla.906?lst=100056221531552%3A100056221531552%3A1621579227'  
-    github: 'https://github.com/pranavsingla'
-    linkedin: 'https://www.linkedin.com/in/pranav-singla-171690202/'
+    facebook: ""
+    github: "https://github.com/manki07"
+    linkedin: "https://www.linkedin.com/in/mankirat-chawla-2b3123227"
 
-LastLineCoreMembers:
-
-  - avatar: VaibhRj.jpg
-    name: Vaibhav Raj
+  - name: Mayur Ahire
+    avatar: Mayur Ahire.jpeg
     tagline: Core Member
-    facebook: 'https://www.facebook.com/vaibhav.raj.92372446'  
-    github: 'https://github.com/scimaths'
-    linkedin: 'https://www.linkedin.com/in/vaibhav-raj-8446421b9/'
+    facebook: ""
+    github: "https://github.com/ahiremayur"
+    linkedin: ""
 
-  - avatar: vedk.jpeg
-    name: Ved Khandekar
+  - name: Rahul Kumar
+    avatar: Rahul Kumar.jpg
     tagline: Core Member
-    facebook: 'https://facebook.com/ved.khandekar.1'  
-    github: 'https://github.com/vedk'
-    linkedin: 'https://www.linkedin.com/in/ved-khandekar-29824612b/'
+    facebook: ""
+    github: "https://github.com/kumarrahul33"
+    linkedin: ""
 
-  
-  
+  - name: Sahiti Reddy
+    avatar: Sahiti Reddy.jpg
+    tagline: Core Member
+    facebook: ""
+    github: "https://github.com/Sahiti004"
+    linkedin: ""
+
+  - name: Sankalan Baidya
+    avatar: Sankalan Baidya.jpg
+    tagline: Core Member
+    facebook: ""
+    github: "https://github.com/PrrsnCrVS4sr"
+    linkedin: ""
+
+  - name: Sanskar Gosavi
+    avatar: Sanskar Gosavi.jpg
+    tagline: Core Member
+    facebook: ""
+    github: "https://github.com/SanskarGosavi2003"
+    linkedin: "https://www.linkedin.com/in/sanskar-gosavi-3b84811b0/"
+
+  - name: Sanya Agrawal
+    avatar: Sanya Agrawal.jpeg
+    tagline: Core Member
+    facebook: "https://www.facebook.com/sanya.agrawal.1656"
+    github: "https://github.com/sanyaagrawal0311"
+    linkedin: "https://www.linkedin.com/in/sanya-agrawal-893725224"
+
+  - name: Vedant Thakre
+    avatar: Vedant Thakre.jpg
+    tagline: Core Member
+    facebook: ""
+    github: "https://github.com/vedant-github"
+    linkedin: "https://www.linkedin.com/in/vedant-thakre-64144822b/"
+
+  - name: Vidit Khazanchi
+    avatar: Vidit Khazanchi.jpeg
+    tagline: Core Member
+    facebook: ""
+    github: "https://github.com/vk0812"
+    linkedin: "https://www.linkedin.com/in/viditkhazanchi/"
+
+  - name: Vinu Rakav S
+    avatar: Vinu Rakav S.jpg
+    tagline: Core Member
+    facebook: ""
+    github: "https://github.com/LordofUniverse/"
+    linkedin: "https://www.linkedin.com/in/vinu-rakav-581191203/"
+
 
 #####################################
 ##########     Portfolio    ##########
@@ -438,26 +476,26 @@ core-features-instiapp-right:
 
 
 #
-# Core Features Cerium Left
+# Core Features ResoBin Left
 #
-core-features-cerium-left:
+core-features-resobin-left:
 
 # Feature
 
 
 # Feature
 - name: Features
-  description: Uses SSO for login, allowing authentication of users of the form, allows anonymous forms, and also has feature of scheduling or closing of a form.
+  description: Search and filter courses and viewing all reviews and past resources under one head.
   icon: pe-7s-diamond
 
 # Feature
-- name: Scheduling
-  description: Has option to schedule the closing of form, removing need for manually closing form at a specific time
+- name: Timetable
+  description: Create your own personalised timetable and plan your day better!
   icon: pe-7s-wristwatch
 
-- name: License and Code
-  description: All code is licensed under the Mozilla Public License 2.0. The instructions to deploy and use are provided in the README.md file of project's github repository.
-  icon: pe-7s-id
+# - name: License and Code
+#   description: All code is licensed under the Mozilla Public License 2.0. The instructions to deploy and use are provided in the README.md file of project's github repository.
+#   icon: pe-7s-id
 
 # Feature
 # - name: Reporting
@@ -465,19 +503,19 @@ core-features-cerium-left:
 #   icon: pe-7s-file
 
 #
-# Core Features Cerium Right
+# Core Features ResoBin Right
 #
-core-features-cerium-right:
+core-features-resobin-right:
 
 # Feature
 
 - name: Description
-  description: Cerium is a forms application very similar in design to Google forms. 
+  description: A one stop solution to ace your academics here at IITB! 
   icon: pe-7s-note2
 
-- name: Go Cerium
-  description: go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium. The github repo for the backend can found by the database link provided or <a href="https://github.com/pulsejet/go-cerium/" target="_blank">here</a>.
-  icon: pe-7s-plugin
+# - name: Go Cerium
+#   description: go-cerium is the golang backend for the dangerously accurate Google Forms clone designed for IIT Bombay, cerium. The github repo for the backend can found by the database link provided or <a href="https://github.com/pulsejet/go-cerium/" target="_blank">here</a>.
+#   icon: pe-7s-plugin
 
 # Feature
 - name: Security and Anonymity
@@ -487,75 +525,9 @@ core-features-cerium-right:
 # Feature
 
 
-# Feature
-# - name: Incident Response
-#   description: Can function in the technical or the governance space when responding to cyber incidents.
-#   icon: pe-7s-bandaid
-
-
-#
-# Core Features Noticeboard Left
-#
-core-features-noticeboard-left:
-
-# Feature
-
-
-# Feature
-
-- name: "File: config.json"
-  description: Helps you define the configuration for how you want the images to appear on the TV.
-  icon: pe-7s-config
-  
-- name: "File: fetch.py"
-  description:  A Python script that runs in the background and periodically fetches images from the server. We set up a cron job for this.
-  icon: pe-7s-loop
-
-# Feature
-- name: "File: gui.py"
-  description: The main script that runs on boot and occupies the foreground. This displays the images on the TV.
-  icon: pe-7s-monitor
-
-# Feature
-# - name: Reporting
-#   description: Experienced writing reports conveying strategic risk based on technical vulnerabilities and exploits.
-#   icon: pe-7s-file
-
-#
-# Core Features Noticeboard Right
-#
-core-features-noticeboard-right:
-
-# Feature
-
-- name: Description
-  description: Scripts to fetch and display images on a TV and also allows users to setup configuration how you want the images to appear on the TV.
-  icon: pe-7s-note2
-
-# Feature
-- name: Setup 
-  description: Install a standard Raspbian OS on the RPi and configure the RPi to connect to internet. Follow the steps in README.md of the RPi Noticeboard github repo.
-  icon: pe-7s-tools
-
-# Feature
-- name: Features
-  description: Bash Scripting, Python Scripts, and JSON Configuration files to fetch and show images of your choice on TV.
-  icon: pe-7s-photo
-
-
-
-# Feature
-# - name: Incident Response
-#   description: Can function in the technical or the governance space when responding to cyber incidents.
-#   icon: pe-7s-bandaid
-
-#############################
-##### Ongoing Projects ######
-#############################
-
 ###### Resume Verification Portal #########
 
-ongoing-projects-resumeportal-left:
+core-features-resumeportal-left:
 
 - name: About
   description: Resume Verification Portal, a portal to streamline the process of verification of resumes and cvs.
@@ -569,7 +541,7 @@ ongoing-projects-resumeportal-left:
   description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
   icon: pe-7s-users
 
-ongoing-projects-resumeportal-right:
+core-features-resumeportal-right:
 
 - name: Description
   description: RVP is codename for the IITB Resume Verification Portal to automate the process of authentication and verification of resume points, as this process consisted of complex steps earlier.
@@ -583,100 +555,171 @@ ongoing-projects-resumeportal-right:
   description: The application is being developed using Angular (for the interface) & nodeJS (for the backend).
   icon: pe-7s-config
 
-###### Atlas Hostel Management Portal #########
 
-ongoing-projects-atlas-left:
-
-- name: About
-  description: Atlas, IITB Hostel Management Portal, a project to automate the process of hostel and rooms allotment.
-  icon: pe-7s-network
-
-- name: Project Scope
-  description: This project is being developed in coordination with the Hostel Affairs Council, to be used my Hostel GSecs, Wardens, Hall Managers, GSHA, DoSA & HCU Office.
-  icon: pe-7s-note2
-
-- name: Contribution
-  description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
-  icon: pe-7s-users
-
-ongoing-projects-atlas-right:
-
-- name: Description
-  description: Atlas is codename for the IITB Hostel Management Portal to streamline the process of allotment of hostels & rooms for the students as well as maintenance of the rooms by respective admins. 
-  icon: pe-7s-note2
-
-- name: Features
-  description: This portal allows admins to allocate rooms to hostelites, view the details after allocation on detailed hostel floor plans, tag vacant rooms for various purposes & view the full history of a student’s stay in the institute hostels.
-  icon: pe-7s-gleam
-
-- name: Development
-  description: The application is being developed using Angular (for the interface) & FastAPI (for the backend).
-  icon: pe-7s-config
-
-###### CourseRank #########
-
-ongoing-projects-courserank-left:
-
-- name: About
-  description: This project aims to create a separate portal that displays reviews on courses given by students who have already completed that course.
-  icon: pe-7s-network
-
-- name: Project Scope
-  description: This project is being developed in coordination with the Institute Academic Council and various other councils which focuses providing information regarding academics to students.
-  icon: pe-7s-note2
-
-- name: Contribution
-  description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
-  icon: pe-7s-users
-
-ongoing-projects-courserank-right:
-
-- name: Description
-  description: CourseRank is the IMDB of courses which shows details, ratings, reviews (by the students), etc of all the courses provided buy the institute. 
-  icon: pe-7s-note2
-
-- name: Extra Features
-  description: This portal also have extra features such as rating of a course, likes on a review and course, description of course, etc.
-  icon: pe-7s-gleam
-
-- name: Development
-  description: The application is being developed using Django Templates (for the interface) & Django (for the backend).
-  icon: pe-7s-config
+# Feature
+# - name: Incident Response
+#   description: Can function in the technical or the governance space when responding to cyber incidents.
+#   icon: pe-7s-bandaid
 
 
 #
-# Core Features Game Left
+# Core Features Mess-I Left
 #
-core-features-game-left:
+core-features-messi-left:
+
+# Feature
+
+
+# Feature
 
 - name: Features
-  description: Uses SSO for login, allowing authentication of users and allows different options like leaderboard, ideas contribution, and much more to come.
+  description: Optimizes Mess functioningOptimizes Mess functioning. Save 3000+ hours spent on organising the (mess)cards and figuring out the mess bill.
   icon: pe-7s-diamond
+  
+- name: Statistics
+  description: Implemented in 6 Hostels with 5000+ students.
+  icon: pe-7s-loop
 
-- name: Rating System
-  description: The rating of a player is calculated taking into account his/her performance across all games. Achieving <b>higher scores</b> in each game boosts the rating. <b>Playing more games</b> also helps in maintaining the rating<b>However, there's a catch!</b> Long streaks without improving one's highscore in a game may decrease the rating as well.
-  icon: pe-7s-star
+# Feature
+# - name: "File: gui.py"
+#   description: The main script that runs on boot and occupies the foreground. This displays the images on the TV.
+#   icon: pe-7s-monitor
 
-- name: Contribution
-  description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
-  icon: pe-7s-users
+# Feature
+# - name: Reporting
+#   description: Experienced writing reports conveying strategic risk based on technical vulnerabilities and exploits.
+#   icon: pe-7s-file
 
 #
-# Core Features Game Right
+# Core Features Mess-I Right
 #
-core-features-game-right:
+core-features-messi-right:
+
+# Feature
 
 - name: Description
-  description: Where you Imagine, we create!, Gaming portal is a great place to enjoy, compete via games and also to suggest your own ideas for creation of different games.
-  icon: pe-7s-news-paper
+  description: Mess-I is a mess digitization platform.
+  icon: pe-7s-note2
 
-- name: For IITB Folks
-  description: A place for everyone to relax, chill and get nostalgic while playing some of the classical hits!. A step towards making an environment for insti junta to be able to get together and play together in a centralized way.
-  icon: pe-7s-medal
+# Feature
+# - name: Setup 
+#   description: Install a standard Raspbian OS on the RPi and configure the RPi to connect to internet. Follow the steps in README.md of the RPi Noticeboard github repo.
+#   icon: pe-7s-tools
 
-- name: Games
-  description: Play arcade, action, puzzle, racing and other fun games. Just dive in and choose what you want to play. For an even more exciting experience, challenge your friends and beat that high score!
-  icon: pe-7s-joy
+# Feature
+- name: "???"
+  description: 
+  icon: pe-7s-photo
+
+
+
+
+
+# Feature
+# - name: Incident Response
+#   description: Can function in the technical or the governance space when responding to cyber incidents.
+#   icon: pe-7s-bandaid
+
+#############################
+##### Ongoing Projects ######
+#############################
+
+
+
+# ###### Atlas Hostel Management Portal #########
+
+# ongoing-projects-atlas-left:
+
+# - name: About
+#   description: Atlas, IITB Hostel Management Portal, a project to automate the process of hostel and rooms allotment.
+#   icon: pe-7s-network
+
+# - name: Project Scope
+#   description: This project is being developed in coordination with the Hostel Affairs Council, to be used my Hostel GSecs, Wardens, Hall Managers, GSHA, DoSA & HCU Office.
+#   icon: pe-7s-note2
+
+# - name: Contribution
+#   description: This project is being developed by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+#   icon: pe-7s-users
+
+# ongoing-projects-atlas-right:
+
+# - name: Description
+#   description: Atlas is codename for the IITB Hostel Management Portal to streamline the process of allotment of hostels & rooms for the students as well as maintenance of the rooms by respective admins. 
+#   icon: pe-7s-note2
+
+# - name: Features
+#   description: This portal allows admins to allocate rooms to hostelites, view the details after allocation on detailed hostel floor plans, tag vacant rooms for various purposes & view the full history of a student’s stay in the institute hostels.
+#   icon: pe-7s-gleam
+
+# - name: Development
+#   description: The application is being developed using Angular (for the interface) & FastAPI (for the backend).
+#   icon: pe-7s-config
+
+# ###### CourseRank #########
+
+# ongoing-projects-courserank-left:
+
+# - name: About
+#   description: This project aims to create a separate portal that displays reviews on courses given by students who have already completed that course.
+#   icon: pe-7s-network
+
+# - name: Project Scope
+#   description: This project is being developed in coordination with the Institute Academic Council and various other councils which focuses providing information regarding academics to students.
+#   icon: pe-7s-note2
+
+# - name: Contribution
+#   description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+#   icon: pe-7s-users
+
+# ongoing-projects-courserank-right:
+
+# - name: Description
+#   description: CourseRank is the IMDB of courses which shows details, ratings, reviews (by the students), etc of all the courses provided buy the institute. 
+#   icon: pe-7s-note2
+
+# - name: Extra Features
+#   description: This portal also have extra features such as rating of a course, likes on a review and course, description of course, etc.
+#   icon: pe-7s-gleam
+
+# - name: Development
+#   description: The application is being developed using Django Templates (for the interface) & Django (for the backend).
+#   icon: pe-7s-config
+
+
+# #
+# # Core Features Game Left
+# #
+# core-features-game-left:
+
+# - name: Features
+#   description: Uses SSO for login, allowing authentication of users and allows different options like leaderboard, ideas contribution, and much more to come.
+#   icon: pe-7s-diamond
+
+# - name: Rating System
+#   description: The rating of a player is calculated taking into account his/her performance across all games. Achieving <b>higher scores</b> in each game boosts the rating. <b>Playing more games</b> also helps in maintaining the rating<b>However, there's a catch!</b> Long streaks without improving one's highscore in a game may decrease the rating as well.
+#   icon: pe-7s-star
+
+# - name: Contribution
+#   description: This project is in it's development phase by core members of DevCom, IIT Bombay under the mentorship of project leads and OCs.
+#   icon: pe-7s-users
+
+# #
+# # Core Features Game Right
+# #
+# core-features-game-right:
+
+# - name: Description
+#   description: Where you Imagine, we create!, Gaming portal is a great place to enjoy, compete via games and also to suggest your own ideas for creation of different games.
+#   icon: pe-7s-news-paper
+
+# - name: For IITB Folks
+#   description: A place for everyone to relax, chill and get nostalgic while playing some of the classical hits!. A step towards making an environment for insti junta to be able to get together and play together in a centralized way.
+#   icon: pe-7s-medal
+
+# - name: Games
+#   description: Play arcade, action, puzzle, racing and other fun games. Just dive in and choose what you want to play. For an even more exciting experience, challenge your friends and beat that high score!
+#   icon: pe-7s-joy
 
 
 
@@ -697,6 +740,6 @@ contact-description: Have a suggestion for a topic? Have an opportunity that you
 #############   Footer   ############
 #####################################
 footer-description: You've managed to reach to bottom of my page. Hope it was bearable.
-footer-copyright-text: Copyright 2021, DevCom IIT Bombay.
+footer-copyright-text: Copyright 2022, DevCom IIT Bombay.
 #footer-copyright-url: http://gleesik.ro/
 #footer-copyright-year: 2016
