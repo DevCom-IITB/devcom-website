@@ -114,7 +114,7 @@ about-widget:
 #############   About   #############
 #####################################
 # about-title:
-about-description: This is the official page for the Developers' Community of IIT Bombay. Envisioned as a group of the best developers in the Institute, the team is responsible for developing and maintaining InstiApp, and other dev/tech related projects in the Institute.
+about-description: This is the official page for the Developers' Community of IIT Bombay. Envisioned as a group of the best developers in the Institute, the team is responsible for developing and maintaining InstiApp, Resobin, and other dev/tech related projects in the Institute.
 
 #####################################
 ##########     Features    ##########
@@ -208,6 +208,20 @@ ProjectLeads:
 
 # ManagementCoordinators:
 
+DesignLeads:
+  - avatar: Abhishek Dutta.jpeg
+    name: Abhishek Dutta
+    tagline: Design Lead
+    facebook: 
+    behance: 'https://www.behance.net/abhishekdutta9'
+    linkedin: 
+
+  - avatar: Ananya Dhale.jpeg
+    name: Ananya Dhale
+    tagline: Design Lead
+    facebook: 'https://www.facebook.com/ananya.dhale.9'
+    behance: 
+    linkedin: 'https://www.linkedin.com/in/ananya-dhale-30a856213/'
 
  
 CoreMembers:
@@ -425,7 +439,7 @@ CoreMembers:
 ##########  Core Features  ##########
 #####################################
 core-title: Projects
-core-description: 'Over the course of time, the team has been developing & maintaining several projects. Tech projects that have been successfully completed by DevCom include InstiApp, Cerium and RPI Noticeboard. Details about each of them can be found below:'
+core-description: 'Over the course of time, the team has been developing & maintaining several projects. Tech projects that have been successfully completed by DevCom include InstiApp, Resobin and Mess-I. Details about each of them can be found below:'
 
 instiapp-github: 'https://github.com/wncc/instiapp-android'
 cerium-github:  'https://github.com/pulsejet/cerium'
